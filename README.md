@@ -60,9 +60,9 @@ This is Part 2 of 7 in the European AI Labour Market suite:
 
 1. **[AI Exposure Map](https://ai-exposure.nexalps.com)** — AI exposure scores for ~130 occupation groups
 2. **[Job Market](https://job-market.nexalps.com)** — Hiring trends and career intelligence *(this repo)*
-3. **[Historic Disruptions](https://disruptions.nexalps.com)** — 580 years of technology disruptions
-4. **[Demographics](https://demographics.nexalps.com)** — Europe's demographic labour squeeze
-5. **[Reskilling](https://reskilling.nexalps.com)** — Can Europe reskill fast enough?
+3. *Coming soon*
+4. *Coming soon*
+5. *Coming soon*
 6. *Coming soon*
 7. *Coming soon*
 

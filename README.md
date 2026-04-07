@@ -87,9 +87,13 @@ cd site && python3 -m http.server 8091
 
 **Dual-licensed:**
 
-- **Code** (`site/*.html`, `site/*.css`, `site/*.js`): [MIT](https://opensource.org/licenses/MIT)
-- **Data and analysis** (`site/job-market-data.json`, narrative text): [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Philipp Maul | Nexalps
+- **Code** (`site/*.html`, `site/*.css`, `site/*.js`): MIT (see `LICENSE-CODE`)
+- **Data and analysis** (`site/job-market-data.json`, narrative text): CC-BY 4.0 (see `LICENSE-DATA`)
 
 ## Author
 
 Built by [Philipp Maul](https://www.linkedin.com/in/pmaul/) at [Nexalps](https://nexalps.com).
+
+## Contributing
+
+Issues and PRs welcome. If you extend the scoring to additional countries or refine the regulatory mapping, please share back.

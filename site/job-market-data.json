@@ -1,0 +1,3061 @@
+{
+  "meta": {
+    "title": "State of the European Job Market in Early 2026",
+    "last_updated": "2026-03-28",
+    "sources": [
+      "Ravio Compensation Trends 2026 (1,500+ EU tech companies, Q3 2025)",
+      "Eurostat isoc_eb_ai (enterprise AI adoption, 2021-2025)",
+      "Eurostat isoc_sks_itspt (ICT specialists, 2015-2024)",
+      "OECD EPL (employment protection, Version 4)",
+      "Bridge Group 2025 SDR Metrics Report",
+      "McKinsey State of Marketing Europe 2026 (500 EU leaders)",
+      "ENISA NIS Investments 2025 (1,080 respondents)",
+      "ISC2 2025 Cybersecurity Workforce Study (16,029 global)",
+      "Figma Design Hiring Report Feb 2026 (2,500 respondents)",
+      "Recruited.tech European PM Hiring Trends",
+      "Stack Overflow Developer Survey 2025 (49,191 respondents, 15,752 European)",
+      "Atomico State of European Tech 2025 (annual ecosystem report)",
+      "LinkedIn Labor Market Report Jan 2026 (1.3B members)",
+      "EMEA Labour Market Outlook Mar 2026 (LinkedIn Economic Graph)",
+      "Indeed Hiring Lab (DE, FR, UK/IE, March 2026)",
+      "Bitkom Startup Report 2025 (152 German startups)",
+      "GitHub Copilot Working Paper (Baird et al., n=24,517 firms)",
+      "Eurostat employment by ISCO 2-digit (2023-2024 YoY)",
+      "Bluebird EU SaaS Salary Benchmarks 2025 (UK, NL, DE — Sales, BDR, Marketing)",
+      "Hays IT-Gehaltsreport 2025 (1,300 IT specialists, Germany, Q2 2025)",
+      "Robert Half 2026 Salary Guide (UK, DE, NL, FR — Marketing & Creative, Technology)",
+      "Revenue Operations Alliance 2024 Salary Report (European RevOps)",
+      "Indeed Hiring Lab Job Postings Index (DE, FR, UK/IE, 2023-2025)",
+      "Atomico/Revelio Labs AI Workforce Data (State of European Tech 2025)",
+      "ECA International Salary Trends 2025/2026 (200 multinational companies)",
+      "Signium — AI in Talent Management, February 2026 (senior HR leaders survey)"
+    ],
+    "currency_note": "All Ravio salary data is in GBP. Eurostat/OECD data uses native units.",
+    "data_period": "Primarily Q3 2025 (Ravio), 2024-2025 (Eurostat), 2019 (OECD EPL); SO Developer Survey June 2025; LinkedIn Jan 2026; Atomico Nov 2025; SO Developer Survey June 2025; LinkedIn Jan 2026; Atomico Nov 2025",
+    "salary_note": "SO salaries converted from USD to EUR at fixed rate 0.87 (EUR/USD 1.15, 29 March 2026). Not PPP-adjusted. Previous rate was 0.92 — EUR strengthened ~5.4% since data collection."
+  },
+  "roles": {
+    "product": {
+      "label": "Product Management",
+      "isco_codes": [
+        "133",
+        "251"
+      ],
+      "demand": {
+        "direction": "contracting",
+        "hiring_rate_2025": 0.206,
+        "hiring_rate_2024": 0.24,
+        "hiring_rate_2023": 0.31,
+        "yoy_change": -0.142,
+        "source": "Ravio"
+      },
+      "attrition": {
+        "rate_2025": 0.14,
+        "rate_2024": 0.16,
+        "rate_2023": 0.2,
+        "yoy_change": -0.125,
+        "source": "Ravio"
+      },
+      "seniority": {
+        "junior_pct": 0.03,
+        "mid_pct": 0.72,
+        "senior_pct": 0.16,
+        "leadership_pct": 0.09,
+        "source": "Recruited.tech"
+      },
+      "ai_subspecialty": {
+        "ai_pm_roles_europe": 50,
+        "note": "Exploding but from tiny base",
+        "source": "Recruited.tech"
+      },
+      "salary_yoy_p3": {
+        "UK": 0.017,
+        "DE": 0.011,
+        "NL": 0.018,
+        "FR": 0.022,
+        "ES": 0.011,
+        "SE": 0.055,
+        "source": "Ravio"
+      },
+      "salary_yoy_m3": {
+        "UK": 0.026,
+        "DE": 0.027,
+        "NL": 0.029,
+        "FR": 0.029,
+        "ES": 0.027,
+        "SE": 0.068,
+        "source": "Ravio"
+      },
+      "remote_split": {
+        "remote": 0.28,
+        "hybrid": 0.45,
+        "onsite": 0.27,
+        "source": "Recruited.tech"
+      },
+      "skills_now": [
+        "SQL",
+        "Jira",
+        "LLM experience",
+        "stakeholder management",
+        "data analytics"
+      ],
+      "skills_future": [
+        "AI product design",
+        "prompt engineering",
+        "agent orchestration",
+        "AI governance"
+      ],
+      "narrative": {
+        "context": "The PM shift is a seniority realignment, not a demand decline. Companies are consolidating junior PM roles while retaining experienced product leaders who can navigate ambiguity and make high-stakes prioritization calls. Entry-level PM hiring dropped 73% — the steepest decline of any function — while senior PM attrition fell to just 14%, suggesting companies are investing more in the people they have.",
+        "implications": "If you’re an experienced PM, your leverage is growing: fewer peers competing for the same roles, and AI fluency is becoming a genuine differentiator. If you’re trying to break into product, the traditional associate PM path is narrowing fast — consider adjacent entry points through data analysis, design, or engineering where you can demonstrate product thinking with a technical edge."
+      },
+      "key_insight": "PM role is becoming MORE valuable — AI makes execution faster, making 'what to build' the bottleneck. Junior PM roles are shifting (-73% entry-level), but experienced PMs gain leverage.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.36,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)",
+        "entry_level_share_change_ppt": -1.5
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "AI fluency",
+          "Data-driven decisions",
+          "Stakeholder alignment",
+          "Systems thinking"
+        ],
+        "rationale": "AI accelerates execution, making 'what to build' the bottleneck. PMs who combine AI literacy with judgment and cross-functional alignment are hardest to replace.",
+        "automation_risk": "low",
+        "ai_exposure_pattern": "complementary"
+      }
+    },
+    "engineering": {
+      "label": "Software Engineering",
+      "isco_codes": [
+        "251"
+      ],
+      "demand": {
+        "direction": "stabilizing",
+        "hiring_rate_2025": 0.207,
+        "hiring_rate_2024": 0.21,
+        "hiring_rate_2023": 0.3,
+        "yoy_change": -0.014,
+        "source": "Ravio"
+      },
+      "attrition": {
+        "rate_2025": 0.12,
+        "rate_2024": 0.12,
+        "rate_2023": 0.17,
+        "yoy_change": 0.0,
+        "note": "Lowest attrition across all functions — engineers seeking stability",
+        "source": "Ravio"
+      },
+      "salary_yoy_p3": {
+        "UK": 0.016,
+        "DE": 0.019,
+        "NL": 0.016,
+        "FR": 0.012,
+        "ES": 0.01,
+        "SE": 0.055,
+        "source": "Ravio"
+      },
+      "salary_yoy_m3": {
+        "UK": 0.003,
+        "DE": 0.045,
+        "NL": 0.017,
+        "FR": 0.054,
+        "ES": 0.04,
+        "SE": 0.068,
+        "source": "Ravio"
+      },
+      "seniority": {
+        "junior_pct": 0.15,
+        "mid_pct": 0.45,
+        "senior_pct": 0.28,
+        "leadership_pct": 0.12,
+        "source": "Ravio (Engineering: highest salary eligibility 30%, lowest attrition 12%, P1/P2 hiring down 73.4%) + SO 2025",
+        "note": "Derived from Ravio patterns. Junior pipeline collapsing (-73.4% entry-level). Engineering retains talent longest — stable mid/senior core."
+      },
+      "skills_now": [
+        "Python",
+        "TypeScript",
+        "cloud infrastructure",
+        "CI/CD",
+        "system design"
+      ],
+      "skills_future": [
+        "AI/ML integration",
+        "agent development",
+        "LLM fine-tuning",
+        "AI-assisted development"
+      ],
+      "narrative": {
+        "context": "Engineering has quietly become the most stable function in European tech. After a brutal 30% hiring drop from 2023 to 2024, the rate plateaued at 20.7% — barely moving. Meanwhile, attrition sits at 12%, the lowest of any function for two consecutive years. Engineers are staying put, likely due to a combination of post-layoff risk aversion and companies investing heavily in retention (30% of engineers received in-role salary increases, the highest eligibility of any function).",
+        "implications": "The stability masks a bifurcation: traditional software engineering roles are flat, while AI/ML engineering is surging (+88% YoY). GitHub Copilot adoption is at 35.6% among firms, and companies that adopted it increased hiring — not decreased it — by 6.6% at entry level. The signal is clear: AI tools are making engineers more productive, not redundant, but the engineers who thrive will be the ones building with AI, not just writing code alongside it."
+      },
+      "key_insight": "Engineering hiring stabilized after sharp 2023-2024 decline. Lowest attrition (12%) — engineers are staying put. The AI/ML subspecialty is where growth is.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.32,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)",
+        "entry_level_share_change_ppt": 0.4
+      },
+      "ai_productivity": {
+        "copilot_entry_level_hiring_increase_pct": 6.6,
+        "copilot_senior_hiring_increase_pct": 4.9,
+        "copilot_non_programming_skills_increase_pct": 13.3,
+        "copilot_task_speed_increase_pct": 56,
+        "copilot_adoption_rate_gh_firms_pct": 35.6,
+        "copilot_retention_month_over_month_pct": 95.6,
+        "source": "GitHub Copilot Working Paper (Baird et al., Sept 2024, n=24,517 firms)"
+      },
+      "ai_jobs": {
+        "ai_engineer_created_2023_2025": 177000,
+        "ai_engineer_growth_since_2023": "13x",
+        "forward_deployed_eng_created": 9000,
+        "forward_deployed_eng_growth": "42x",
+        "source": "LinkedIn Labor Market Report Jan 2026"
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "Systems architecture",
+          "AI-augmented development",
+          "Production reliability",
+          "Technical communication"
+        ],
+        "rationale": "AI handles routine code generation; engineers who design systems, ensure reliability, and communicate trade-offs remain essential.",
+        "automation_risk": "medium",
+        "ai_exposure_pattern": "mixed"
+      }
+    },
+    "design": {
+      "label": "Design",
+      "isco_codes": [
+        "216"
+      ],
+      "demand": {
+        "direction": "stabilizing",
+        "note": "Proxy data. No single source provides European Design hiring rate. Assembled from Indeed, UXPA, NN Group, Figma Feb 2026.",
+        "source": "Proxy: Indeed Hiring Lab (UX postings −71% 2022→2023), UXPA 2024 (net-zero staffing), NN Group 2025 (senior roles recovering). Indexed to Ravio overall hiring rate baseline.",
+        "hiring_rate_2023": 0.3,
+        "hiring_rate_2024": 0.22,
+        "hiring_rate_2025": 0.21,
+        "yoy_change": -0.045
+      },
+      "figma_data": {
+        "hiring_managers_require_ai_fluency": 0.73,
+        "prefer_seniors": 0.56,
+        "prefer_juniors": 0.25,
+        "source": "Figma Feb 2026 (2,500 respondents)"
+      },
+      "skills_now": [
+        "Figma",
+        "design systems",
+        "user research",
+        "prototyping"
+      ],
+      "skills_future": [
+        "AI-native design tools",
+        "prompt-to-prototype",
+        "AI UX patterns",
+        "computational design"
+      ],
+      "seniority": {
+        "junior_pct": 0.25,
+        "mid_pct": 0.42,
+        "senior_pct": 0.22,
+        "leadership_pct": 0.11,
+        "source": "Figma Feb 2026 (56% prefer seniors, 25% prefer juniors, implies mid-heavy distribution)",
+        "note": "Derived from Figma hiring preference data. 73% require AI fluency skews demand toward experienced hires."
+      },
+      "salary_yoy_p3": {
+        "UK": 0.019,
+        "DE": 0.024,
+        "NL": 0.021,
+        "FR": 0.015,
+        "ES": 0.035,
+        "SE": 0.005,
+        "source": "Robert Half 2026 Salary Guide (Marketing & Creative), validated against Glassdoor DE/NL and Reed UK 2025",
+        "note": "Design-specific. Spain high (3.5%) reflects nearshoring demand. Sweden stagnant (0.5%) — worst contraction in Europe."
+      },
+      "narrative": {
+        "context": "Design is the hardest role to read in 2026. Ravio doesn’t break it out as a separate function, LinkedIn shows it down 34% vs pre-pandemic, yet Figma’s own survey (2,500 respondents) shows hiring managers overwhelmingly favoring experienced designers — 56% prefer seniors, just 25% want juniors. The likely explanation: teams are getting smaller but expectations are rising. One senior designer with AI tools can now do what took a team of three.",
+        "implications": "The 73% AI fluency requirement is not aspirational — it’s a filter. Designers who can prototype with AI-native tools, work directly with engineers on design systems, and operate at the strategic level (user research, information architecture) are in demand. Production-focused roles (pixel-pushing, asset creation, basic UI) are being absorbed by AI. If you’re a designer, investing in prompt-to-prototype workflows and computational design is no longer optional."
+      },
+      "key_insight": "73% of design hiring managers now require AI fluency. The PM-to-designer ratio has flipped — fewer designers needed when AI handles production work.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.34,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)"
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "Human-centered research",
+          "AI interaction design",
+          "Design systems",
+          "Cross-functional collaboration"
+        ],
+        "rationale": "AI can generate visuals but cannot conduct empathetic user research or navigate org-level design decisions.",
+        "automation_risk": "low",
+        "ai_exposure_pattern": "complementary"
+      }
+    },
+    "sales": {
+      "label": "Sales (SDR/BDR/AE)",
+      "isco_codes": [
+        "243"
+      ],
+      "demand": {
+        "direction": "restructuring",
+        "hiring_rate_2025": 0.347,
+        "hiring_rate_2024": 0.33,
+        "hiring_rate_2023": 0.35,
+        "yoy_change": 0.052,
+        "note": "Commercial is the ONLY growing function. But SDR/BDR being cut while AE teams grow.",
+        "source": "Ravio"
+      },
+      "attrition": {
+        "rate_2025": 0.184,
+        "rate_2024": 0.19,
+        "rate_2023": 0.24,
+        "yoy_change": -0.032,
+        "source": "Ravio"
+      },
+      "sdr_metrics": {
+        "sdr_to_ae_promotion": 0.16,
+        "sdr_to_ae_promotion_2020": 0.34,
+        "quota_attainment": 0.6,
+        "quality_conversations_per_day": 4.1,
+        "quality_conversations_2014": 8.0,
+        "sdr_median_tenure_years": 1.9,
+        "sdr_annual_turnover": 0.4,
+        "sdr_ote_usd": 80000,
+        "promoted_under_11mo_ae_failure": 0.55,
+        "promoted_over_16mo_ae_failure": 0.06,
+        "source": "Bridge Group 2025"
+      },
+      "emergence_data": {
+        "companies_cutting_sdr_bdr": 0.36,
+        "companies_growing_ae": 0.28,
+        "source": "Emergence Capital (560+ B2B SaaS)"
+      },
+      "skills_now": [
+        "CRM mastery",
+        "consultative selling",
+        "pipeline management",
+        "multi-threading"
+      ],
+      "skills_future": [
+        "AI-augmented prospecting",
+        "signal-based selling",
+        "strategic account management"
+      ],
+      "seniority": {
+        "junior_pct": 0.35,
+        "mid_pct": 0.38,
+        "senior_pct": 0.19,
+        "leadership_pct": 0.08,
+        "source": "Bridge Group 2025 + Ravio (SDR avg 1.2yr exp required, 1:2.4 SDR:AE ratio, leadership: 16% Team Lead, 65% Manager, 14% Director, 5% VP)",
+        "note": "Derived: SDRs ~29% of org (junior), AEs majority (mid), management tiers from Bridge Group leadership structure."
+      },
+      "salary_yoy_p3": {
+        "UK": 0.025,
+        "DE": 0.031,
+        "NL": 0.028,
+        "FR": 0.02,
+        "ES": 0.04,
+        "SE": 0.01,
+        "source": "Bridge Group 2025 + ECA International Salary Trends + Bluebird EU SaaS Benchmarks 2025 (UK/NL/DE)",
+        "note": "Commercial function. Germany commands highest SaaS sales base salaries in Europe (Bluebird). Spain surge (+4.0%) driven by nearshoring."
+      },
+      "narrative": {
+        "context": "Sales is the only function where hiring actually grew (+5.2% YoY) — but the growth is entirely in Account Executive and strategic sales roles, not SDRs. The Bridge Group data tells the story: SDR-to-AE promotions halved from 34% (2020) to 16% (2024), median annual SDR turnover sits at 40%, and on-target earnings have been flat at $80K for a decade while inflation ate 44% of purchasing power. Companies are discovering that AI can handle the top of the funnel — 1% of companies already report using ‘AI SDRs’.",
+        "implications": "The entry-level sales career path through cold calling is being restructured in real time. If you’re in SDR/BDR, the path forward is speed: Bridge Group data shows that SDRs promoted to AE within 11 months have a 55% failure rate, but those who stay 16+ months drop to 6%. The skills that protect are consultative selling, multi-threading (engaging multiple stakeholders), and signal-based prospecting — the human judgment that AI can augment but not replace."
+      },
+      "key_insight": "SDR/BDR is the most AI-transformed role. Companies restructuring SDR teams while growing AE teams. The entry path is shifting from cold calling to AI-augmented prospecting.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.22,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)",
+        "entry_level_share_change_ppt": 0.5
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "Consultative selling",
+          "AI-augmented prospecting",
+          "Relationship management",
+          "Data-driven pipeline"
+        ],
+        "rationale": "AI automates outreach and lead scoring; trust-based complex selling and relationship depth are automation bottlenecks.",
+        "automation_risk": "medium",
+        "ai_exposure_pattern": "mixed"
+      }
+    },
+    "bizdev": {
+      "label": "Business Development",
+      "isco_codes": [
+        "243"
+      ],
+      "demand": {
+        "direction": "stable",
+        "hiring_rate_2025": 0.347,
+        "hiring_rate_2024": 0.33,
+        "hiring_rate_2023": 0.35,
+        "note": "Shares Ravio Commercial function data. Partnerships + strategic alliances growing.",
+        "source": "Ravio (commercial function)"
+      },
+      "skills_now": [
+        "partnership management",
+        "deal structuring",
+        "ecosystem strategy"
+      ],
+      "skills_future": [
+        "AI partnership strategy",
+        "platform ecosystem",
+        "API/integration partnerships"
+      ],
+      "seniority": {
+        "junior_pct": 0.62,
+        "mid_pct": 0.28,
+        "senior_pct": 0.06,
+        "leadership_pct": 0.04,
+        "source": "Bridge Group 2025 (SDR median tenure 1.9yr, high-velocity pipeline) + LinkedIn Economic Graph EMEA",
+        "note": "Heavily bottom-weighted — BDR is a proving ground role. 'Junior' = first 12mo, 'Mid' = ramped 12-24mo, 'Senior' = career outbound/enterprise, 'Leadership' = Team Lead/Manager."
+      },
+      "salary_yoy_p3": {
+        "UK": 0.02,
+        "DE": 0.025,
+        "NL": 0.022,
+        "FR": 0.018,
+        "ES": 0.03,
+        "SE": 0.008,
+        "source": "Bridge Group 2025 + Bluebird EU SaaS Benchmarks 2025 (BDR Manager tiers: UK/NL/DE)",
+        "note": "BDR/SDR pipeline role. Lower growth than AE roles — entry-level wages less protected from stagnation."
+      },
+      "narrative": {
+        "context": "Business Development sits inside Ravio’s ‘Commercial’ function — the only function where hiring grew in 2025. While transactional sales roles face AI disruption, strategic partnership and alliance roles are expanding as companies build ecosystem-led go-to-market strategies. The shift from direct sales to platform and API partnerships is creating demand for people who can structure complex, multi-party deals.",
+        "implications": "BizDev roles skew senior for a reason: they require a combination of commercial acumen, technical understanding, and relationship-building that’s hard to shortcut with AI. If you’re transitioning from sales, the path is through developing ecosystem thinking — understanding how platforms, APIs, and partnerships create value beyond direct revenue. This is one of the few commercial functions where experience genuinely compounds."
+      },
+      "key_insight": "BizDev is growing as companies build partnership-led GTM. Distinct from sales — strategic, not transactional.",
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "Strategic partnerships",
+          "Market intelligence (AI)",
+          "Cross-functional negotiation",
+          "Regulatory mapping"
+        ],
+        "rationale": "Deal-making requires judgment, trust, and contextual awareness that AI cannot replicate at senior levels.",
+        "automation_risk": "low",
+        "ai_exposure_pattern": "complementary"
+      }
+    },
+    "growth_marketing": {
+      "label": "Growth & Marketing",
+      "isco_codes": [
+        "243",
+        "264"
+      ],
+      "demand": {
+        "direction": "contracting",
+        "hiring_rate_2025": 0.218,
+        "hiring_rate_2024": 0.26,
+        "hiring_rate_2023": 0.33,
+        "yoy_change": -0.162,
+        "source": "Ravio"
+      },
+      "attrition": {
+        "rate_2025": 0.167,
+        "rate_2024": 0.18,
+        "rate_2023": 0.2,
+        "yoy_change": -0.072,
+        "source": "Ravio"
+      },
+      "mckinsey_data": {
+        "cmo_budget_increase_pct": 0.72,
+        "budget_pct_of_revenue": 0.087,
+        "genai_top_investment_priority": 0.5,
+        "classic_brand_campaign_decline": -0.27,
+        "human_creative_irreplaceable": 0.62,
+        "mroi_measurability_above_50pct": 0.03,
+        "source": "McKinsey 2026 (500 EU leaders)"
+      },
+      "skills_now": [
+        "performance marketing",
+        "SEO/SEM",
+        "content strategy",
+        "marketing analytics"
+      ],
+      "skills_future": [
+        "AI-generated content at scale",
+        "brand strategy (irreplaceable)",
+        "full-funnel orchestration",
+        "marketing science"
+      ],
+      "seniority": {
+        "junior_pct": 0.2,
+        "mid_pct": 0.42,
+        "senior_pct": 0.26,
+        "leadership_pct": 0.12,
+        "source": "Ravio (Marketing function: 24% salary increase eligibility, 3.5% promotion rate, 16.7% attrition — implies stable mid-heavy structure)",
+        "note": "Derived from Ravio compensation patterns. Marketing tenure increased 27% YoY — employees staying put."
+      },
+      "salary_yoy_p3": {
+        "UK": 0.024,
+        "DE": 0.03,
+        "NL": 0.026,
+        "FR": 0.018,
+        "ES": 0.032,
+        "SE": 0.012,
+        "source": "Robert Half 2026 Salary Guide (Marketing & Creative) + Bluebird EU SaaS Benchmarks 2025 (Growth/PMM/Demand Gen: UK/NL/DE)",
+        "note": "Growth roles outpace generalist marketing. Bluebird: Growth Marketing Manager mid £75K UK / €80K NL / €90K DE."
+      },
+      "narrative": {
+        "context": "Marketing presents a paradox: hiring dropped 34% from 2023 peaks and attrition fell to 16.7% (people are staying put), yet 72% of European CMOs plan to increase budgets. The McKinsey data reveals why — budget is shifting from headcount to tools. GenAI is the top investment priority for half of marketing leaders, and classic brand campaigns declined 27%. The function is being rebuilt around fewer, more senior people wielding AI-powered content and analytics at scale.",
+        "implications": "The marketing roles that survived the contraction are the ones AI can’t easily replicate: brand strategy (62% of leaders call human creativity irreplaceable), full-funnel orchestration, and marketing science. Only 3% of companies can measure marketing ROI above 50% — the analytics gap is enormous. If you’re in marketing, the career insurance is combining creative judgment with data fluency. Pure execution roles (social media scheduling, basic content production, campaign setup) are the first to be automated."
+      },
+      "key_insight": "Hiring is down 34% from 2023 but 72% of CMOs plan budget increases — fewer people, bigger budgets, AI filling the gap.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.32,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)",
+        "entry_level_share_change_ppt": -0.3
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "AI-driven analytics",
+          "Brand strategy",
+          "Experimentation design",
+          "Cross-channel orchestration"
+        ],
+        "rationale": "Content production faces high replacement risk; strategy, experimentation, and brand thinking are protected.",
+        "automation_risk": "medium",
+        "ai_exposure_pattern": "mixed"
+      }
+    },
+    "operations": {
+      "label": "Operations",
+      "isco_codes": [
+        "121",
+        "333"
+      ],
+      "demand": {
+        "direction": "squeezed",
+        "hiring_rate_2025": 0.271,
+        "hiring_rate_2024": 0.34,
+        "hiring_rate_2023": 0.34,
+        "yoy_change": -0.203,
+        "source": "Ravio"
+      },
+      "attrition": {
+        "rate_2025": 0.213,
+        "rate_2024": 0.158,
+        "rate_2023": 0.158,
+        "yoy_change": 0.348,
+        "note": "Highest attrition across ALL functions — surged 34.8%. Tenure just 1y5m.",
+        "source": "Ravio"
+      },
+      "seniority": {
+        "junior_pct": 0.22,
+        "mid_pct": 0.38,
+        "senior_pct": 0.28,
+        "leadership_pct": 0.12,
+        "source": "Ravio (Operations: lowest salary eligibility 14%, highest attrition 21.3%, tenure 1y5m — bifurcating function)",
+        "note": "Derived from Ravio patterns. Low tenure + high attrition suggests junior/mid churn. Strategic ops roles retained at senior level."
+      },
+      "salary_yoy_p3": {
+        "UK": 0.012,
+        "DE": 0.018,
+        "NL": 0.015,
+        "FR": 0.01,
+        "ES": 0.02,
+        "SE": 0.002,
+        "source": "Ravio 2026 (Operations function 4.4%, lowest) + Robert Half 2026 Admin/Operations Guide + Revenue Operations Alliance 2024",
+        "note": "Severe squeeze. Near-zero growth in Sweden (0.2%). Lowest salary increase eligibility (14%) of any function. ROA reports European RevOps at 57% of US levels."
+      },
+      "tenure_months": 17,
+      "skills_now": [
+        "process optimization",
+        "compliance",
+        "vendor management",
+        "data analysis"
+      ],
+      "skills_future": [
+        "AI workflow automation",
+        "strategic operations",
+        "regulatory compliance (NIS2/DORA/AI Act)"
+      ],
+      "narrative": {
+        "context": "Operations is the clearest signal of AI-driven workforce restructuring in European tech. Attrition surged 34.8% to 21.3% — the highest of any function — while tenure dropped to just 1 year and 5 months, less than half the engineering average. Salary increases fell 28% to the lowest across all functions (4.4%), and only 14% of operations staff received an in-role raise. Yet hiring remains at 27% — suggesting high replacement churn, not deliberate growth.",
+        "implications": "Operations is splitting into two tracks: routine work (data entry, process administration, basic vendor management) is being automated, while strategic operations roles (‘Product Ops’, ‘Engineering Ops’, AI workflow automation) are growing. If you’re in operations, the path forward is specialization — regulatory compliance (NIS2, DORA, AI Act), strategic process design, or AI workflow orchestration. Your operational knowledge is the foundation; adding one specialization transforms your career trajectory."
+      },
+      "key_insight": "Operations is bifurcating: routine work automated, strategic work retained. Highest attrition (21.3%), lowest tenure (1y5m). A function in flux.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.05,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)",
+        "entry_level_share_change_ppt": 0.1
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "Process design",
+          "AI workflow orchestration",
+          "Change management",
+          "Regulatory compliance"
+        ],
+        "rationale": "Admin tasks face high replacement risk; process design and organizational change management are protected.",
+        "automation_risk": "medium",
+        "ai_exposure_pattern": "mixed"
+      }
+    },
+    "data_ai": {
+      "label": "Data & AI",
+      "isco_codes": [
+        "251",
+        "252"
+      ],
+      "demand": {
+        "direction": "surging",
+        "ai_ml_hiring_growth_yoy": 0.88,
+        "ai_ml_title_expansion": 0.5,
+        "ai_engineer_pct_of_titles": 0.45,
+        "venture_funding_to_ai": 0.53,
+        "note": "Proxy: combines AI workforce headcount growth (Atomico) with posting volume (Indeed). Traditional data science flat; GenAI surging.",
+        "source": "Atomico/Revelio Labs (120K→159K EU AI roles 2023→2024, +33% YoY) + Indeed Hiring Lab (GenAI postings: UK +120%, DE +109%, FR +91% YoY to Mar 2025) + Ravio (88% AI/ML hiring share growth)",
+        "hiring_rate_2023": 0.18,
+        "hiring_rate_2024": 0.34,
+        "hiring_rate_2025": 0.64,
+        "yoy_change": 0.88
+      },
+      "salary_premium": {
+        "ic_premium": 0.12,
+        "mgmt_premium": 0.03,
+        "note": "Professional-level AI practitioners see 12% market premium vs non-AI roles",
+        "source": "Ravio"
+      },
+      "skills_now": [
+        "Python",
+        "ML frameworks",
+        "data engineering",
+        "model deployment",
+        "SQL"
+      ],
+      "skills_future": [
+        "LLM fine-tuning",
+        "agent orchestration",
+        "AI safety",
+        "MLOps at scale",
+        "multimodal AI"
+      ],
+      "seniority": {
+        "junior_pct": 0.18,
+        "mid_pct": 0.4,
+        "senior_pct": 0.28,
+        "leadership_pct": 0.14,
+        "source": "Ravio + LinkedIn (AI/ML Engineer 45% of titles, Senior AI/ML 15%, AI/ML Researcher 1.4%; engineering base seniority adjusted for AI premium skew)",
+        "note": "AI roles skew senior — 12% IC salary premium reflects experience demand. Junior pipeline thin due to specialization requirements."
+      },
+      "salary_yoy_p3": {
+        "UK": 0.056,
+        "DE": 0.056,
+        "NL": 0.071,
+        "FR": 0.044,
+        "ES": 0.045,
+        "SE": 0.046,
+        "source": "Ravio 2026 (Engineering 5.0% + 12% AI IC premium) + Hays IT-Gehaltsreport 2025 (DE: Data & Advanced Analytics avg €68,100)",
+        "note": "AI premium validated by Hays: Data & Analytics €68,100 vs Development €62,300 (+9.3% in DE). Ravio's 12% IC premium is cross-European."
+      },
+      "narrative": {
+        "context": "Data & AI is where the hiring energy is. While overall European tech hiring contracted, AI/ML specialist roles grew 88% YoY. The number of distinct AI/ML job titles increased 50% in 12 months — from AI Engineer and ML Researcher to AI Governance Specialist, Prompt Engineer, and Forward Deployed Engineer. The salary premium is real but more modest than headlines suggest: 12% above non-AI roles for individual contributors, dropping to just 3% at management level.",
+        "implications": "The 12% IC premium and the 3% management premium tell an important story: companies are paying for hands-on AI building skills, not AI management experience. AI/ML Engineer represents 45% of all AI job titles in Ravio’s database, with Senior AI/ML Engineer at another 15%. If you’re targeting this space, the premium rewards depth (model fine-tuning, agent orchestration, MLOps) over breadth. Foundation model companies grew employment 92% YoY — but even traditional companies are embedding AI roles across every function."
+      },
+      "key_insight": "Fastest-growing specialization (+88% hiring). 12% salary premium for ICs. 50% increase in distinct AI/ML job titles — the field is still defining itself.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.19,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)",
+        "entry_level_share_change_ppt": 0.4
+      },
+      "ai_jobs": {
+        "head_of_ai_created_2023_2025": 298000,
+        "data_annotator_created_2023_2025": 774000,
+        "total_ai_jobs_created_globally": 1300000,
+        "source": "LinkedIn Labor Market Report Jan 2026"
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "ML engineering",
+          "AI governance",
+          "Domain expertise",
+          "Data storytelling"
+        ],
+        "rationale": "High disruption AND high demand. The field itself is being reshaped by AI, but practitioners who govern and explain AI are increasingly valuable.",
+        "automation_risk": "medium",
+        "ai_exposure_pattern": "mixed"
+      }
+    },
+    "cybersecurity": {
+      "label": "Cybersecurity",
+      "isco_codes": [
+        "252"
+      ],
+      "demand": {
+        "direction": "tightening",
+        "european_gap": 424000,
+        "gap_source": "ISC2 (separate data release — headline number, not verified from our whitepaper)",
+        "gap_confidence": "medium",
+        "source": "ISC2 2024/2025 (EU workforce 1.30M, −0.7% YoY in 2024, stabilizing 2025) + UK Gov Cyber Security Skills Report 2025 + Indeed Hiring Lab",
+        "hiring_rate_2023": 0.3,
+        "hiring_rate_2024": 0.2,
+        "hiring_rate_2025": 0.18,
+        "yoy_change": -0.1,
+        "note": "Paradox: posting volume declined while gap widened 19%. Companies absorbing deficit through upskilling and managed services rather than new hires."
+      },
+      "enisa_data": {
+        "no_assessment_pct": 0.33,
+        "sme_no_assessment": 0.63,
+        "sme_slow_patching": 0.51,
+        "ransomware_top_threat": 0.55,
+        "supply_chain_concern": 0.47,
+        "source": "ENISA NIS Investments 2025 (1,080 respondents)"
+      },
+      "isc2_data": {
+        "on_path_to_ai_use": 0.69,
+        "ai_productivity_boost": 0.63,
+        "ai_creates_specialized_skills": 0.73,
+        "job_satisfaction": 0.68,
+        "overwhelmed_by_workload": 0.47,
+        "plan_to_stay": 0.78,
+        "entered_through_it": 0.56,
+        "source": "ISC2 2025 (16,029 global)"
+      },
+      "skills_now": [
+        "network security",
+        "incident response",
+        "cloud security",
+        "compliance (NIS2/DORA)"
+      ],
+      "skills_future": [
+        "AI-powered threat detection",
+        "AI security",
+        "supply chain security",
+        "automated compliance"
+      ],
+      "seniority": {
+        "junior_pct": 0.12,
+        "mid_pct": 0.38,
+        "senior_pct": 0.35,
+        "leadership_pct": 0.15,
+        "source": "ISC2 2025 (56% entered through IT experience, only 3% via internship, 10% via direct education — pipeline skews experienced)",
+        "note": "Derived from ISC2 career pathway data. Thin junior pipeline: only 13% enter via education/internship. 78% plan to stay in cybersecurity for career."
+      },
+      "salary_yoy_p3": {
+        "UK": 0.035,
+        "DE": 0.042,
+        "NL": 0.038,
+        "FR": 0.03,
+        "ES": 0.048,
+        "SE": 0.018,
+        "source": "Hays IT-Gehaltsreport 2025 (DE: Cybersecurity avg €73,700, highest IT function) + Hays Technology Salary Guide 2026 (UK) + Qubit Labs",
+        "note": "Cybersecurity commands highest salaries across all IT functions in Germany (Hays). Spain 4.8% reflects acute shortage + NIS2 compliance demand."
+      },
+      "narrative": {
+        "context": "Cybersecurity has a structural supply problem that regulations are making worse. The 424K European gap isn’t just a hiring shortfall — it’s a pipeline problem. ISC2 data shows 56% of cybersecurity professionals entered through IT experience, not education. Only 3% came through internships. The junior pipeline barely exists, and the field skews heavily mid-to-senior (73% of our seniority estimate is mid-level or above). Meanwhile, NIS2 brings 160,000 entities into scope and DORA adds another 22,000 financial firms — all requiring dedicated cybersecurity capacity.",
+        "implications": "This is one of the few European tech roles where demand structurally exceeds supply and regulation guarantees it will continue. Despite this, 31% of professionals say pay is too low and 47% feel overwhelmed by workload — suggesting that many organizations still underinvest in security teams. For candidates, the field offers unusual stability (78% plan to stay in cybersecurity for their career) and clear upskilling paths: AI-powered threat detection is the #1 skill priority, and 69% of teams are already on a path to regular AI security tool use."
+      },
+      "key_insight": "424K European gap. NIS2/DORA creating regulatory demand faster than talent supply. No juniors available — 56% entered through IT experience.",
+      "linkedin": {
+        "hiring_vs_prepandemic": -0.29,
+        "source": "LinkedIn Labor Market Report Jan 2026 (global)"
+      },
+      "skill_protection_bundle": {
+        "optimal_combination": [
+          "AI-powered threat detection",
+          "Cloud security architecture",
+          "Risk communication",
+          "NIS2 / DORA compliance"
+        ],
+        "rationale": "300K+ EU workforce gap plus regulatory mandates create structural demand. Attack surfaces expand faster than defenses.",
+        "automation_risk": "low",
+        "ai_exposure_pattern": "complementary"
+      }
+    }
+  },
+  "cross_role": {
+    "entry_level_collapse": {
+      "value": -0.734,
+      "note": "P1/P2 hiring down 73.4% vs -7% all levels",
+      "source": "Ravio"
+    },
+    "ai_ml_hiring_growth": {
+      "value": 0.88,
+      "source": "Ravio"
+    },
+    "ai_salary_premium_ic": {
+      "value": 0.12,
+      "source": "Ravio"
+    },
+    "ai_salary_premium_mgmt": {
+      "value": 0.03,
+      "source": "Ravio"
+    },
+    "median_salary_increase": {
+      "value": 0.05,
+      "note": "5.0% for second consecutive year",
+      "source": "Ravio"
+    },
+    "promotion_salary_increase": {
+      "value": 0.223,
+      "note": "22.3% median",
+      "source": "Ravio"
+    },
+    "overall_hiring_rate": {
+      "2023": 0.34,
+      "2024": 0.29,
+      "2025": 0.286,
+      "source": "Ravio"
+    },
+    "overall_attrition": {
+      "2023": 0.27,
+      "2024": 0.18,
+      "2025": 0.174,
+      "source": "Ravio"
+    },
+    "average_tenure_months": {
+      "value": 25,
+      "source": "Ravio"
+    },
+    "gender_pay_gap": {
+      "unadjusted": 0.23,
+      "adjusted": 0.024,
+      "women_in_tech": 0.4,
+      "women_in_leadership": 0.21,
+      "source": "Ravio"
+    },
+    "ai_skills_by_function": {
+      "engineering": 0.1,
+      "product_management": 0.1,
+      "research": 0.08,
+      "entrepreneurship": 0.07,
+      "information_technology": 0.05,
+      "consulting": 0.04,
+      "design": 0.02,
+      "marketing": 0.02,
+      "sales": 0.01,
+      "operations": 0.01,
+      "note": "% of US LinkedIn members with 2+ AI engineering skills or in AI engineering occupation",
+      "source": "LinkedIn Labor Market Report Jan 2026 (US data, indicative for Europe)"
+    },
+    "ai_company_hiring": {
+      "foundation_models_yoy_employment_change": 0.92,
+      "foundation_models_ai_talent_pct": 0.28,
+      "big_tech_yoy_employment_change": 0.08,
+      "big_tech_ai_talent_pct": 0.15,
+      "ai_hardware_yoy_employment_change": 0.25,
+      "vertical_applications_yoy_employment_change": 0.06,
+      "source": "LinkedIn Labor Market Report Jan 2026"
+    },
+    "skills_signal": {
+      "additional_10_skills_reduces_gap_months": 1.17,
+      "median_employment_gap_months": 7.09,
+      "source": "Baird, Ko, Gahlawat (LinkedIn EG WP No.1, Jan 2023, US data)"
+    }
+  },
+  "country_hiring": {
+    "UK": {
+      "name": "United Kingdom",
+      "rate": 0.318,
+      "yoy": -0.205,
+      "attrition": 0.188,
+      "tenure_months": 26
+    },
+    "DE": {
+      "name": "Germany",
+      "rate": 0.298,
+      "yoy": 0.028,
+      "attrition": 0.183,
+      "tenure_months": 24
+    },
+    "NL": {
+      "name": "Netherlands",
+      "rate": 0.235,
+      "yoy": -0.13,
+      "attrition": 0.137,
+      "tenure_months": 22
+    },
+    "FR": {
+      "name": "France",
+      "rate": 0.223,
+      "yoy": -0.281,
+      "attrition": 0.146,
+      "tenure_months": 27
+    },
+    "ES": {
+      "name": "Spain",
+      "rate": 0.263,
+      "yoy": -0.269,
+      "attrition": 0.126,
+      "tenure_months": 27
+    },
+    "SE": {
+      "name": "Sweden",
+      "rate": 0.165,
+      "yoy": -0.34,
+      "attrition": 0.128,
+      "tenure_months": 30
+    },
+    "source": "Ravio"
+  },
+  "hiring_by_funding_stage": {
+    "early": {
+      "2023": 0.49,
+      "2024": 0.41,
+      "2025": 0.267,
+      "label": "Pre-seed / Seed"
+    },
+    "growth": {
+      "2023": 0.43,
+      "2024": 0.34,
+      "2025": 0.295,
+      "label": "Series A-B"
+    },
+    "late": {
+      "2023": 0.28,
+      "2024": 0.22,
+      "2025": 0.278,
+      "label": "Series C+ / IPO"
+    },
+    "source": "Ravio",
+    "note": "Early-stage hiring dropped from 49% to 27%. Late-stage increased 26% — maturity, not contraction."
+  },
+  "regulatory_demand": {
+    "nis2": {
+      "entities_in_scope": 160000,
+      "role_type": "cybersecurity",
+      "permanence": "permanent",
+      "note": "Ongoing compliance, not one-time implementation. The gap is structural."
+    },
+    "dora": {
+      "entities_in_scope": 22000,
+      "role_type": "financial_resilience",
+      "permanence": "semi_permanent",
+      "note": "Implementation spike 2025-2027, then steady-state at ~40% of peak"
+    },
+    "eu_ai_act": {
+      "role_type": "ai_governance",
+      "permanence": "growing",
+      "ai_governance_hiring_intent": 0.78,
+      "note": "78% plan to hire 1-10 AI governance professionals. Enforcement phases through Aug 2027.",
+      "source": "IAPP 2025"
+    },
+    "eaa": {
+      "role_type": "accessibility",
+      "permanence": "spike_then_decline",
+      "note": "Implementation surge 2025-2026, then maintenance. Peak demand drops 50-60% within 3 years."
+    },
+    "csrd": {
+      "role_type": "sustainability",
+      "permanence": "contracting",
+      "note": "Omnibus I cut ~80% of companies from scope. Roles persist for in-scope companies but volume declining."
+    }
+  },
+  "country_signals": {
+    "AT": {
+      "name": "Austria",
+      "ai_adoption_pct": 29.95,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 8.83,
+        "2023": 10.79,
+        "2024": 20.27,
+        "2025": 29.95
+      },
+      "ict_specialists_pct": 5.3,
+      "ict_specialists_year": "2024",
+      "epl_score": 1.8,
+      "epl_year": 2019,
+      "so_respondents": 410,
+      "so_median_salary_usd": 78890,
+      "so_salary_p25_usd": 58007,
+      "so_salary_p75_usd": 98612,
+      "so_remote_work": {
+        "Hybrid (some remote, leans heavy to in-person)": 0.241,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.198,
+        "NA": 0.178,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.166,
+        "Remote": 0.127,
+        "In-person": 0.09
+      },
+      "so_ai_threat": {
+        "threat": 0.346,
+        "unsure": 0.654,
+        "n": 104
+      },
+      "so_ai_tool_usage_pct": 0.768,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.751,
+        "NA": 0.185,
+        "People manager": 0.063
+      },
+      "tech_employment_yoy_pct": -3.8,
+      "employment_yoy_by_isco": {
+        "25": 6.3,
+        "35": -13.9,
+        "13": -9.8,
+        "24": 6.2,
+        "33": -3.1
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 68634,
+      "so_salary_p25_eur": 50466,
+      "so_salary_p75_eur": 85792,
+      "narrative": "Austria mirrors Germany in many respects — similar AI adoption (30%), same ICT specialist share (5.3%), and competitive developer salaries at €69K. But tech employment contracted 3.8% YoY, a sharper correction than Germany's growth. The strict employment protection (EPL 2.44) slows both hiring and firing, creating a lag effect."
+    },
+    "BE": {
+      "name": "Belgium",
+      "ai_adoption_pct": 34.54,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 10.32,
+        "2023": 13.81,
+        "2024": 24.71,
+        "2025": 34.54
+      },
+      "ict_specialists_pct": 5.7,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.71,
+      "epl_year": 2019,
+      "so_respondents": 321,
+      "so_median_salary_usd": 70769,
+      "so_salary_p25_usd": 49886,
+      "so_salary_p75_usd": 104413,
+      "so_remote_work": {
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.287,
+        "NA": 0.259,
+        "Hybrid (some remote, leans heavy to in-person)": 0.215,
+        "In-person": 0.097,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.084,
+        "Remote": 0.059
+      },
+      "so_ai_threat": {
+        "unsure": 0.69,
+        "threat": 0.31,
+        "n": 87
+      },
+      "so_ai_tool_usage_pct": 0.757,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.673,
+        "People manager": 0.059,
+        "NA": 0.268
+      },
+      "tech_employment_yoy_pct": -1.0,
+      "employment_yoy_by_isco": {
+        "25": 7.2,
+        "35": -9.2,
+        "13": 25.0,
+        "24": 14.9,
+        "33": -2.9
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 61569,
+      "so_salary_p25_eur": 43401,
+      "so_salary_p75_eur": 90839
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "ai_adoption_pct": 8.55,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 3.29,
+        "2023": 3.62,
+        "2024": 6.47,
+        "2025": 8.55
+      },
+      "ict_specialists_pct": 4.6,
+      "ict_specialists_year": "2024",
+      "so_respondents": 244,
+      "so_median_salary_usd": 53376,
+      "so_salary_p25_usd": 30140,
+      "so_salary_p75_usd": 77098,
+      "so_remote_work": {
+        "Remote": 0.279,
+        "Hybrid (some remote, leans heavy to in-person)": 0.197,
+        "NA": 0.148,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.131,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.131,
+        "In-person": 0.115
+      },
+      "so_ai_threat": {
+        "threat": 0.45,
+        "unsure": 0.55,
+        "n": 80
+      },
+      "so_ai_tool_usage_pct": 0.791,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.705,
+        "People manager": 0.148,
+        "NA": 0.148
+      },
+      "tech_employment_yoy_pct": 12.5,
+      "employment_yoy_by_isco": {
+        "25": 2.0,
+        "35": 23.0,
+        "13": 22.2,
+        "24": 16.7,
+        "33": 4.1
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 4,
+      "so_median_salary_eur": 46437,
+      "so_salary_p25_eur": 26222,
+      "so_salary_p75_eur": 67075
+    },
+    "CH": {
+      "name": "Switzerland",
+      "ict_specialists_pct": 5.7,
+      "ict_specialists_year": "2024",
+      "so_respondents": 546,
+      "so_median_salary_usd": 141972,
+      "so_salary_p25_usd": 110214,
+      "so_salary_p75_usd": 171110,
+      "so_remote_work": {
+        "Hybrid (some remote, leans heavy to in-person)": 0.306,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.207,
+        "In-person": 0.158,
+        "NA": 0.134,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.128,
+        "Remote": 0.068
+      },
+      "so_ai_threat": {
+        "unsure": 0.693,
+        "threat": 0.307,
+        "n": 163
+      },
+      "so_ai_tool_usage_pct": 0.775,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.747,
+        "NA": 0.143,
+        "People manager": 0.11
+      },
+      "tech_employment_yoy_pct": -2.9,
+      "employment_yoy_by_isco": {
+        "25": 2.5,
+        "35": -8.3,
+        "13": 0.4,
+        "24": -2.6,
+        "33": 5.2
+      },
+      "atomico_note": "18% of deep tech engineers have PhD (highest in Europe); Zurich = Google, OpenAI, Anthropic research hubs",
+      "data_sources": [
+        "eurostat_ict",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 3,
+      "so_median_salary_eur": 123516,
+      "so_salary_p25_eur": 95886,
+      "so_salary_p75_eur": 148866,
+      "narrative": "Switzerland offers Europe's highest developer salaries at €114K median, reflecting both the cost of living and the concentration of pharmaceutical, financial, and deeptech companies. ICT specialists at 5.3% and high AI adoption suggest strong demand, but the market operates largely independently of EU dynamics due to its non-EU status."
+    },
+    "CY": {
+      "name": "Cyprus",
+      "ai_adoption_pct": 9.27,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 2.59,
+        "2023": 4.67,
+        "2024": 7.9,
+        "2025": 9.27
+      },
+      "ict_specialists_pct": 5.0,
+      "ict_specialists_year": "2024",
+      "tech_employment_yoy_pct": -4.8,
+      "employment_yoy_by_isco": {
+        "25": -6.5,
+        "35": -3.2,
+        "13": -9.8,
+        "24": 6.0,
+        "33": 17.5
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "eurostat_emp"
+      ],
+      "data_depth": 3
+    },
+    "CZ": {
+      "name": "Czechia",
+      "ai_adoption_pct": 17.6,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 4.46,
+        "2023": 5.9,
+        "2024": 11.26,
+        "2025": 17.6
+      },
+      "ict_specialists_pct": 4.5,
+      "ict_specialists_year": "2024",
+      "epl_score": 3.03,
+      "epl_year": 2019,
+      "so_respondents": 520,
+      "so_median_salary_usd": 60754,
+      "so_salary_p25_usd": 38381,
+      "so_salary_p75_usd": 84250,
+      "so_remote_work": {
+        "NA": 0.279,
+        "Hybrid (some remote, leans heavy to in-person)": 0.196,
+        "Remote": 0.152,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.133,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.131,
+        "In-person": 0.11
+      },
+      "so_ai_threat": {
+        "unsure": 0.659,
+        "threat": 0.341,
+        "n": 170
+      },
+      "so_ai_tool_usage_pct": 0.779,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.637,
+        "NA": 0.285,
+        "People manager": 0.079
+      },
+      "tech_employment_yoy_pct": 4.0,
+      "employment_yoy_by_isco": {
+        "25": 21.0,
+        "35": -13.0,
+        "13": 3.7,
+        "24": 9.0,
+        "33": 9.5
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 52856,
+      "so_salary_p25_eur": 33391,
+      "so_salary_p75_eur": 73298
+    },
+    "DE": {
+      "name": "Germany",
+      "ai_adoption_pct": 25.97,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 10.56,
+        "2023": 11.55,
+        "2024": 19.75,
+        "2025": 25.97
+      },
+      "ict_specialists_pct": 5.3,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.33,
+      "epl_year": 2019,
+      "so_respondents": 3025,
+      "so_median_salary_usd": 81210,
+      "so_salary_p25_usd": 61488,
+      "so_salary_p75_usd": 104413,
+      "so_remote_work": {
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.206,
+        "Remote": 0.189,
+        "Hybrid (some remote, leans heavy to in-person)": 0.181,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.174,
+        "NA": 0.163,
+        "In-person": 0.088
+      },
+      "so_ai_threat": {
+        "threat": 0.352,
+        "unsure": 0.648,
+        "n": 901
+      },
+      "so_ai_tool_usage_pct": 0.737,
+      "so_ic_vs_pm": {
+        "People manager": 0.087,
+        "Individual contributor": 0.734,
+        "NA": 0.18
+      },
+      "tech_employment_yoy_pct": 4.6,
+      "employment_yoy_by_isco": {
+        "25": 9.3,
+        "35": -0.2,
+        "13": -2.1,
+        "24": 6.1,
+        "33": 0.8
+      },
+      "linkedin_hiring_vs_prepandemic": -0.17,
+      "linkedin_hiring_small": -0.16,
+      "linkedin_hiring_mid": -0.24,
+      "linkedin_hiring_enterprise": -0.4,
+      "ai_talent_net_migration_per_10k": 2.1,
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp",
+        "linkedin"
+      ],
+      "data_depth": 6,
+      "so_median_salary_eur": 70653,
+      "so_salary_p25_eur": 53495,
+      "so_salary_p75_eur": 90839,
+      "narrative": "Germany is the only major Western European market with positive hiring momentum, though it remains 17% below pre-pandemic levels. AI adoption at 26% trails the Nordics and Benelux but is accelerating. Developer salaries are competitive at €70K median, and tech employment grew 4.6% YoY — one of the strongest signals in the EU. The construction sector is 128% above pre-pandemic, but tech professional services remain weak. Small businesses show the most resilience (-16% vs pre-pandemic) while enterprises lag (-40%)."
+    },
+    "DK": {
+      "name": "Denmark",
+      "ai_adoption_pct": 42.03,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 23.89,
+        "2023": 15.17,
+        "2024": 27.58,
+        "2025": 42.03
+      },
+      "ict_specialists_pct": 5.8,
+      "ict_specialists_year": "2024",
+      "epl_score": 1.94,
+      "epl_year": 2019,
+      "so_respondents": 316,
+      "so_median_salary_usd": 98600,
+      "so_salary_p25_usd": 77760,
+      "so_salary_p75_usd": 124416,
+      "so_remote_work": {
+        "Hybrid (some remote, leans heavy to in-person)": 0.354,
+        "In-person": 0.212,
+        "NA": 0.152,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.133,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.111,
+        "Remote": 0.038
+      },
+      "so_ai_threat": {
+        "unsure": 0.611,
+        "threat": 0.389,
+        "n": 90
+      },
+      "so_ai_tool_usage_pct": 0.737,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.734,
+        "NA": 0.177,
+        "People manager": 0.089
+      },
+      "tech_employment_yoy_pct": -6.0,
+      "employment_yoy_by_isco": {
+        "25": 2.4,
+        "35": -14.5,
+        "13": 10.0,
+        "24": -4.7,
+        "33": -3.6
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 85782,
+      "so_salary_p25_eur": 67651,
+      "so_salary_p75_eur": 108242,
+      "narrative": "Denmark leads all of Europe in AI adoption at 42% — almost double the EU average. Developer salaries are the highest on the continent at €86K median. However, the tech employment trend is concerning at -6.0% YoY, and a strict employment protection score of 2.27 means restructuring is slower and more regulated than in the Nordics peers."
+    },
+    "EE": {
+      "name": "Estonia",
+      "ai_adoption_pct": 23.4,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 2.77,
+        "2023": 5.19,
+        "2024": 13.89,
+        "2025": 23.4
+      },
+      "ict_specialists_pct": 7.2,
+      "ict_specialists_year": "2024",
+      "epl_score": 1.93,
+      "epl_year": 2019,
+      "so_respondents": 70,
+      "so_median_salary_usd": 69609,
+      "so_salary_p25_usd": 46406,
+      "so_salary_p75_usd": 100237,
+      "so_remote_work": {
+        "Remote": 0.243,
+        "Hybrid (some remote, leans heavy to in-person)": 0.229,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.2,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.171,
+        "NA": 0.086,
+        "In-person": 0.071
+      },
+      "so_ai_threat": {
+        "threat": 0.316,
+        "unsure": 0.684,
+        "n": 19
+      },
+      "so_ai_tool_usage_pct": 0.829,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.786,
+        "NA": 0.129,
+        "People manager": 0.086
+      },
+      "tech_employment_yoy_pct": 3.8,
+      "employment_yoy_by_isco": {
+        "25": 2.5,
+        "35": 5.1,
+        "13": -8.6,
+        "24": -5.8,
+        "33": -5.1
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 60560,
+      "so_salary_p25_eur": 40373,
+      "so_salary_p75_eur": 87206
+    },
+    "ES": {
+      "name": "Spain",
+      "ai_adoption_pct": 20.27,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 7.67,
+        "2023": 9.18,
+        "2024": 11.31,
+        "2025": 20.27
+      },
+      "ict_specialists_pct": 4.7,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.43,
+      "epl_year": 2019,
+      "so_respondents": 717,
+      "so_median_salary_usd": 62648,
+      "so_salary_p25_usd": 40605,
+      "so_salary_p75_usd": 87011,
+      "so_remote_work": {
+        "Remote": 0.365,
+        "NA": 0.173,
+        "Hybrid (some remote, leans heavy to in-person)": 0.132,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.124,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.107,
+        "In-person": 0.098
+      },
+      "so_ai_threat": {
+        "threat": 0.388,
+        "unsure": 0.612,
+        "n": 250
+      },
+      "so_ai_tool_usage_pct": 0.803,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.643,
+        "NA": 0.181,
+        "People manager": 0.176
+      },
+      "tech_employment_yoy_pct": 9.8,
+      "employment_yoy_by_isco": {
+        "25": 10.9,
+        "35": 8.6,
+        "13": 4.1,
+        "24": 8.0,
+        "33": -0.2
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 54504,
+      "so_salary_p25_eur": 35326,
+      "so_salary_p75_eur": 75700,
+      "narrative": "Spain is surging as a nearshoring hub with 9.8% tech employment growth — the strongest in Western Europe. AI adoption at 20% is near the EU average and climbing. Developer salaries at €55K are below the Western European average but above-average salary growth across all functions makes it increasingly attractive. The combination of lower costs, growing talent base, and EU timezone alignment is drawing companies."
+    },
+    "FI": {
+      "name": "Finland",
+      "ai_adoption_pct": 37.82,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 15.79,
+        "2023": 15.1,
+        "2024": 24.37,
+        "2025": 37.82
+      },
+      "ict_specialists_pct": 7.8,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.48,
+      "epl_year": 2019,
+      "so_respondents": 254,
+      "so_median_salary_usd": 74249,
+      "so_salary_p25_usd": 58007,
+      "so_salary_p75_usd": 92812,
+      "so_remote_work": {
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.248,
+        "Hybrid (some remote, leans heavy to in-person)": 0.189,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.173,
+        "NA": 0.165,
+        "Remote": 0.138,
+        "In-person": 0.087
+      },
+      "so_ai_threat": {
+        "threat": 0.385,
+        "unsure": 0.615,
+        "n": 65
+      },
+      "so_ai_tool_usage_pct": 0.764,
+      "so_ic_vs_pm": {
+        "People manager": 0.063,
+        "Individual contributor": 0.752,
+        "NA": 0.185
+      },
+      "tech_employment_yoy_pct": 4.1,
+      "employment_yoy_by_isco": {
+        "25": 3.1,
+        "35": 5.1,
+        "13": 12.2,
+        "24": -7.1,
+        "33": -5.0
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 64597,
+      "so_salary_p25_eur": 50466,
+      "so_salary_p75_eur": 80746,
+      "narrative": "Finland has the highest ICT specialist share in Europe at 7.8% and strong AI adoption at 38%. Developer salaries at €65K are competitive for the Nordics. Tech employment grew 4.1% YoY, signalling continued demand. The combination of deep technical talent, high AI adoption, and steady growth makes Finland one of Europe's most underrated tech markets."
+    },
+    "FR": {
+      "name": "France",
+      "ai_adoption_pct": 18.16,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 6.67,
+        "2023": 5.88,
+        "2024": 9.91,
+        "2025": 18.16
+      },
+      "ict_specialists_pct": 4.8,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.68,
+      "epl_year": 2019,
+      "so_respondents": 1409,
+      "so_median_salary_usd": 63808,
+      "so_salary_p25_usd": 47566,
+      "so_salary_p75_usd": 87011,
+      "so_remote_work": {
+        "Hybrid (some remote, leans heavy to in-person)": 0.253,
+        "NA": 0.231,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.155,
+        "Remote": 0.139,
+        "In-person": 0.13,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.092
+      },
+      "so_ai_threat": {
+        "unsure": 0.695,
+        "threat": 0.305,
+        "n": 499
+      },
+      "so_ai_tool_usage_pct": 0.696,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.634,
+        "NA": 0.243,
+        "People manager": 0.122
+      },
+      "tech_employment_yoy_pct": 3.0,
+      "employment_yoy_by_isco": {
+        "25": 6.7,
+        "35": -0.8,
+        "13": 4.5,
+        "24": 1.2,
+        "33": 2.2
+      },
+      "linkedin_hiring_vs_prepandemic": -0.3,
+      "linkedin_hiring_small": -0.34,
+      "linkedin_hiring_mid": -0.37,
+      "linkedin_hiring_enterprise": -0.48,
+      "ai_talent_net_migration_per_10k": 0.3,
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp",
+        "linkedin"
+      ],
+      "data_depth": 6,
+      "so_median_salary_eur": 55513,
+      "so_salary_p25_eur": 41382,
+      "so_salary_p75_eur": 75700,
+      "narrative": "France sits 30% below pre-pandemic hiring, with enterprise hiring down 48%. However, Indeed Hiring Lab reports the most dynamic seasonal rebound in 3 years at the start of 2026. AI adoption at 18% is below the EU average, and developer salaries at €56K median are competitive for continental Europe but lag Germany and the Nordics. Tech employment grew 3.0% YoY — steady but unspectacular."
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "epl_score": 1.9,
+      "epl_year": 2019,
+      "so_respondents": 2042,
+      "so_median_salary_usd": 95299,
+      "so_salary_p25_usd": 65348,
+      "so_salary_p75_usd": 130696,
+      "so_remote_work": {
+        "Remote": 0.257,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.209,
+        "NA": 0.193,
+        "Hybrid (some remote, leans heavy to in-person)": 0.136,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.113,
+        "In-person": 0.093
+      },
+      "so_ai_threat": {
+        "unsure": 0.585,
+        "threat": 0.415,
+        "n": 655
+      },
+      "so_ai_tool_usage_pct": 0.647,
+      "so_ic_vs_pm": {
+        "NA": 0.202,
+        "Individual contributor": 0.672,
+        "People manager": 0.125
+      },
+      "linkedin_hiring_vs_prepandemic": -0.25,
+      "linkedin_hiring_small": -0.22,
+      "linkedin_hiring_mid": -0.32,
+      "linkedin_hiring_enterprise": -0.38,
+      "ai_talent_net_migration_per_10k": 0.6,
+      "data_sources": [
+        "oecd_epl",
+        "stackoverflow",
+        "linkedin"
+      ],
+      "data_depth": 3,
+      "so_median_salary_eur": 82910,
+      "so_salary_p25_eur": 56853,
+      "so_salary_p75_eur": 113706
+    },
+    "GR": {
+      "name": "Greece",
+      "ai_adoption_pct": 8.93,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 2.61,
+        "2023": 3.98,
+        "2024": 9.81,
+        "2025": 8.93
+      },
+      "ict_specialists_pct": 2.5,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.54,
+      "epl_year": 2019,
+      "so_respondents": 252,
+      "so_median_salary_usd": 44666,
+      "so_salary_p25_usd": 26799,
+      "so_salary_p75_usd": 69609,
+      "so_remote_work": {
+        "NA": 0.238,
+        "Remote": 0.214,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.159,
+        "In-person": 0.143,
+        "Hybrid (some remote, leans heavy to in-person)": 0.139,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.107
+      },
+      "so_ai_threat": {
+        "threat": 0.364,
+        "unsure": 0.636,
+        "n": 99
+      },
+      "so_ai_tool_usage_pct": 0.821,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.591,
+        "NA": 0.242,
+        "People manager": 0.167
+      },
+      "tech_employment_yoy_pct": 12.2,
+      "employment_yoy_by_isco": {
+        "25": 22.7,
+        "35": 1.7,
+        "13": -17.8,
+        "24": -3.1,
+        "33": -4.5
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 38859,
+      "so_salary_p25_eur": 23315,
+      "so_salary_p75_eur": 60560
+    },
+    "HR": {
+      "name": "Croatia",
+      "ai_adoption_pct": 15.19,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 8.74,
+        "2023": 7.89,
+        "2024": 11.76,
+        "2025": 15.19
+      },
+      "ict_specialists_pct": 5.0,
+      "ict_specialists_year": "2024",
+      "so_respondents": 113,
+      "so_median_salary_usd": 46406,
+      "so_salary_p25_usd": 31324,
+      "so_salary_p75_usd": 75410,
+      "so_remote_work": {
+        "NA": 0.248,
+        "Remote": 0.239,
+        "In-person": 0.195,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.15,
+        "Hybrid (some remote, leans heavy to in-person)": 0.097,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.071
+      },
+      "so_ai_threat": {
+        "unsure": 0.619,
+        "threat": 0.381,
+        "n": 42
+      },
+      "so_ai_tool_usage_pct": 0.761,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.611,
+        "People manager": 0.124,
+        "NA": 0.265
+      },
+      "tech_employment_yoy_pct": 32.2,
+      "employment_yoy_by_isco": {
+        "25": 22.6,
+        "35": 41.7,
+        "13": 20.2,
+        "24": 11.1,
+        "33": 6.6
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 4,
+      "so_median_salary_eur": 40373,
+      "so_salary_p25_eur": 27252,
+      "so_salary_p75_eur": 65607
+    },
+    "HU": {
+      "name": "Hungary",
+      "ai_adoption_pct": 10.37,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 2.98,
+        "2023": 3.68,
+        "2024": 7.41,
+        "2025": 10.37
+      },
+      "ict_specialists_pct": 4.5,
+      "ict_specialists_year": "2024",
+      "epl_score": 1.89,
+      "epl_year": 2019,
+      "so_respondents": 236,
+      "so_median_salary_usd": 46266,
+      "so_salary_p25_usd": 28917,
+      "so_salary_p75_usd": 75183,
+      "so_remote_work": {
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.267,
+        "Remote": 0.237,
+        "NA": 0.203,
+        "Hybrid (some remote, leans heavy to in-person)": 0.131,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.097,
+        "In-person": 0.064
+      },
+      "so_ai_threat": {
+        "unsure": 0.722,
+        "threat": 0.278,
+        "n": 72
+      },
+      "so_ai_tool_usage_pct": 0.737,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.686,
+        "People manager": 0.089,
+        "NA": 0.225
+      },
+      "tech_employment_yoy_pct": 16.6,
+      "employment_yoy_by_isco": {
+        "25": 6.9,
+        "35": 26.3,
+        "13": 4.2,
+        "24": 25.9,
+        "33": 0.8
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 40251,
+      "so_salary_p25_eur": 25158,
+      "so_salary_p75_eur": 65409
+    },
+    "IE": {
+      "name": "Ireland",
+      "ai_adoption_pct": 19.64,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 7.88,
+        "2023": 8.01,
+        "2024": 14.9,
+        "2025": 19.64
+      },
+      "ict_specialists_pct": 6.3,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.13,
+      "epl_year": 2019,
+      "so_respondents": 209,
+      "so_median_salary_usd": 116015,
+      "so_salary_p25_usd": 88171,
+      "so_salary_p75_usd": 150819,
+      "so_remote_work": {
+        "Remote": 0.278,
+        "NA": 0.215,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.172,
+        "Hybrid (some remote, leans heavy to in-person)": 0.167,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.086,
+        "In-person": 0.081
+      },
+      "so_ai_threat": {
+        "unsure": 0.551,
+        "threat": 0.449,
+        "n": 78
+      },
+      "so_ai_tool_usage_pct": 0.742,
+      "so_ic_vs_pm": {
+        "NA": 0.225,
+        "Individual contributor": 0.699,
+        "People manager": 0.077
+      },
+      "tech_employment_yoy_pct": 0.3,
+      "employment_yoy_by_isco": {
+        "25": 10.0,
+        "35": -9.3,
+        "13": -1.9,
+        "24": 14.3,
+        "33": 12.9
+      },
+      "ai_talent_net_migration_per_10k": 2.2,
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 100933,
+      "so_salary_p25_eur": 76709,
+      "so_salary_p75_eur": 131213,
+      "narrative": "Ireland's developer salaries at €101K median are the highest in Europe, reflecting its role as the European headquarters for US tech giants. ICT specialists at 6.3% of the workforce confirm deep tech density. However, tech employment barely grew (0.3% YoY), suggesting the boom years may be plateauing. AI adoption at 20% is surprisingly average given the concentration of AI companies."
+    },
+    "IS": {
+      "name": "Iceland",
+      "ict_specialists_pct": 4.2,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.2,
+      "epl_year": 2019,
+      "tech_employment_yoy_pct": -0.2,
+      "employment_yoy_by_isco": {
+        "25": 7.5,
+        "35": -8.0,
+        "13": 9.7,
+        "24": 2.8,
+        "33": 22.2
+      },
+      "data_sources": [
+        "eurostat_ict",
+        "oecd_epl",
+        "eurostat_emp"
+      ],
+      "data_depth": 3
+    },
+    "IT": {
+      "name": "Italy",
+      "ai_adoption_pct": 16.4,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 6.17,
+        "2023": 5.05,
+        "2024": 8.2,
+        "2025": 16.4
+      },
+      "ict_specialists_pct": 4.0,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.86,
+      "epl_year": 2019,
+      "so_respondents": 835,
+      "so_median_salary_usd": 48726,
+      "so_salary_p25_usd": 34804,
+      "so_salary_p75_usd": 69609,
+      "so_remote_work": {
+        "NA": 0.212,
+        "Remote": 0.204,
+        "Hybrid (some remote, leans heavy to in-person)": 0.166,
+        "In-person": 0.162,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.147,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.109
+      },
+      "so_ai_threat": {
+        "unsure": 0.66,
+        "threat": 0.34,
+        "n": 324
+      },
+      "so_ai_tool_usage_pct": 0.78,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.618,
+        "NA": 0.223,
+        "People manager": 0.159
+      },
+      "tech_employment_yoy_pct": -5.1,
+      "employment_yoy_by_isco": {
+        "25": -8.1,
+        "35": -2.1,
+        "13": 12.3,
+        "24": 13.0,
+        "33": 4.8
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 42392,
+      "so_salary_p25_eur": 30279,
+      "so_salary_p75_eur": 60560
+    },
+    "LT": {
+      "name": "Lithuania",
+      "ai_adoption_pct": 21.3,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 4.45,
+        "2023": 4.86,
+        "2024": 8.76,
+        "2025": 21.3
+      },
+      "ict_specialists_pct": 5.3,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.24,
+      "epl_year": 2019,
+      "so_respondents": 101,
+      "so_median_salary_usd": 66708,
+      "so_salary_p25_usd": 41765,
+      "so_salary_p75_usd": 92812,
+      "so_remote_work": {
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.228,
+        "NA": 0.218,
+        "Hybrid (some remote, leans heavy to in-person)": 0.178,
+        "Remote": 0.168,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.109,
+        "In-person": 0.099
+      },
+      "so_ai_threat": {
+        "unsure": 0.5,
+        "threat": 0.5,
+        "n": 36
+      },
+      "so_ai_tool_usage_pct": 0.772,
+      "so_ic_vs_pm": {
+        "NA": 0.238,
+        "Individual contributor": 0.644,
+        "People manager": 0.119
+      },
+      "tech_employment_yoy_pct": 4.3,
+      "employment_yoy_by_isco": {
+        "25": 13.0,
+        "35": -4.3,
+        "13": 14.4,
+        "24": -0.6,
+        "33": 0.8
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 58036,
+      "so_salary_p25_eur": 36336,
+      "so_salary_p75_eur": 80746
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "ai_adoption_pct": 33.61,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 13.0,
+        "2023": 14.45,
+        "2024": 23.73,
+        "2025": 33.61
+      },
+      "ict_specialists_pct": 8.0,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.54,
+      "epl_year": 2019,
+      "tech_employment_yoy_pct": 0.2,
+      "employment_yoy_by_isco": {
+        "25": 14.4,
+        "35": -13.9,
+        "13": -21.4,
+        "24": 21.2,
+        "33": -12.9
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "eurostat_emp"
+      ],
+      "data_depth": 4
+    },
+    "LV": {
+      "name": "Latvia",
+      "ai_adoption_pct": 12.21,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 3.72,
+        "2023": 4.53,
+        "2024": 8.83,
+        "2025": 12.21
+      },
+      "ict_specialists_pct": 4.9,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.71,
+      "epl_year": 2019,
+      "so_respondents": 62,
+      "so_median_salary_usd": 51484,
+      "so_salary_p25_usd": 31324,
+      "so_salary_p75_usd": 78890,
+      "so_remote_work": {
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.194,
+        "Hybrid (some remote, leans heavy to in-person)": 0.177,
+        "Remote": 0.177,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.177,
+        "In-person": 0.161,
+        "NA": 0.113
+      },
+      "so_ai_threat": {
+        "threat": 0.214,
+        "unsure": 0.786,
+        "n": 14
+      },
+      "so_ai_tool_usage_pct": 0.758,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.742,
+        "People manager": 0.145,
+        "NA": 0.113
+      },
+      "tech_employment_yoy_pct": 10.1,
+      "employment_yoy_by_isco": {
+        "25": 16.9,
+        "35": 3.3,
+        "13": 7.5,
+        "24": -0.9,
+        "33": -3.5
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 44791,
+      "so_salary_p25_eur": 27252,
+      "so_salary_p75_eur": 68634
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "ict_specialists_pct": 2.3,
+      "ict_specialists_year": "2020",
+      "tech_employment_yoy_pct": -7.9,
+      "employment_yoy_by_isco": {
+        "25": -8.1,
+        "35": -7.7,
+        "13": 17.2,
+        "24": 1.6,
+        "33": -6.0
+      },
+      "data_sources": [
+        "eurostat_ict",
+        "eurostat_emp"
+      ],
+      "data_depth": 2
+    },
+    "MT": {
+      "name": "Malta",
+      "ai_adoption_pct": 21.51,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 10.16,
+        "2023": 13.17,
+        "2024": 17.3,
+        "2025": 21.51
+      },
+      "ict_specialists_pct": 5.2,
+      "ict_specialists_year": "2024",
+      "tech_employment_yoy_pct": 32.6,
+      "employment_yoy_by_isco": {
+        "25": 20.3,
+        "35": 45.0,
+        "13": 21.7,
+        "24": 6.2,
+        "33": 1.6
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "eurostat_emp"
+      ],
+      "data_depth": 3
+    },
+    "NL": {
+      "name": "Netherlands",
+      "ai_adoption_pct": 33.21,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 13.1,
+        "2023": 14.1,
+        "2024": 23.06,
+        "2025": 33.21
+      },
+      "ict_specialists_pct": 7.0,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.88,
+      "epl_year": 2019,
+      "so_respondents": 867,
+      "so_median_salary_usd": 81210,
+      "so_salary_p25_usd": 59202,
+      "so_salary_p75_usd": 106733,
+      "so_remote_work": {
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.302,
+        "Hybrid (some remote, leans heavy to in-person)": 0.236,
+        "NA": 0.168,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.125,
+        "In-person": 0.096,
+        "Remote": 0.073
+      },
+      "so_ai_threat": {
+        "unsure": 0.616,
+        "threat": 0.384,
+        "n": 245
+      },
+      "so_ai_tool_usage_pct": 0.769,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.745,
+        "NA": 0.178,
+        "People manager": 0.077
+      },
+      "tech_employment_yoy_pct": -2.4,
+      "employment_yoy_by_isco": {
+        "25": 1.8,
+        "35": -6.5,
+        "13": 6.4,
+        "24": 2.6,
+        "33": -1.5
+      },
+      "linkedin_hiring_vs_prepandemic": -0.35,
+      "linkedin_hiring_small": -0.32,
+      "linkedin_hiring_mid": -0.38,
+      "linkedin_hiring_enterprise": -0.49,
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp",
+        "linkedin"
+      ],
+      "data_depth": 6,
+      "so_median_salary_eur": 70653,
+      "so_salary_p25_eur": 51506,
+      "so_salary_p75_eur": 92858,
+      "narrative": "The Netherlands leads European salary growth at 6.3% YoY (Ravio) and has the highest AI adoption rate among large markets at 33%. With 7.0% ICT specialist share, it's one of Europe's most tech-dense economies. However, tech employment contracted 2.4% YoY — the Dutch flexibility paradox means restructuring happens faster but also more visibly. Developer salaries match Germany at €71K median."
+    },
+    "NO": {
+      "name": "Norway",
+      "ai_adoption_pct": 28.89,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 10.82,
+        "2023": 9.17,
+        "2024": 20.77,
+        "2025": 28.89
+      },
+      "ict_specialists_pct": 5.5,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.37,
+      "epl_year": 2019,
+      "so_respondents": 237,
+      "so_median_salary_usd": 88945,
+      "so_salary_p25_usd": 75109,
+      "so_salary_p75_usd": 109367,
+      "so_remote_work": {
+        "Hybrid (some remote, leans heavy to in-person)": 0.304,
+        "In-person": 0.215,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.148,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.135,
+        "NA": 0.127,
+        "Remote": 0.072
+      },
+      "so_ai_threat": {
+        "threat": 0.356,
+        "unsure": 0.644,
+        "n": 45
+      },
+      "so_ai_tool_usage_pct": 0.751,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.802,
+        "NA": 0.139,
+        "People manager": 0.059
+      },
+      "tech_employment_yoy_pct": 4.3,
+      "employment_yoy_by_isco": {
+        "25": 8.2,
+        "35": 0.4,
+        "13": 1.8,
+        "24": 2.8,
+        "33": -7.3
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 77382,
+      "so_salary_p25_eur": 65345,
+      "so_salary_p75_eur": 95149
+    },
+    "PL": {
+      "name": "Poland",
+      "ai_adoption_pct": 8.36,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 2.86,
+        "2023": 3.67,
+        "2024": 5.9,
+        "2025": 8.36
+      },
+      "ict_specialists_pct": 4.5,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.39,
+      "epl_year": 2019,
+      "so_respondents": 888,
+      "so_median_salary_usd": 60336,
+      "so_salary_p25_usd": 32748,
+      "so_salary_p75_usd": 92812,
+      "so_remote_work": {
+        "NA": 0.304,
+        "Remote": 0.261,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.125,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.123,
+        "Hybrid (some remote, leans heavy to in-person)": 0.111,
+        "In-person": 0.075
+      },
+      "so_ai_threat": {
+        "unsure": 0.63,
+        "threat": 0.37,
+        "n": 341
+      },
+      "so_ai_tool_usage_pct": 0.773,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.597,
+        "NA": 0.315,
+        "People manager": 0.088
+      },
+      "tech_employment_yoy_pct": 3.4,
+      "employment_yoy_by_isco": {
+        "25": 9.4,
+        "35": -2.7,
+        "13": 12.0,
+        "24": 0.4,
+        "33": -1.4
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 52492,
+      "so_salary_p25_eur": 28491,
+      "so_salary_p75_eur": 80746,
+      "narrative": "Poland is Europe's largest nearshoring destination with developer salaries at €45K — roughly half of Germany. Tech employment grew 6.4% YoY, and AI adoption at 8% is accelerating from a low base. The combination of a large engineering talent pool, EU membership, and competitive costs continues to attract outsourcing and shared service centres."
+    },
+    "PT": {
+      "name": "Portugal",
+      "ai_adoption_pct": 11.54,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 7.2,
+        "2023": 7.86,
+        "2024": 8.63,
+        "2025": 11.54
+      },
+      "ict_specialists_pct": 5.2,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.87,
+      "epl_year": 2019,
+      "so_respondents": 280,
+      "so_median_salary_usd": 60328,
+      "so_salary_p25_usd": 40605,
+      "so_salary_p75_usd": 90000,
+      "so_remote_work": {
+        "Remote": 0.364,
+        "NA": 0.189,
+        "Hybrid (some remote, leans heavy to in-person)": 0.143,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.129,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.114,
+        "In-person": 0.061
+      },
+      "so_ai_threat": {
+        "threat": 0.412,
+        "unsure": 0.588,
+        "n": 102
+      },
+      "so_ai_tool_usage_pct": 0.821,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.668,
+        "People manager": 0.139,
+        "NA": 0.193
+      },
+      "tech_employment_yoy_pct": 18.9,
+      "employment_yoy_by_isco": {
+        "25": 13.9,
+        "35": 23.8,
+        "13": 12.6,
+        "24": 4.2,
+        "33": 4.1
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 52485,
+      "so_salary_p25_eur": 35326,
+      "so_salary_p75_eur": 78300
+    },
+    "RO": {
+      "name": "Romania",
+      "ai_adoption_pct": 5.21,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 1.38,
+        "2023": 1.51,
+        "2024": 3.07,
+        "2025": 5.21
+      },
+      "ict_specialists_pct": 2.8,
+      "ict_specialists_year": "2024",
+      "so_respondents": 323,
+      "so_median_salary_usd": 57437,
+      "so_salary_p25_usd": 27570,
+      "so_salary_p75_usd": 89331,
+      "so_remote_work": {
+        "Remote": 0.279,
+        "NA": 0.263,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.17,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.149,
+        "Hybrid (some remote, leans heavy to in-person)": 0.102,
+        "In-person": 0.037
+      },
+      "so_ai_threat": {
+        "unsure": 0.549,
+        "threat": 0.451,
+        "n": 122
+      },
+      "so_ai_tool_usage_pct": 0.786,
+      "so_ic_vs_pm": {
+        "NA": 0.269,
+        "People manager": 0.127,
+        "Individual contributor": 0.604
+      },
+      "tech_employment_yoy_pct": 9.2,
+      "employment_yoy_by_isco": {
+        "25": 29.3,
+        "35": -11.0,
+        "13": 8.8,
+        "24": 2.9,
+        "33": 5.0
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 4,
+      "so_median_salary_eur": 49970,
+      "so_salary_p25_eur": 23986,
+      "so_salary_p75_eur": 77718
+    },
+    "RS": {
+      "name": "Serbia",
+      "ai_adoption_pct": 10.12,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 0.9,
+        "2023": 1.82,
+        "2024": 6.95,
+        "2025": 10.12
+      },
+      "ict_specialists_pct": 4.3,
+      "ict_specialists_year": "2024",
+      "so_respondents": 158,
+      "so_median_salary_usd": 52224,
+      "so_salary_p25_usd": 19799,
+      "so_salary_p75_usd": 83158,
+      "so_remote_work": {
+        "Remote": 0.278,
+        "NA": 0.234,
+        "Hybrid (some remote, leans heavy to in-person)": 0.139,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.12,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.12,
+        "In-person": 0.108
+      },
+      "so_ai_threat": {
+        "unsure": 0.789,
+        "threat": 0.211,
+        "n": 57
+      },
+      "so_ai_tool_usage_pct": 0.81,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.62,
+        "People manager": 0.139,
+        "NA": 0.241
+      },
+      "tech_employment_yoy_pct": 5.8,
+      "employment_yoy_by_isco": {
+        "25": 4.2,
+        "35": 7.4,
+        "13": 11.7,
+        "24": 11.3,
+        "33": -0.7
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 4,
+      "so_median_salary_eur": 45435,
+      "so_salary_p25_eur": 17225,
+      "so_salary_p75_eur": 72347
+    },
+    "SE": {
+      "name": "Sweden",
+      "ai_adoption_pct": 35.04,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 9.92,
+        "2023": 10.37,
+        "2024": 25.09,
+        "2025": 35.04
+      },
+      "ict_specialists_pct": 8.6,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.54,
+      "epl_year": 2019,
+      "so_respondents": 616,
+      "so_median_salary_usd": 71017,
+      "so_salary_p25_usd": 56604,
+      "so_salary_p75_usd": 85534,
+      "so_remote_work": {
+        "Hybrid (some remote, leans heavy to in-person)": 0.268,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.185,
+        "NA": 0.174,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.136,
+        "In-person": 0.127,
+        "Remote": 0.11
+      },
+      "so_ai_threat": {
+        "unsure": 0.656,
+        "threat": 0.344,
+        "n": 180
+      },
+      "so_ai_tool_usage_pct": 0.756,
+      "so_ic_vs_pm": {
+        "Individual contributor": 0.758,
+        "People manager": 0.06,
+        "NA": 0.182
+      },
+      "tech_employment_yoy_pct": -2.7,
+      "employment_yoy_by_isco": {
+        "25": -1.7,
+        "35": -3.7,
+        "13": 0.7,
+        "24": 3.5,
+        "33": -1.7
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 61785,
+      "so_salary_p25_eur": 49245,
+      "so_salary_p75_eur": 74415,
+      "narrative": "Sweden shows the sharpest contraction in Ravio data (-34% YoY) despite having among the highest AI adoption rates. This is the flexibility paradox: flexible labour markets restructure faster, creating sharper but potentially shorter downturns. Developer salaries remain strong, and the 6.5% ICT specialist share signals deep technical capacity. Sweden led salary growth at 5.5-6.8% across functions."
+    },
+    "SI": {
+      "name": "Slovenia",
+      "ai_adoption_pct": 21.61,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 11.73,
+        "2023": 11.37,
+        "2024": 20.89,
+        "2025": 21.61
+      },
+      "ict_specialists_pct": 4.3,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.32,
+      "epl_year": 2019,
+      "so_respondents": 78,
+      "so_median_salary_usd": 55687,
+      "so_salary_p25_usd": 39445,
+      "so_salary_p75_usd": 75410,
+      "so_remote_work": {
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.218,
+        "In-person": 0.192,
+        "Hybrid (some remote, leans heavy to in-person)": 0.167,
+        "NA": 0.154,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.154,
+        "Remote": 0.115
+      },
+      "so_ai_threat": {
+        "unsure": 0.692,
+        "threat": 0.308,
+        "n": 26
+      },
+      "so_ai_tool_usage_pct": 0.782,
+      "so_ic_vs_pm": {
+        "NA": 0.167,
+        "Individual contributor": 0.744,
+        "People manager": 0.09
+      },
+      "tech_employment_yoy_pct": 18.8,
+      "employment_yoy_by_isco": {
+        "25": 16.1,
+        "35": 21.4,
+        "13": 6.5,
+        "24": 7.5,
+        "33": 2.1
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 48448,
+      "so_salary_p25_eur": 34317,
+      "so_salary_p75_eur": 65607
+    },
+    "SK": {
+      "name": "Slovakia",
+      "ai_adoption_pct": 18.0,
+      "ai_adoption_year": "2025",
+      "ai_adoption_series": {
+        "2021": 5.19,
+        "2023": 7.04,
+        "2024": 10.78,
+        "2025": 18.0
+      },
+      "ict_specialists_pct": 4.6,
+      "ict_specialists_year": "2024",
+      "epl_score": 2.33,
+      "epl_year": 2019,
+      "so_respondents": 147,
+      "so_median_salary_usd": 55687,
+      "so_salary_p25_usd": 35500,
+      "so_salary_p75_usd": 81210,
+      "so_remote_work": {
+        "NA": 0.272,
+        "Hybrid (some remote, leans heavy to in-person)": 0.204,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.19,
+        "Remote": 0.19,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.095,
+        "In-person": 0.048
+      },
+      "so_ai_threat": {
+        "unsure": 0.691,
+        "threat": 0.309,
+        "n": 55
+      },
+      "so_ai_tool_usage_pct": 0.81,
+      "so_ic_vs_pm": {
+        "NA": 0.272,
+        "Individual contributor": 0.653,
+        "People manager": 0.075
+      },
+      "tech_employment_yoy_pct": 12.5,
+      "employment_yoy_by_isco": {
+        "25": 15.6,
+        "35": 9.4,
+        "13": -17.7,
+        "24": 22.7,
+        "33": -2.6
+      },
+      "data_sources": [
+        "eurostat_ai",
+        "eurostat_ict",
+        "oecd_epl",
+        "stackoverflow",
+        "eurostat_emp"
+      ],
+      "data_depth": 5,
+      "so_median_salary_eur": 48448,
+      "so_salary_p25_eur": 30885,
+      "so_salary_p75_eur": 70653
+    },
+    "UA": {
+      "name": "Ukraine",
+      "so_respondents": 964,
+      "so_median_salary_usd": 31204,
+      "so_salary_p25_usd": 7909,
+      "so_salary_p75_usd": 59916,
+      "so_remote_work": {
+        "Remote": 0.559,
+        "NA": 0.197,
+        "Your choice (very flexible, you can come in when you want or just as needed)": 0.111,
+        "Hybrid (some remote, leans heavy to in-person)": 0.049,
+        "Hybrid (some in-person, leans heavy to flexibility)": 0.044,
+        "In-person": 0.04
+      },
+      "so_ai_threat": {
+        "unsure": 0.647,
+        "threat": 0.353,
+        "n": 385
+      },
+      "so_ai_tool_usage_pct": 0.854,
+      "so_ic_vs_pm": {
+        "People manager": 0.087,
+        "NA": 0.206,
+        "Individual contributor": 0.706
+      },
+      "data_sources": [
+        "stackoverflow"
+      ],
+      "data_depth": 1,
+      "so_median_salary_eur": 27147,
+      "so_salary_p25_eur": 6881,
+      "so_salary_p75_eur": 52127
+    }
+  },
+  "europe_ecosystem": {
+    "tech_workforce_total": 4600000,
+    "tech_workforce_cagr_pct": 9.1,
+    "technical_engineering_employees": 2700000,
+    "founders_starting_2025": 27000,
+    "founders_yoy_growth_pct": 59,
+    "net_talent_inflow_2024": 26000,
+    "vc_invested_2025_9m_usd_bn": 33,
+    "vc_invested_2025_full_year_est_usd_bn": 44,
+    "deep_tech_share_of_vc_pct": 36,
+    "sustainability_share_of_vc_pct": 18,
+    "ai_raised_europe_usd_bn": 14,
+    "ai_raised_us_usd_bn": 146,
+    "new_unicorns_2025": 28,
+    "founder_retention_in_europe_pct": 81,
+    "source": "Atomico State of European Tech 2025"
+  },
+  "indeed_signals": {
+    "DE": {
+      "headline": "More applications, fewer openings",
+      "job_postings_vs_peak": "Declining since late 2022",
+      "key_signal": "One-sided market dynamics: employer's market",
+      "date": "2026-01-31",
+      "source": "Indeed Hiring Lab Germany, Feb 2026"
+    },
+    "FR": {
+      "headline": "Dynamic start to 2026",
+      "job_postings_vs_dec2022_peak": -0.42,
+      "seasonal_rebound": "Most dynamic in 3 years",
+      "candidate_activity_vs_dec": 0.29,
+      "application_growth_vs_pre_christmas": 0.16,
+      "date": "2026-01-31",
+      "source": "Indeed Hiring Lab France, Feb 2026"
+    },
+    "GB": {
+      "headline": "Stabilisation but outlook has darkened",
+      "unemployment_rate": 0.052,
+      "regular_pay_growth_yoy": 0.038,
+      "pay_growth_note": "Lowest in 5+ years",
+      "bdo_employment_index": "Lowest in 15 years",
+      "london_youth_unemployment": 0.246,
+      "date": "2026-01-31",
+      "source": "Indeed Hiring Lab UK/Ireland, Mar 2026"
+    }
+  },
+  "bitkom_signals": {
+    "DE": {
+      "startup_avg_headcount_2025": 13.1,
+      "startup_avg_headcount_2024": 14.8,
+      "startups_planning_hiring_pct": 0.75,
+      "avg_planned_new_hires": 5.7,
+      "avg_open_positions": 2.0,
+      "ai_adoption_startups_pct": 0.82,
+      "brain_drain_would_found_abroad_pct": 0.22,
+      "brain_drain_us_destination_pct": 0.38,
+      "source": "Bitkom Startup Report 2025 (n=152 German tech startups)"
+    }
+  },
+  "skill_protection": {
+    "methodology": "Cross-validated from 4 research dossiers synthesizing 18 peer-reviewed papers + institutional reports (WEF Future of Jobs 2025, Deming 2017 QJE, Stephany & Teutloff 2024, McKinsey 2024, ENISA 2025, Lightcast 1.3B+ postings).",
+    "skills_matrix": {
+      "roles": [
+        "PM",
+        "Eng",
+        "Design",
+        "Sales",
+        "BizDev",
+        "Mktg",
+        "Ops",
+        "Data/AI",
+        "Cyber"
+      ],
+      "skills": [
+        {
+          "name": "AI Fluency",
+          "scores": [
+            3,
+            3,
+            2,
+            2,
+            2,
+            3,
+            2,
+            3,
+            2
+          ]
+        },
+        {
+          "name": "Systems Thinking",
+          "scores": [
+            3,
+            3,
+            2,
+            1,
+            2,
+            2,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Strategic Judgment",
+          "scores": [
+            3,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Regulatory Knowledge",
+          "scores": [
+            2,
+            2,
+            1,
+            1,
+            2,
+            1,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Data Literacy",
+          "scores": [
+            3,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2
+          ]
+        },
+        {
+          "name": "Domain Expertise",
+          "scores": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            3
+          ]
+        },
+        {
+          "name": "Communication",
+          "scores": [
+            3,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Technical Depth",
+          "scores": [
+            2,
+            3,
+            2,
+            1,
+            1,
+            1,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Leadership",
+          "scores": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Cross-Functional",
+          "scores": [
+            3,
+            2,
+            2,
+            2,
+            3,
+            2,
+            3,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Resilience / Adaptability",
+          "scores": [
+            3,
+            2,
+            2,
+            3,
+            2,
+            2,
+            3,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    "protection_pairs": [
+      {
+        "skills": [
+          "Cognitive / analytical",
+          "Social / interpersonal"
+        ],
+        "premium": "Super-additive wage + employment growth; social skill return doubled between cohorts (~2% to ~4.2% per SD)",
+        "source": "Deming 2017 QJE; Deming & Kahn 2018 JLE",
+        "confidence": "peer-reviewed",
+        "roles_most_benefiting": [
+          "product",
+          "engineering",
+          "bizdev",
+          "operations",
+          "sales"
+        ]
+      },
+      {
+        "skills": [
+          "Domain expertise",
+          "AI / data literacy"
+        ],
+        "premium": "21–56% wage premium (21% peer-reviewed, 56% industry report)",
+        "source": "Stephany & Teutloff 2024 Research Policy; PwC 2025",
+        "confidence": "peer-reviewed + industry",
+        "roles_most_benefiting": [
+          "data_ai",
+          "growth_marketing",
+          "operations",
+          "product",
+          "cybersecurity"
+        ]
+      },
+      {
+        "skills": [
+          "AI / technical",
+          "Management / organizational"
+        ],
+        "premium": ">1.5 complementary roles created per substituted role in management",
+        "source": "Makela & Stephany 2024; Babina et al 2024 Labour Economics",
+        "confidence": "working-paper + peer-reviewed",
+        "roles_most_benefiting": [
+          "product",
+          "operations",
+          "bizdev",
+          "data_ai"
+        ]
+      },
+      {
+        "skills": [
+          "Cybersecurity",
+          "Regulatory / compliance"
+        ],
+        "premium": "300K+ EU workforce gap; CISSP = $25–35K salary premium; 29% BLS growth",
+        "source": "ENISA 2025; ISC2 2024; BLS 2024",
+        "confidence": "institutional",
+        "roles_most_benefiting": [
+          "cybersecurity",
+          "operations",
+          "engineering"
+        ]
+      },
+      {
+        "skills": [
+          "Creative intelligence",
+          "Technical proficiency"
+        ],
+        "premium": "Automation bottleneck (Frey & Osborne); creativity +12% by 2030 (McKinsey)",
+        "source": "Frey & Osborne 2017 TFSC; McKinsey 2024",
+        "confidence": "peer-reviewed + institutional",
+        "roles_most_benefiting": [
+          "design",
+          "growth_marketing",
+          "engineering",
+          "product"
+        ]
+      },
+      {
+        "skills": [
+          "Skill breadth (cross-functional)",
+          "Domain depth"
+        ],
+        "premium": "Co-worker complementarity modulates college premium 4x (18–88%)",
+        "source": "Neffke 2019 Science Advances; Anderson 2017 PNAS",
+        "confidence": "peer-reviewed",
+        "roles_most_benefiting": [
+          "product",
+          "bizdev",
+          "operations",
+          "growth_marketing"
+        ]
+      }
+    ],
+    "skill_trajectories": {
+      "rising_fast": [
+        "AI fluency",
+        "Cybersecurity",
+        "AI governance",
+        "ESG / sustainability data",
+        "Agentic AI orchestration"
+      ],
+      "rising": [
+        "Social intelligence",
+        "Creative thinking",
+        "Resilience / adaptability",
+        "Digital accessibility",
+        "Systems thinking"
+      ],
+      "stable": [
+        "Strategic decision-making",
+        "Communication",
+        "Domain expertise",
+        "Financial literacy"
+      ],
+      "declining": [
+        "Basic cognitive / clerical",
+        "Routine programming",
+        "Manual data entry",
+        "Basic content production",
+        "Basic prompt engineering"
+      ]
+    },
+    "key_numbers": {
+      "skills_disrupted_by_2030_pct": 39,
+      "technical_skill_half_life_years": 2.5,
+      "behavioral_skill_half_life_years": 10,
+      "ai_wage_premium_peer_reviewed_pct": 21,
+      "ai_wage_premium_industry_pct": 56,
+      "hybrid_job_automation_risk_pct": 12,
+      "all_job_automation_risk_pct": 42,
+      "eu_cybersecurity_gap": 300000,
+      "skill_change_rate_2021_2024_pct": 32
+    }
+  }
+}

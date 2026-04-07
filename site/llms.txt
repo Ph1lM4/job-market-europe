@@ -1,0 +1,85 @@
+# State of the European Job Market in Early 2026
+
+> European tech job market intelligence for 9 role families across 34 countries. Based on 26 primary sources including Ravio (1,500+ EU tech companies), Eurostat, LinkedIn, Stack Overflow, ISC2, Hays, and Bluebird Recruitment.
+
+Published by Philipp Maul / Nexalps. Data period: Q3 2025 (Ravio), 2024-2025 (Eurostat), June 2025 (Stack Overflow), Jan-Mar 2026 (LinkedIn, Indeed).
+
+## Key findings
+
+- Overall European tech hiring rate: 28.6% (down from 34% in 2023)
+- Entry-level (P1/P2) hiring collapsed 73.4% while senior roles held steady
+- AI/ML specialist hiring grew 88% year-over-year
+- 424,000 unfilled cybersecurity positions in Europe
+- Median salary increase: 5.0% for second consecutive year
+- AI practitioners earn 12% salary premium over non-AI roles (ICs), 3% (management)
+- Netherlands leads salary growth at 6.3%
+- Germany is the only major Western European market with positive hiring growth (+2.8%)
+
+## 9 role families
+
+### Data & AI — SURGING
+Hiring rate: 18% (2023) → 34% (2024) → 64% (2025). +88% YoY growth. 12% IC salary premium. 50% increase in distinct AI/ML job titles. AI/ML Engineer is 45% of all AI job titles. Foundation model companies grew employment 92% YoY.
+
+### Sales (SDR/BDR/AE) — RESTRUCTURING
+Hiring rate: 35% → 33% → 34.7%. Only function where hiring grew (+5.2%), but growth is entirely in AE roles, not SDRs. SDR-to-AE promotions halved from 34% (2020) to 16% (2024). Median SDR OTE flat at $80K for a decade. 40% annual SDR turnover. 1% of companies using AI SDRs.
+
+### Cybersecurity — TIGHTENING
+Hiring rate: 30% → 20% → 18%. Posting volume declining while gap widened 19%. 424K European gap. NIS2 (160,000 entities) + DORA (22,000 firms) creating regulatory demand. 56% entered through IT experience. Highest-paid IT function in Germany at EUR 73,700 (Hays 2025). 69% of teams on path to AI security tool use.
+
+### Software Engineering — STABILIZING
+Hiring rate: 30% → 21% → 20.7%. Lowest attrition (12%) of any function for two consecutive years. 30% received in-role salary increases (highest eligibility). GitHub Copilot adoption at 35.6% among firms. Companies that adopted Copilot increased hiring by 6.6% at entry level.
+
+### Design — STABILIZING
+Hiring rate: 30% → 22% → 21%. 73% of hiring managers require AI fluency (Figma 2026). 56% prefer seniors, 25% want juniors. PM-to-designer ratio has flipped. Spain leads salary growth at 3.5%, Sweden stagnant at 0.5%.
+
+### Business Development — STABLE
+Shares Commercial function data with Sales (34.7% hiring rate). Partnership and alliance roles expanding as companies build ecosystem-led GTM. Roles skew senior.
+
+### Product Management — CONTRACTING
+Hiring rate: 31% → 24% → 20.6% (-14.2% YoY). Entry-level PM hiring dropped 73%. Senior PM attrition fell to 14%. PM role becoming more valuable as AI makes execution faster, making "what to build" the bottleneck.
+
+### Growth & Marketing — CONTRACTING
+Hiring rate: 33% → 26% → 21.8% (-16.2% YoY). But 72% of CMOs plan budget increases (McKinsey). Budget shifting from headcount to tools. GenAI is top investment priority for 50% of marketing leaders. Only 3% can measure marketing ROI above 50%.
+
+### Operations — SQUEEZED
+Hiring rate: 34% → 34% → 27.1% (-20.3% YoY). Highest attrition (21.3%), lowest tenure (1yr 5mo). Lowest salary increase eligibility (14%). Near-zero salary growth in Sweden (0.2%). Routine work automated, strategic work retained.
+
+## Salary growth YoY by country (all functions, Ravio)
+
+- UK: 5.0%
+- DE: 5.0%
+- NL: 6.3%
+- FR: 3.9%
+- ES: 4.0%
+- SE: 4.1%
+
+## Country signals
+
+34 European countries with up to 6 data sources each: AI adoption rate (Eurostat), ICT specialist share, developer salaries (Stack Overflow, converted at EUR/USD 1.15), employment YoY by ISCO occupation, OECD employment protection, LinkedIn hiring data. Germany, France, Netherlands have 6/6 sources.
+
+## Regulatory demand drivers
+
+- NIS2: 160,000 entities in scope, permanent cybersecurity compliance
+- DORA: 22,000 financial firms, implementation spike 2025-2027
+- EU AI Act: 78% plan to hire 1-10 AI governance professionals, enforcement through Aug 2027
+- EAA: Accessibility implementation surge 2025-2026, then maintenance
+- CSRD: Omnibus I cut ~80% of companies from scope
+
+## Sources (26 primary)
+
+Ravio Compensation Trends 2026, Eurostat (AI adoption, ICT specialists, employment YoY), OECD EPL, Stack Overflow Developer Survey 2025, LinkedIn Labor Market Report Jan 2026, EMEA Labour Market Outlook Mar 2026, Indeed Hiring Lab, Atomico State of European Tech 2025, Bridge Group 2025 SDR Metrics Report, ISC2 2025 Cybersecurity Workforce Study, ENISA NIS Investments 2025, Figma Design Hiring Report Feb 2026, McKinsey State of Marketing Europe 2026, Bitkom Startup Report 2025, GitHub Copilot Working Paper, Bluebird EU SaaS Salary Benchmarks 2025, Hays IT-Gehaltsreport 2025, Robert Half 2026 Salary Guide, Revenue Operations Alliance 2024, ECA International Salary Trends, Signium AI in Talent Management Feb 2026.
+
+## Pages
+
+- Overview (9 role families): https://job-market.nexalps.com/
+- Analysis (4 signals): https://job-market.nexalps.com/analysis.html
+- Skills That Protect (skills matrix, trajectories, protection pairs): https://job-market.nexalps.com/skills.html
+- Country Signals (34 markets): https://job-market.nexalps.com/countries.html
+- Methodology: https://job-market.nexalps.com/methodology.html
+- Sources: https://job-market.nexalps.com/sources.html
+- Data file (JSON): https://job-market.nexalps.com/job-market-data.json
+
+## Contact
+
+Philipp Maul — https://www.linkedin.com/in/pmaul/
+Nexalps — https://nexalps.com

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Methodology &mdash; State of the European Job Market &mdash; Nexalps</title>
+<meta name="description" content="Data sources, methodology, tier ratings, and limitations behind the State of the European Job Market in Early 2026.">
+<link rel="canonical" href="https://job-market.nexalps.com/methodology.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Methodology — State of the European Job Market">
+<meta property="og:description" content="Data sources, methodology, tier ratings, and limitations behind the State of the European Job Market in Early 2026.">
+<meta property="og:url" content="https://job-market.nexalps.com/methodology.html">
+<meta property="og:site_name" content="Nexalps">
+<meta property="og:image" content="https://job-market.nexalps.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Methodology — State of the European Job Market">
+<meta name="twitter:description" content="26 primary sources, methodology, tier ratings, and limitations. How we built the European job market dataset.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Methodology — State of the European Job Market","description":"Data sources, methodology, tier ratings, and limitations behind the State of the European Job Market in Early 2026.","url":"https://job-market.nexalps.com/methodology.html","author":{"@type":"Person","name":"Philipp Maul"},"isPartOf":{"@type":"Dataset","name":"State of the European Job Market in Early 2026","url":"https://job-market.nexalps.com/"}}
+</script>
+
+<script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])}}(document,window.posthog||[]);
+posthog.init('phc_bjax6jdRxYJAaExodvALjRru8AQzUSbYFNlWlXiJM8A', {api_host: 'https://eu.i.posthog.com', person_profiles: 'identified_only'});
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+:root {
+  --background: #09090b; --foreground: #fafafa; --card: #0a0a0c;
+  --card-border: rgba(255,255,255,0.08); --muted: #a1a1aa; --muted-foreground: #8a8a93;
+  --accent: #27272a; --border: rgba(255,255,255,0.12); --ring: #f97316;
+  --radius-sm: 6px; --radius-md: 8px; --radius-lg: 12px;
+  --font: 'Geist', system-ui, -apple-system, sans-serif;
+  --transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+body { font-family: var(--font); background: var(--background); color: var(--foreground); line-height: 1.5; -webkit-font-smoothing: antialiased; }
+.skip-link{position:absolute;top:-100px;left:8px;background:var(--ring);color:#000;padding:8px 16px;border-radius:0 0 6px 6px;font-weight:700;z-index:200;text-decoration:none}
+.skip-link:focus{top:0}
+:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.container { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+/* Nav */
+.site-nav { position: fixed; top: 0; right: 0; left: 0; z-index: 9999; display: flex; align-items: center; justify-content: flex-end; padding: 12px 20px; pointer-events: none; }
+.site-nav-links { display: flex; gap: 20px; pointer-events: auto; background: rgba(9,9,11,0.82); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--card-border); border-radius: var(--radius-lg); padding: 8px 16px; }
+.site-nav-links a { font-size: 13px; font-weight: 500; color: var(--muted); text-decoration: none; transition: color .15s; }
+.site-nav-links a:hover { color: var(--foreground); }
+.site-nav-links a[aria-current="page"] { color: var(--ring); }
+.burger { display: none; pointer-events: auto; background: rgba(9,9,11,0.82); backdrop-filter: blur(12px); border: 1px solid var(--card-border); border-radius: var(--radius-md); min-width: 44px; min-height: 44px; padding: 10px 11px; cursor: pointer; flex-direction: column; gap: 4px; align-items: center; justify-content: center; }
+.burger span { display: block; width: 18px; height: 2px; background: var(--foreground); border-radius: 1px; transition: transform .2s, opacity .2s; }
+.burger.open span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.burger.open span:nth-child(2) { opacity: 0; }
+.burger.open span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+.burger-panel { display: none; position: fixed; top: 0; left: 0; right: 0; z-index: 9998; background: rgba(9,9,11,0.96); backdrop-filter: blur(16px); padding: 72px 24px 32px; flex-direction: column; gap: 24px; }
+.burger-panel.open { display: flex; }
+.burger-panel a { font-size: 20px; font-weight: 600; color: var(--muted); text-decoration: none; }
+.burger-panel a[aria-current="page"] { color: var(--ring); }
+.nav-sep { width: 1px; background: var(--border); margin: 0 4px; align-self: stretch; }
+.burger-sep { height: 1px; background: var(--border); margin: 4px 0; }
+@media (max-width: 768px) { .site-nav-links { display: none; } .burger { display: flex; } }
+
+/* Content */
+.hero { padding: 80px 0 32px; }
+.hero h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+.hero .lede { font-size: 15px; color: var(--muted); }
+
+.article h2 { font-size: 20px; font-weight: 700; margin: 40px 0 8px; letter-spacing: -0.01em; }
+.article h3 { font-size: 16px; font-weight: 600; margin: 28px 0 8px; color: var(--foreground); }
+.article p { font-size: 15px; color: #d4d4d8; line-height: 1.8; margin: 12px 0; }
+.article strong { color: var(--foreground); font-weight: 600; }
+.article a { color: var(--ring); text-decoration: none; }
+.article a:hover { text-decoration: underline; }
+.article ul, .article ol { font-size: 15px; color: #d4d4d8; line-height: 1.8; padding-left: 24px; margin: 12px 0; }
+.article li { margin: 6px 0; }
+
+.data-table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 16px 0; }
+.data-table th { text-align: left; padding: 8px 10px; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted-foreground); border-bottom: 1px solid var(--border); }
+.data-table td { padding: 8px 10px; border-bottom: 1px solid var(--card-border); color: #d4d4d8; }
+
+.footer { padding: 24px 0 40px; font-size: 12px; color: var(--muted-foreground); line-height: 1.7; border-top: 1px solid var(--card-border); margin-top: 48px; }
+.footer a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.footer a:hover { color: var(--foreground); }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<nav class="site-nav" aria-label="Site navigation"><div class="site-nav-links">
+  <a href="index.html">Overview</a>
+  <a href="analysis.html">Analysis</a>
+  <a href="skills.html">Skill Signals</a>
+  <a href="countries.html">Country Signals</a>
+  <a href="methodology.html" aria-current="page">Methodology</a>
+  <a href="sources.html">Sources</a>
+  <span class="nav-sep"></span>
+  <a href="https://ai-exposure.nexalps.com/" target="_blank" rel="noopener">AI Exposure &#8599;</a>
+  <a href="https://disruptions.nexalps.com/" target="_blank" rel="noopener">Disruptions &#8599;</a>
+  <a href="https://demographics.nexalps.com/" target="_blank" rel="noopener">Demographics &#8599;</a>
+  <a href="https://reskilling.nexalps.com/" target="_blank" rel="noopener">Reskilling &#8599;</a>
+</div>
+<button class="burger" id="burger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="burger-panel"><span></span><span></span><span></span></button>
+</nav>
+<div class="burger-panel" id="burger-panel" role="dialog" aria-label="Navigation menu">
+  <a href="index.html">Overview</a>
+  <a href="analysis.html">Analysis</a>
+  <a href="skills.html">Skill Signals</a>
+  <a href="countries.html">Country Signals</a>
+  <a href="methodology.html" aria-current="page">Methodology</a>
+  <a href="sources.html">Sources</a>
+  <span class="burger-sep"></span>
+  <a href="https://ai-exposure.nexalps.com/" target="_blank" rel="noopener">AI Exposure &#8599;</a>
+  <a href="https://disruptions.nexalps.com/" target="_blank" rel="noopener">Disruptions &#8599;</a>
+  <a href="https://demographics.nexalps.com/" target="_blank" rel="noopener">Demographics &#8599;</a>
+  <a href="https://reskilling.nexalps.com/" target="_blank" rel="noopener">Reskilling &#8599;</a>
+</div>
+
+<main id="main" class="container">
+<header class="hero">
+  <h1>Methodology</h1>
+  <p class="lede">How we built this, what we trust, and where the limits are.</p>
+</header>
+
+<div class="article">
+<h2>Approach</h2>
+<p>This product synthesizes data from <strong>26 primary sources</strong> to answer: where is the European job market heading, and what do you need to get there? We prioritize European-sourced data over US proxies.</p>
+<p>Every number on the signals page traces to a Tier 1 or Tier 2 source. We don't interpolate, forecast, or model. We report what the data says and flag where it's thin.</p>
+
+<h2>Source Tier Ratings</h2>
+<table class="data-table">
+  <thead><tr><th scope="col">Tier</th><th scope="col">Definition</th><th scope="col">Examples</th></tr></thead>
+  <tbody>
+    <tr><td><strong>Tier 1</strong></td><td>Official statistics or large-sample primary research (n > 1,000). Reproducible methodology.</td><td>Eurostat, OECD, Stack Overflow (49K), Ravio (1,500+ companies), LinkedIn (1.3B members)</td></tr>
+    <tr><td><strong>Tier 2</strong></td><td>Industry reports with documented methodology and meaningful sample size.</td><td>Atomico SoET, Figma Design Hiring (2,500), Bridge Group SDR (600), ISC2 Cybersecurity (16K), McKinsey Marketing (500)</td></tr>
+    <tr><td><strong>Tier 3</strong></td><td>Expert analysis, qualitative sources, or small-sample surveys. Used for context, not for numbers.</td><td>Claude research reports, Indeed Hiring Lab screenshots, Bitkom (152 startups)</td></tr>
+  </tbody>
+</table>
+
+<h2>Data Architecture</h2>
+
+<h3>Role Families</h3>
+<p>We analyze 9 role families, each mapped to ISCO-08 occupation codes where possible. These are the same families used in the <a href="https://ai-exposure.nexalps.com/">AI Exposure Map<span class="sr-only"> (opens in new tab)</span></a> for cross-referencing.</p>
+<p>Role-level data (hiring rates, attrition, salary YoY, seniority) comes primarily from <strong>Ravio Compensation Trends 2026</strong>, which covers 1,500+ European tech companies. Ravio data is by function, not by ISCO code &mdash; the mapping is approximate.</p>
+
+<h3>Country Signals</h3>
+<p>Country-level data comes from 6 sources, creating varying "data depth" per country:</p>
+<ol>
+  <li><strong>Eurostat AI adoption</strong> (isoc_eb_ai) &mdash; 33 countries, 2021-2025</li>
+  <li><strong>Eurostat ICT specialists %</strong> (isoc_sks_itspt) &mdash; 36 countries, 2015-2024</li>
+  <li><strong>OECD Employment Protection Legislation</strong> &mdash; 26 European countries, Version 4 (2019)</li>
+  <li><strong>Stack Overflow Developer Survey 2025</strong> &mdash; 29 European countries with 50+ respondents</li>
+  <li><strong>Eurostat employment by ISCO 2-digit</strong> &mdash; 35 countries, 2023-2024 YoY</li>
+  <li><strong>LinkedIn hiring rate data</strong> &mdash; 4 countries (DE, FR, UK, NL)</li>
+</ol>
+<p>Countries with 6/6 sources: Germany, France, Netherlands. Countries with 5/6: 19 countries including AT, CH, PL, Nordics. The "data depth" badge in the country table indicates how many sources contribute to each country's row.</p>
+
+<h3>Salary Data</h3>
+<p><strong>Ravio salary data</strong> is in GBP and represents European tech company compensation. <strong>Stack Overflow salary data</strong> is in USD (converted by SO using their methodology). These are not directly comparable &mdash; Ravio covers tech companies specifically, SO covers all developers regardless of employer type.</p>
+
+<h2>Limitations</h2>
+<ul>
+  <li><strong>Ravio bias:</strong> 1,500+ companies skews toward funded tech companies, not the full economy. Hiring rates may not represent traditional employers.</li>
+  <li><strong>LinkedIn bias:</strong> Over-represents white-collar knowledge workers. Country-level data available for only 4 European markets (DE, FR, UK, NL) plus global aggregates.</li>
+  <li><strong>Stack Overflow bias:</strong> Self-selected developer community. Salary data is self-reported and unverified. Sample sizes vary significantly by country (DE: 3,025 vs LV: 62).</li>
+  <li><strong>Temporal mismatch:</strong> Ravio data is Q3 2025, Eurostat is 2024-2025, OECD EPL is 2019, LinkedIn is Oct 2025, SO is June 2025. The page combines these as if they represent "early 2026" but they're snapshots from different moments.</li>
+  <li><strong>No salary purchasing power adjustment:</strong> SO salaries are in USD but not PPP-adjusted. A $60K salary in Poland has very different purchasing power than $60K in Switzerland.</li>
+  <li><strong>AI impact attribution:</strong> We report LinkedIn's finding that the hiring slowdown is macro-driven, not AI-driven. But the boundary between macro effects and AI effects is blurring and will become harder to separate.</li>
+  <li><strong>Regulatory demand estimates:</strong> Scope numbers (NIS2: 160K entities, DORA: 22K) come from regulatory documents but translate to hiring demand imprecisely.</li>
+</ul>
+
+<h2>Connection to the AI Exposure Map</h2>
+<p>The <a href="https://ai-exposure.nexalps.com/">AI Exposure Map<span class="sr-only"> (opens in new tab)</span></a> scores ~130 ISCO occupation groups for technical and regulated AI exposure across 36 countries. This companion product takes the next step: for the roles most people actually hold (PM, engineer, designer, etc.), what does the hiring market look like?</p>
+<p>ISCO codes bridge the two products. Each role family here maps to 1-3 ISCO codes. When you click through to the exposure map, you see the AI exposure score for that specific occupation group.</p>
+
+<h2>Updates</h2>
+<p>This is a point-in-time snapshot (early 2026). We plan to update when major new data drops (Ravio H2 2026, Eurostat annual releases, LinkedIn quarterly). The data architecture supports incremental updates without rebuilding the page.</p>
+</div>
+</main>
+
+<footer class="footer container" role="contentinfo">
+  State of the European Job Market v1.0 &middot; Early 2026 &middot; Source on GitHub<br>
+  <a href="index.html">Overview</a> &middot; <a href="analysis.html">Analysis</a> &middot; <a href="skills.html">Skill Signals</a> &middot; <a href="countries.html">Country Signals</a> &middot; <a href="methodology.html">Methodology</a> &middot; <a href="sources.html">Sources</a><br>
+  Built by <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul<span class="sr-only"> (opens in new tab)</span></a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps<span class="sr-only"> (opens in new tab)</span></a><br>
+  Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT<span class="sr-only"> (opens in new tab)</span></a> &middot; Data &amp; Analysis: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0<span class="sr-only"> (opens in new tab)</span></a> Philipp Maul | Nexalps
+</footer>
+
+<script>
+(function(){
+  const btn = document.getElementById("burger-btn"), panel = document.getElementById("burger-panel");
+  btn.addEventListener("click", () => { const o = panel.classList.toggle("open"); btn.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); if(o){const first=panel.querySelector("a");if(first)first.focus()}});
+  document.addEventListener("click", e => { if (!panel.contains(e.target) && !btn.contains(e.target) && panel.classList.contains("open")) closeBurger(); });
+  document.addEventListener("keydown", e => { if(e.key==="Escape"&&panel.classList.contains("open"))closeBurger();if(panel.classList.contains("open")&&e.key==="Tab"){const links=panel.querySelectorAll("a");if(!links.length)return;const first=links[0],last=links[links.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
+})();
+(function(){if(typeof posthog==='undefined')return;var p='methodology';document.querySelectorAll('a[target="_blank"]').forEach(function(a){a.addEventListener('click',function(){posthog.capture('outbound_click',{url:a.href,page:p});});});var t=[25,50,75,100],f={};window.addEventListener('scroll',function(){var pct=Math.round((window.scrollY/(document.body.scrollHeight-window.innerHeight))*100);t.forEach(function(v){if(pct>=v&&!f[v]){f[v]=true;posthog.capture('scroll_depth',{percent:v,page:p});}});},{passive:true});})();
+</script>
+</body>
+</html>

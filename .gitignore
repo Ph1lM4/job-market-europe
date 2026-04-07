@@ -6,3 +6,10 @@ __pycache__/
 research/
 data/
 scripts/
+
+# Sensitive/proprietary or non-project artifacts
+data/dalio/
+data/mazzucato/
+phase3.1-build-plan-final.md
+project-status-2026-03-19.md
+AI labs' labor market research.md

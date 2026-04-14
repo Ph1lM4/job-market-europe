@@ -66,7 +66,8 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 /* Hero */
 .hero{padding:80px 0 8px}
 .hero h1{font-size:28px;font-weight:700;letter-spacing:-0.025em;line-height:1.2;margin-bottom:8px}
-.hero .lede{font-size:15px;color:var(--muted);line-height:1.6;margin-bottom:20px;max-width:640px}
+.hero .lede{font-size:15px;color:var(--muted);line-height:1.6;margin-bottom:20px;max-width:640px}.hero .byline{font-size:12px;color:var(--muted-foreground);line-height:1.6}.hero .byline a{color:var(--muted);text-decoration:underline;text-underline-offset:2px}.hero .byline a:hover{color:var(--foreground)}.hero .byline+.byline{margin-top:4px}
+
 @media(max-width:640px){.hero h1{font-size:22px}.hero{padding:64px 0 4px}}
 
 /* Intro text */
@@ -152,6 +153,8 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 <header class="hero">
   <h1>Country Signals &mdash; 34 European Markets</h1>
   <p class="lede">Each country draws from up to 6 data sources. Click any row to expand a mini-dashboard with the full picture. Sortable by any column.</p>
+  <p class="byline">By <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a> &middot; Early 2026 &middot; Part 2 of 7 in the European AI Labour Market suite</p>
+  <p class="byline">Based on <a href="sources.html">26 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
 </header>
 
 <p class="intro">Data depth varies: Germany, France, and the Netherlands have 6/6 sources (Eurostat AI adoption, Eurostat ICT specialists, OECD EPL, Stack Overflow developer survey, Eurostat employment YoY, LinkedIn hiring data). Other countries have fewer. Developer salaries are converted from USD at a fixed rate of &euro;1 = $1.15 and are <strong>not</strong> adjusted for purchasing power. <a href="methodology.html" style="color:var(--ring)">Full methodology</a>.</p>

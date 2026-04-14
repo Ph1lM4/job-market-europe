@@ -69,6 +69,11 @@ body { font-family: var(--font); background: var(--background); color: var(--for
 .hero { padding: 80px 0 32px; }
 .hero h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
 .hero .lede { font-size: 15px; color: var(--muted); }
+.hero .byline { font-size: 12px; color: var(--muted-foreground); line-height: 1.6; }
+.hero .byline a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+.hero .byline a:hover { color: var(--foreground); }
+.hero .byline + .byline { margin-top: 4px; }
+
 
 .source-list { list-style: none; padding: 0; margin: 0; }
 .source-item { padding: 16px 0; border-bottom: 1px solid var(--card-border); }
@@ -86,18 +91,19 @@ body { font-family: var(--font); background: var(--background); color: var(--for
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<nav class="site-nav" aria-label="Site navigation"><div class="site-nav-links">
-  <a href="index.html">Overview</a>
-  <a href="analysis.html">Analysis</a>
-  <a href="skills.html">Skill Signals</a>
-  <a href="countries.html">Country Signals</a>
-  <a href="methodology.html">Methodology</a>
-  <a href="sources.html" aria-current="page">Sources</a>
-  <span class="nav-sep"></span>
-  <a href="https://ai-exposure.nexalps.com/" target="_blank" rel="noopener">AI Exposure &#8599;</a>
-  <a href="https://disruptions.nexalps.com/" target="_blank" rel="noopener">Disruptions &#8599;</a>
-</div>
-<button class="burger" id="burger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="burger-panel"><span></span><span></span><span></span></button>
+<nav class="site-nav" id="site-nav" aria-label="Site navigation">
+  <div class="site-nav-links">
+    <a href="index.html">Overview</a>
+    <a href="analysis.html">Analysis</a>
+    <a href="skills.html">Skill Signals</a>
+    <a href="countries.html">Country Signals</a>
+    <a href="methodology.html">Methodology</a>
+    <a href="sources.html" aria-current="page">Sources</a>
+    <span class="nav-sep"></span>
+    <a href="https://ai-exposure.nexalps.com/" target="_blank" rel="noopener">AI Exposure &#8599;</a>
+    <a href="https://disruptions.nexalps.com/" target="_blank" rel="noopener">Disruptions &#8599;</a>
+  </div>
+  <button class="burger" id="burger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="burger-panel"><span></span><span></span><span></span></button>
 </nav>
 <div class="burger-panel" id="burger-panel" role="dialog" aria-label="Navigation menu">
   <a href="index.html">Overview</a>
@@ -115,6 +121,8 @@ body { font-family: var(--font); background: var(--background); color: var(--for
 <header class="hero">
   <h1>Sources</h1>
   <p class="lede">26 primary sources. Every number on the signals page traces to one of these.</p>
+  <p class="byline">By <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a> &middot; Early 2026 &middot; Part 2 of 7 in the European AI Labour Market suite</p>
+  <p class="byline">Based on <a href="sources.html">26 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
 </header>
 
 <h2 class="section-heading">Tier 1 &mdash; Official Statistics &amp; Large-Sample Research</h2>

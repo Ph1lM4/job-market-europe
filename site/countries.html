@@ -122,7 +122,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<nav class="site-nav" aria-label="Site navigation">
+<nav class="site-nav" id="site-nav" aria-label="Site navigation">
   <div class="site-nav-links">
     <a href="index.html">Overview</a>
     <a href="analysis.html">Analysis</a>
@@ -157,13 +157,13 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 <main id="main" class="container">
 
 <header class="hero">
-  <h1>Country Signals &mdash; 34 European Markets</h1>
-  <p class="lede">Each country draws from up to 6 data sources. Click any row to expand a mini-dashboard with the full picture. Sortable by any column.</p>
+  <h1>Country Signals: 34 European Markets</h1>
+  <p class="lede">Each country draws from up to 6 data sources. Click any row to expand a mini-dashboard with all the underlying data. Sortable by any column.</p>
   <p class="byline">By <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a> &middot; Early 2026 &middot; Part 2 of 7 in the European AI Labour Market suite</p>
-  <p class="byline">Based on <a href="sources.html">26 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
+  <p class="byline">Based on <a href="sources.html">29 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
 </header>
 
-<p class="intro">Data depth varies: Germany, France, and the Netherlands have 6/6 sources (Eurostat AI adoption, Eurostat ICT specialists, OECD EPL, Stack Overflow developer survey, Eurostat employment YoY, LinkedIn hiring data). Other countries have fewer. Developer salaries are converted from USD at a fixed rate of &euro;1 = $1.15 and are <strong>not</strong> adjusted for purchasing power. <a href="methodology.html" style="color:var(--ring)">Full methodology</a>.</p>
+<p class="intro">Data depth varies: Germany, France, and the Netherlands have 6/6 sources (Eurostat AI adoption, Eurostat ICT specialists, OECD Employment Protection Legislation, Stack Overflow developer survey, Eurostat employment YoY, LinkedIn hiring data). The EPL column scores how strictly each country regulates dismissals, from 0 to 6. Other countries have fewer. Developer salaries are converted from USD at a fixed rate of &euro;1 = $1.15 and are <strong>not</strong> adjusted for purchasing power. <a href="methodology.html" style="color:var(--ring)">Full methodology</a>.</p>
 
 <div class="table-wrap">
   <table class="data-table" id="country-table" aria-label="Country signals across 34 European markets">
@@ -186,7 +186,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 </main>
 
 <footer class="footer container" role="contentinfo">
-  State of the European Job Market v1.0 &middot; Early 2026 &middot; Source on GitHub<br>
+  State of the European Job Market v1.1 &middot; Early 2026 &middot; Source on GitHub<br>
   <a href="index.html">Overview</a> &middot; <a href="analysis.html">Analysis</a> &middot; <a href="skills.html">Skill Signals</a> &middot; <a href="countries.html">Country Signals</a> &middot; <a href="methodology.html">Methodology</a> &middot; <a href="sources.html">Sources</a><br>
   Built by <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a><br>
   Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a> &middot; Data &amp; Analysis: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0</a> Philipp Maul | Nexalps
@@ -286,7 +286,7 @@ function genSummary(r){
   if(r.ai!=null){
     if(r.ai>=25)parts.push('High AI adoption ('+r.ai.toFixed(0)+'%) suggests strong digital infrastructure.');
     else if(r.ai>=15)parts.push('Moderate AI adoption ('+r.ai.toFixed(0)+'%).');
-    else parts.push('Lower AI adoption ('+r.ai.toFixed(0)+'%) — earlier stage of enterprise AI deployment.');
+    else parts.push('Lower AI adoption ('+r.ai.toFixed(0)+'%), an earlier stage of enterprise AI deployment.');
   }
   if(r.yoy!=null){
     if(r.yoy>2)parts.push('Tech employment growing (+'+r.yoy.toFixed(1)+'% YoY).');
@@ -296,7 +296,7 @@ function genSummary(r){
   if(r.salary!=null){
     if(r.salary>100000)parts.push('High developer salaries (€'+r.salary.toLocaleString()+' median) reflect cost of living and market maturity.');
     else if(r.salary>60000)parts.push('Mid-range developer salaries (€'+r.salary.toLocaleString()+' median).');
-    else parts.push('Developer salaries at €'+r.salary.toLocaleString()+' median — competitive for cost-sensitive hiring.');
+    else parts.push('Developer salaries at €'+r.salary.toLocaleString()+' median, competitive for cost-sensitive hiring.');
   }
   if(r.epl!=null){
     if(r.epl>=2.5)parts.push('Strict employment protection (EPL '+r.epl.toFixed(1)+') means slower restructuring but more job security.');

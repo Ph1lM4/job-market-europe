@@ -156,7 +156,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<nav class="site-nav" aria-label="Site navigation">
+<nav class="site-nav" id="site-nav" aria-label="Site navigation">
   <div class="site-nav-links">
     <a href="index.html">Overview</a>
     <a href="analysis.html">Analysis</a>
@@ -192,9 +192,9 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 
 <header class="hero">
   <h1>Skills That Protect</h1>
-  <p class="lede">Not all skills age equally. This page maps which skill combinations add measurable protection &mdash; higher wages, lower automation risk, stronger employment growth &mdash; across 9 European tech role families. Grounded in peer-reviewed research, not opinion.</p>
+  <p class="lede">Not all skills age equally. This page maps which skill combinations add measurable protection (higher wages, lower automation risk, stronger employment growth) across 9 European tech role families. Grounded in peer-reviewed research, not opinion.</p>
   <p class="byline">By <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a> &middot; Early 2026 &middot; Part 2 of 7 in the European AI Labour Market suite</p>
-  <p class="byline">Based on <a href="sources.html">26 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
+  <p class="byline">Based on <a href="sources.html">29 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
 </header>
 
 <section class="container" role="region" aria-label="Key numbers">
@@ -217,26 +217,26 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 
 <section class="container" role="region" aria-label="Protection pairs">
   <h2 class="section-heading">Protection Pairs</h2>
-  <p class="section-sub">Individual skills matter less than combinations. These six pairings show super-additive returns &mdash; the premium of the pair exceeds the sum of each skill alone.</p>
-  <div class="highlight" style="margin-bottom:24px"><strong>A note on protection:</strong> No skill combination guarantees employment. "Protection" means measurable correlation with better outcomes &mdash; higher wages, lower displacement probability, stronger demand growth. Individual circumstances, geography, seniority, and timing all matter. These are population-level patterns, not individual predictions.</div>
+  <p class="section-sub">Individual skills matter less than combinations. These six pairings show super-additive returns: the premium of the pair exceeds the sum of each skill alone.</p>
+  <div class="highlight" style="margin-bottom:24px"><strong>A note on protection:</strong> No skill combination guarantees employment. "Protection" means measurable correlation with better outcomes: higher wages, lower displacement probability, stronger demand growth. Individual circumstances, geography, seniority, and timing all matter. These are population-level patterns, not individual predictions.</div>
   <div id="protection-pairs-full"></div>
 </section>
 
 <section class="container methodology-text" role="region" aria-label="How to read this data">
   <h2>How to Read This Data</h2>
 
-  <p>The skills matrix, trajectories, and protection pairs are synthesised from <strong>4 research dossiers covering 18 peer-reviewed papers and institutional reports</strong>. No single source defines the picture &mdash; convergence across multiple methodologies does.</p>
+  <p>The skills matrix, trajectories, and protection pairs are synthesised from <strong>4 research dossiers covering 18 peer-reviewed papers and institutional reports</strong>. No single source settles these questions. Convergence across multiple methodologies does.</p>
 
   <p><strong>What the matrix shows:</strong> Each dot represents how relevant a skill is for a given role family, scored 1&ndash;3 (low/medium/high). The scores are derived from employer survey data (WEF, 14M workers across 55 economies), job posting analysis (Lightcast, 1.3B+ postings), and occupation-level research (Deming 2017, Stephany &amp; Teutloff 2024).</p>
 
   <p><strong>What the trajectories show:</strong> Direction of demand based on year-over-year changes in job posting frequency, employer skill requests (WEF), and BLS/Eurostat occupation projections. "Rising fast" means &gt;20% annual growth in demand signals. "Declining" means the skill is being absorbed by automation or losing employer relevance.</p>
 
-  <p><strong>What the protection pairs show:</strong> Skill combinations where research demonstrates a measurable premium &mdash; whether in wages, employment growth, or automation resistance. Each pair cites its source and evidence quality:</p>
+  <p><strong>What the protection pairs show:</strong> Skill combinations where research demonstrates a measurable premium, whether in wages, employment growth, or automation resistance. Each pair cites its source and evidence quality:</p>
   <ul>
-    <li><strong>Peer-reviewed</strong> &mdash; Published in academic journals with peer review (QJE, Research Policy, PNAS, Science Advances)</li>
-    <li><strong>Institutional</strong> &mdash; Published by established institutions (ENISA, ISC2, BLS, McKinsey) with disclosed methodology</li>
-    <li><strong>Working paper</strong> &mdash; Pre-print or under review, not yet peer-reviewed</li>
-    <li><strong>Industry</strong> &mdash; Vendor or consulting reports (PwC, Lightcast) &mdash; large datasets but potential commercial interest</li>
+    <li><strong>Peer-reviewed</strong>: Published in academic journals with peer review (QJE, Research Policy, PNAS, Science Advances)</li>
+    <li><strong>Institutional</strong>: Published by established institutions (ENISA, ISC2, BLS, McKinsey) with disclosed methodology</li>
+    <li><strong>Working paper</strong>: Pre-print or under review, not yet peer-reviewed</li>
+    <li><strong>Industry</strong>: Vendor or consulting reports (PwC, Lightcast), large datasets but potential commercial interest</li>
   </ul>
 
   <p>For role-specific deep dives including hiring rates, salary data, and AI exposure patterns, see the <a href="index.html" style="color:var(--ring);text-decoration:none">role overview</a>. For the full source list, see <a href="sources.html" style="color:var(--ring);text-decoration:none">sources</a>.</p>
@@ -256,7 +256,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 </main>
 
 <footer class="footer container" role="contentinfo">
-  State of the European Job Market v1.0 &middot; Early 2026 &middot; Source on GitHub<br>
+  State of the European Job Market v1.1 &middot; Early 2026 &middot; Source on GitHub<br>
   <a href="index.html">Overview</a> &middot; <a href="analysis.html">Analysis</a> &middot; <a href="skills.html">Skill Signals</a> &middot; <a href="countries.html">Country Signals</a> &middot; <a href="methodology.html">Methodology</a> &middot; <a href="sources.html">Sources</a><br>
   Built by <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a><br>
   Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a> &middot; Data &amp; Analysis: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0</a> Philipp Maul | Nexalps

@@ -17,7 +17,7 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Methodology — State of the European Job Market">
-<meta name="twitter:description" content="26 primary sources, methodology, tier ratings, and limitations. How we built the European job market dataset.">
+<meta name="twitter:description" content="29 primary sources, methodology, tier ratings, and limitations. How we built the European job market dataset.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
 
 <script type="application/ld+json">
@@ -138,12 +138,12 @@ body { font-family: var(--font); background: var(--background); color: var(--for
   <h1>Methodology</h1>
   <p class="lede">How we built this, what we trust, and where the limits are.</p>
   <p class="byline">By <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a> &middot; Early 2026 &middot; Part 2 of 7 in the European AI Labour Market suite</p>
-  <p class="byline">Based on <a href="sources.html">26 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
+  <p class="byline">Based on <a href="sources.html">29 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
 </header>
 
 <div class="article">
 <h2>Approach</h2>
-<p>This product synthesizes data from <strong>26 primary sources</strong> to answer: where is the European job market heading, and what do you need to get there? We prioritize European-sourced data over US proxies.</p>
+<p>This product synthesizes data from <strong>29 primary sources</strong> to answer: where is the European job market heading, and what do you need to get there? We prioritize European-sourced data over US proxies.</p>
 <p>Every number on the signals page traces to a Tier 1 or Tier 2 source. We don't interpolate, forecast, or model. We report what the data says and flag where it's thin.</p>
 
 <h2>Source Tier Ratings</h2>
@@ -159,23 +159,23 @@ body { font-family: var(--font); background: var(--background); color: var(--for
 <h2>Data Architecture</h2>
 
 <h3>Role Families</h3>
-<p>We analyze 9 role families, each mapped to ISCO-08 occupation codes where possible. These are the same families used in the <a href="https://ai-exposure.nexalps.com/">AI Exposure Map<span class="sr-only"> (opens in new tab)</span></a> for cross-referencing.</p>
-<p>Role-level data (hiring rates, attrition, salary YoY, seniority) comes primarily from <strong>Ravio Compensation Trends 2026</strong>, which covers 1,500+ European tech companies. Ravio data is by function, not by ISCO code &mdash; the mapping is approximate.</p>
+<p>We analyze 9 role families, each mapped where possible to ISCO-08 occupation codes (ISCO-08 is the International Standard Classification of Occupations, the shared taxonomy European statistics offices use to label jobs). These are the same families used in the <a href="https://ai-exposure.nexalps.com/">AI Exposure Map<span class="sr-only"> (opens in new tab)</span></a> for cross-referencing.</p>
+<p>Role-level data (hiring rates, attrition, salary YoY, seniority) comes primarily from <strong>Ravio Compensation Trends 2026</strong>, which covers 1,500+ European tech companies. Ravio data is by function, not by ISCO code, so the mapping is approximate.</p>
 
 <h3>Country Signals</h3>
 <p>Country-level data comes from 6 sources, creating varying "data depth" per country:</p>
 <ol>
-  <li><strong>Eurostat AI adoption</strong> (isoc_eb_ai) &mdash; 33 countries, 2021-2025</li>
-  <li><strong>Eurostat ICT specialists %</strong> (isoc_sks_itspt) &mdash; 36 countries, 2015-2024</li>
-  <li><strong>OECD Employment Protection Legislation</strong> &mdash; 26 European countries, Version 4 (2019)</li>
-  <li><strong>Stack Overflow Developer Survey 2025</strong> &mdash; 29 European countries with 50+ respondents</li>
-  <li><strong>Eurostat employment by ISCO 2-digit</strong> &mdash; 35 countries, 2023-2024 YoY</li>
-  <li><strong>LinkedIn hiring rate data</strong> &mdash; 4 countries (DE, FR, UK, NL)</li>
+  <li><strong>Eurostat AI adoption</strong> (isoc_eb_ai): 33 countries, 2021-2025</li>
+  <li><strong>Eurostat ICT specialists %</strong> (isoc_sks_itspt): 36 countries, 2015-2024</li>
+  <li><strong>OECD Employment Protection Legislation</strong>: 26 European countries, Version 4 (2019)</li>
+  <li><strong>Stack Overflow Developer Survey 2025</strong>: 29 European countries with 50+ respondents</li>
+  <li><strong>Eurostat employment by ISCO 2-digit</strong>: 35 countries, 2023-2024 YoY</li>
+  <li><strong>LinkedIn hiring rate data</strong>: 4 countries (DE, FR, UK, NL)</li>
 </ol>
 <p>Countries with 6/6 sources: Germany, France, Netherlands. Countries with 5/6: 19 countries including AT, CH, PL, Nordics. The "data depth" badge in the country table indicates how many sources contribute to each country's row.</p>
 
 <h3>Salary Data</h3>
-<p><strong>Ravio salary data</strong> is in GBP and represents European tech company compensation. <strong>Stack Overflow salary data</strong> is in USD (converted by SO using their methodology). These are not directly comparable &mdash; Ravio covers tech companies specifically, SO covers all developers regardless of employer type.</p>
+<p><strong>Ravio salary data</strong> is in GBP and represents European tech company compensation. <strong>Stack Overflow salary data</strong> is in USD (converted by SO using their methodology). These are not directly comparable: Ravio covers tech companies specifically, SO covers all developers regardless of employer type.</p>
 
 <h2>Limitations</h2>
 <ul>
@@ -198,7 +198,7 @@ body { font-family: var(--font); background: var(--background); color: var(--for
 </main>
 
 <footer class="footer container" role="contentinfo">
-  State of the European Job Market v1.0 &middot; Early 2026 &middot; Source on GitHub<br>
+  State of the European Job Market v1.1 &middot; Early 2026 &middot; Source on GitHub<br>
   <a href="index.html">Overview</a> &middot; <a href="analysis.html">Analysis</a> &middot; <a href="skills.html">Skill Signals</a> &middot; <a href="countries.html">Country Signals</a> &middot; <a href="methodology.html">Methodology</a> &middot; <a href="sources.html">Sources</a><br>
   Built by <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a><br>
   Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a> &middot; Data &amp; Analysis: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0</a> Philipp Maul | Nexalps

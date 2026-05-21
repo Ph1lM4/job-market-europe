@@ -1,6 +1,6 @@
 # State of the European Job Market in Early 2026
 
-> European tech job market intelligence for 9 role families across 34 countries. Based on 26 primary sources including Ravio (1,500+ EU tech companies), Eurostat, LinkedIn, Stack Overflow, ISC2, Hays, and Bluebird Recruitment.
+> European tech job market intelligence for 9 role families across 34 countries. Based on 29 primary sources including Ravio (1,500+ EU tech companies), Eurostat, LinkedIn, Stack Overflow, ISC2, Hays, and Bluebird Recruitment.
 
 Published by Philipp Maul / Nexalps. Data period: Q3 2025 (Ravio), 2024-2025 (Eurostat), June 2025 (Stack Overflow), Jan-Mar 2026 (LinkedIn, Indeed).
 
@@ -65,9 +65,9 @@ Hiring rate: 34% → 34% → 27.1% (-20.3% YoY). Highest attrition (21.3%), lowe
 - EAA: Accessibility implementation surge 2025-2026, then maintenance
 - CSRD: Omnibus I cut ~80% of companies from scope
 
-## Sources (26 primary)
+## Sources (29 primary)
 
-Ravio Compensation Trends 2026, Eurostat (AI adoption, ICT specialists, employment YoY), OECD EPL, Stack Overflow Developer Survey 2025, LinkedIn Labor Market Report Jan 2026, EMEA Labour Market Outlook Mar 2026, Indeed Hiring Lab, Atomico State of European Tech 2025, Bridge Group 2025 SDR Metrics Report, ISC2 2025 Cybersecurity Workforce Study, ENISA NIS Investments 2025, Figma Design Hiring Report Feb 2026, McKinsey State of Marketing Europe 2026, Bitkom Startup Report 2025, GitHub Copilot Working Paper, Bluebird EU SaaS Salary Benchmarks 2025, Hays IT-Gehaltsreport 2025, Robert Half 2026 Salary Guide, Revenue Operations Alliance 2024, ECA International Salary Trends, Signium AI in Talent Management Feb 2026.
+Ravio Compensation Trends 2026, Eurostat Enterprise AI Adoption (isoc_eb_ai), Eurostat ICT Specialists (isoc_sks_itspt), Eurostat Employment by ISCO 2-digit, OECD Employment Protection Legislation, Stack Overflow Developer Survey 2025, LinkedIn Labor Market Report Jan 2026, ISC2 2025 Cybersecurity Workforce Study, EU Pay Transparency Directive 2023/970, EU Platform Work Directive 2024/2831, Atomico State of European Tech 2025, Atomico/Revelio Labs AI Workforce Data, GitHub Copilot Working Paper, Figma Design Hiring Report Feb 2026, Bridge Group 2025 SDR Metrics Report, McKinsey State of Marketing Europe 2026, ENISA NIS Investments 2025, Recruited.tech European PM Hiring Trends, IAPP AI Governance Survey 2025, Bluebird EU SaaS Salary Benchmarks 2025, Hays IT-Gehaltsreport 2025, Robert Half 2026 Salary Guide, Revenue Operations Alliance 2024 Salary Report, ECA International Salary Trends 2025/2026, Signium AI in Talent Management Feb 2026, EMEA Labour Market Outlook Mar 2026, Indeed Hiring Lab, Bitkom Startup Report 2025, Baird/Ko/Gahlawat Skill Signals Working Paper.
 
 ## Pages
 

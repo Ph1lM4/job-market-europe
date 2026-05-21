@@ -126,7 +126,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<nav class="site-nav" aria-label="Site navigation">
+<nav class="site-nav" id="site-nav" aria-label="Site navigation">
   <div class="site-nav-links">
     <a href="index.html">Overview</a>
     <a href="analysis.html" aria-current="page">Analysis</a>
@@ -164,7 +164,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
   <h1>What the European Job Market Data Actually Says</h1>
   <p class="lede">Four signals, two career tracks, and one playbook for the generation that can't get hired the old way.</p>
   <p class="byline">By <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a> &middot; Early 2026 &middot; Part 2 of 7 in the European AI Labour Market suite</p>
-  <p class="byline">Based on <a href="sources.html">26 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
+  <p class="byline">Based on <a href="sources.html">29 primary sources</a> including Eurostat, OECD, Ravio, LinkedIn and Stack Overflow.</p>
 </header>
 
 <div class="stat-row" role="region" aria-label="Key metrics">
@@ -189,16 +189,16 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
   <span class="subtitle">Junior shift, senior premium, and what it means for career starters.</span>
 </h2>
 
-<p>The European tech job market isn't just slowing &mdash; it's <strong>restructuring by seniority</strong>. Entry-level hiring dropped by <strong>73%</strong> according to Ravio's data across 1,500+ European tech companies. Meanwhile, senior and leadership roles held steady or grew.</p>
+<p>The European tech job market isn't just slowing. It is <strong>restructuring by seniority</strong>. Entry-level hiring dropped by <strong>73%</strong> according to Ravio's data across 1,500+ European tech companies. Meanwhile, senior and leadership roles held steady or grew.</p>
 
-<p>This isn't an AI story (yet). LinkedIn's January 2026 data shows entry-level hiring mirrors the overall pattern &mdash; the slowdown is <strong>macro-driven</strong> (interest rates, post-pandemic correction), not AI-driven. But the seniority shift creates a structural problem: if companies stop hiring juniors, where do future seniors come from?</p>
+<p>This isn't an AI story (yet). LinkedIn's January 2026 data shows entry-level hiring mirrors the overall pattern. The slowdown is <strong>macro-driven</strong> (interest rates, post-pandemic correction), not AI-driven. But the seniority shift creates a structural problem: if companies stop hiring juniors, where do future seniors come from?</p>
 
-<div class="highlight"><strong>The AI premium is real but concentrated:</strong> 12% salary premium for AI-fluent ICs, only 3% for managers. The market values AI-skilled individual contributors more than AI-aware leaders &mdash; for now.</div>
+<div class="highlight"><strong>The AI premium is real but concentrated:</strong> 12% salary premium for AI-fluent individual contributors (ICs), only 3% for managers. For now, the market values AI-skilled ICs more than AI-aware leaders.</div>
 
 <p>Product Management shows the sharpest junior decline: only <strong>3% of open PM roles</strong> are entry-level (Recruited.tech). Engineering retains slightly more entry-level share (+0.4 ppt change, LinkedIn), but from a much larger base.</p>
 
 <table class="data-table" aria-label="Entry-level share change by function">
-  <thead><tr><th scope="col">Function</th><th scope="col">Entry-Level Share Change (ppt, 2022&ndash;2025)</th></tr></thead>
+  <thead><tr><th scope="col">Function</th><th scope="col">Entry-Level Share Change (percentage points, 2022&ndash;2025)</th></tr></thead>
   <tbody>
     <tr><td>Product Management</td><td>-1.5</td></tr>
     <tr><td>Media &amp; Communication</td><td>-1.5</td></tr>
@@ -213,6 +213,14 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 
 <p><a class="deep-link" href="https://ai-exposure.nexalps.com/">See which occupations face the most AI-driven change on the Exposure Map &rarr;</a></p>
 
+<div class="author-note" id="cause-dispute">
+  <h3>Two readings of the same hiring data</h3>
+  <p>Signal 1 reports that the hiring slowdown looks macro-driven rather than AI-driven. That reading is contested. Two commentators drew different conclusions from the same data in April 2026, and the disagreement is worth stating plainly.</p>
+  <p>Marc Andreessen (20VC, April 2026) argues the layoffs are mostly a correction. Companies over-hired by 25 to 75 percent during the pandemic-era boom, then cut back when interest rates rose. In his account, AI is a convenient explanation rather than the cause, because AI was not yet capable enough before late 2025 to replace the roles being cut.</p>
+  <p>Andreas Klinger (April 2026) reads the more recent data differently. He argues the hiring freeze is forward-looking: firms do not know what their workforce should look like in twelve months, so they delay hiring rather than commit. He points to middle management, the coordination layer, as the part of the organisation most exposed, rather than hands-on execution roles.</p>
+  <p>Both can be right on different time horizons. Andreessen's correction explains the backward-looking layoffs of 2023 to 2025. Klinger's uncertainty explains the forward-looking hiring freeze of 2026. The same trend supports more than one narrative, and which one dominates depends on the time window and the role type in question. We surface the dispute here rather than picking a single interpretation.</p>
+</div>
+
 <!-- ═══ SIGNAL 2 ═══ -->
 <h2 id="ai-premium"><span class="num">2.</span> The AI Premium
   <span class="subtitle">88% hiring growth, 12% salary premium, and where AI fluency pays.</span>
@@ -220,11 +228,11 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 
 <p>AI/ML specialist hiring grew <strong>88% year-over-year</strong> while overall tech hiring contracted. The AI salary premium for individual contributors is <strong>12%</strong> (Ravio). And LinkedIn reports <strong>1.3 million new AI jobs created globally</strong> between 2023 and 2025.</p>
 
-<p>The fastest-growing new role: <strong>Forward-Deployed Engineer</strong> &mdash; 42x growth since 2023 (LinkedIn). These engineers embed AI into client workflows, bridging technology and business. AI Engineers grew 13x in the same period.</p>
+<p>The fastest-growing new role is the <strong>Forward-Deployed Engineer</strong>, with 42x growth since 2023 (LinkedIn). These engineers embed AI into client workflows, bridging technology and business. AI Engineers grew 13x in the same period.</p>
 
 <p>But AI skills remain concentrated. Only <strong>10% of engineers</strong> and <strong>10% of product managers</strong> on LinkedIn list AI skills. Design sits at 2%, sales at 1%. The premium exists because the supply is thin.</p>
 
-<div class="highlight"><strong>GitHub Copilot data (24,517 firms):</strong> Firms that adopt AI coding tools hire <strong>more</strong> engineers, not fewer &mdash; +6.6% more entry-level and +4.9% more senior hires. They also hire engineers with <strong>13.3% more non-programming skills</strong>. AI augments; it doesn't replace (yet).</div>
+<div class="highlight"><strong>GitHub Copilot data (24,517 firms):</strong> Firms that adopt AI coding tools hire <strong>more</strong> engineers, not fewer: +6.6% more entry-level and +4.9% more senior hires. They also hire engineers with <strong>13.3% more non-programming skills</strong>. AI augments; it doesn't replace (yet).</div>
 
 <p>Foundation model companies are in hyper-growth: <strong>+92% headcount YoY</strong>, with 28% of their workforce classified as AI talent (LinkedIn). Big Tech grew only 8%. The AI talent is 8x more likely to move across borders than the average professional.</p>
 
@@ -244,7 +252,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 
 <!-- ═══ SIGNAL 3 ═══ -->
 <h2 id="regulatory"><span class="num">3.</span> The Regulatory Demand Engine
-  <span class="subtitle">NIS2, DORA, AI Act, EAA, CSRD, Pay Transparency, Platform Work &mdash; creating roles that don't exist in the US.</span>
+  <span class="subtitle">NIS2, DORA, AI Act, EAA, CSRD, Pay Transparency, and Platform Work create roles that don't exist in the US.</span>
 </h2>
 
 <p>Europe's regulatory apparatus is creating entire job categories that don't exist in the US. The cybersecurity gap alone is <strong>424,000 unfilled positions</strong> (ISC2), driven by NIS2 (160,000 entities in scope) and DORA (22,000 financial entities). Two further directives transposing in 2026 add reporting and platform-work compliance to the demand stack.</p>
@@ -264,7 +272,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
   </tbody>
 </table>
 
-<p><strong>78% of organisations</strong> plan to hire 1&ndash;10 AI governance professionals (IAPP 2025). These windows have different shelf lives &mdash; some are careers, some are 2-year contracts. The Pay Transparency Directive adds gender-pay-equity and AI-compensation auditing to HR / People-Analytics teams; the Platform Work Directive creates algorithmic-management compliance roles in any business operating gig or freelance marketplaces, closing one half of Europe's freelance/platform coverage gap.</p>
+<p><strong>78% of organisations</strong> plan to hire 1&ndash;10 AI governance professionals (IAPP 2025). These windows have different shelf lives: some are careers, some are 2-year contracts. The Pay Transparency Directive adds gender-pay-equity and AI-compensation auditing to HR / People-Analytics teams; the Platform Work Directive creates algorithmic-management compliance roles in any business operating gig or freelance marketplaces, closing one half of Europe's freelance/platform coverage gap.</p>
 
 <!-- ═══ SIGNAL 4 ═══ -->
 <h2 id="geographic"><span class="num">4.</span> The Geographic Divergence
@@ -273,7 +281,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 
 <p><strong>Germany</strong> is the only positive market in Ravio data (+2.8% YoY hiring), but LinkedIn shows it's still <strong>17% below pre-pandemic</strong> levels. German small businesses are most resilient (-16%) while enterprises lag (-40%). The construction sector is <strong>128% above pre-pandemic</strong> (EMEA Outlook), but tech professional services remain weak.</p>
 
-<p><strong>Sweden</strong> shows the sharpest adjustment (-34% YoY in Ravio) despite having among the highest AI adoption rates &mdash; the flexibility paradox. Flexible labour markets restructure faster.</p>
+<p><strong>Sweden</strong> shows the sharpest adjustment (-34% YoY in Ravio) despite having among the highest AI adoption rates. This is the flexibility paradox: flexible labour markets restructure faster.</p>
 
 <p><strong>France</strong> dropped 30% below pre-pandemic (LinkedIn), with enterprise hiring down 48%. But Indeed Hiring Lab shows the <strong>most dynamic seasonal rebound in 3 years</strong> at the start of 2026.</p>
 
@@ -289,52 +297,52 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 </h2>
 
 <h3>The IC Track</h3>
-<p>Senior ICs are becoming "AI-augmented architects" &mdash; fewer of them, paid more, expected to leverage AI tools to ship faster. The AI salary premium is <strong>12% for ICs</strong> vs only 3% for managers (Ravio). The market values AI-fluent individual contributors more than AI-aware leaders &mdash; for now.</p>
+<p>Senior ICs are becoming "AI-augmented architects": fewer of them, paid more, expected to use AI tools to ship faster. The AI salary premium is <strong>12% for ICs</strong> vs only 3% for managers (Ravio). For now, the market values AI-fluent individual contributors more than AI-aware leaders.</p>
 
-<p>GitHub Copilot data confirms: firms adopting AI tools hire engineers with <strong>13.3% more non-programming skills</strong>. The IC of 2026 is a systems thinker who uses AI, not a coder who ignores it. This has downstream effects on career paths: the traditional "IC plateau" where staying technical meant capping your compensation is breaking down. Companies that previously reserved top-tier pay for managers are creating parallel IC ladders that reward depth &mdash; especially when that depth includes AI fluency.</p>
+<p>GitHub Copilot data confirms: firms adopting AI tools hire engineers with <strong>13.3% more non-programming skills</strong>. The IC of 2026 is a systems thinker who uses AI, not a coder who ignores it. This has downstream effects on career paths: the traditional "IC plateau" where staying technical meant capping your compensation is breaking down. Companies that previously reserved top-tier pay for managers are creating parallel IC ladders that reward depth, especially when that depth includes AI fluency.</p>
 
-<p>The fastest-growing IC archetype is the <strong>Forward-Deployed Engineer</strong> (42x growth since 2023, LinkedIn) &mdash; engineers who embed AI into client workflows, bridging technology and business. This role barely existed three years ago and now represents a distinct career track that doesn't require a management transition.</p>
+<p>The fastest-growing IC archetype is the <strong>Forward-Deployed Engineer</strong> (42x growth since 2023, LinkedIn). These engineers embed AI into client workflows, bridging technology and business. This role barely existed three years ago and now represents a distinct career track that doesn't require a management transition.</p>
 
 <h3>The Management Track</h3>
 <p>Span of control increases as teams shrink. Managers are overseeing larger, more senior teams with fewer juniors to develop. This inverts the traditional management value proposition: instead of building junior talent, managers now focus on removing friction for experienced ICs, orchestrating cross-functional alignment, and navigating regulatory complexity.</p>
 
-<p>AI governance is becoming a core management responsibility (EU AI Act Article 26: deployer obligations). The regulatory demand engine &mdash; NIS2, DORA, AI Act &mdash; creates an entirely new management surface area that didn't exist five years ago. Managers who understand both the technical implementation and the compliance requirements are in genuinely short supply.</p>
+<p>AI governance is becoming a core management responsibility (EU AI Act Article 26: deployer obligations). The regulatory demand engine (NIS2, DORA, AI Act) creates an entirely new management surface area that didn't exist five years ago. Managers who understand both the technical implementation and the compliance requirements are in genuinely short supply.</p>
 
 <h3>Where They Converge</h3>
 <p>AI fluency is non-negotiable in both tracks. Both ICs and managers need to understand what AI tools can and cannot do, how to evaluate AI-generated output, and how to integrate AI workflows without creating technical debt or compliance risk.</p>
 
 <h3>Where They Diverge</h3>
-<p>ICs go deeper technically &mdash; systems architecture, AI-augmented development, production reliability. Managers go broader into regulatory compliance, organisational design, and talent development. The IC premium is technical leverage; the management premium is organisational leverage. Both are valid, but they compound differently.</p>
+<p>ICs go deeper technically: systems architecture, AI-augmented development, production reliability. Managers go broader into regulatory compliance, organisational design, and talent development. The IC premium is technical leverage; the management premium is organisational leverage. Both are valid, but they compound differently.</p>
 
 <!-- ═══ JUNIOR PLAYBOOK ═══ -->
 <h2 id="junior-playbook"><span class="num">6.</span> The Junior Playbook
-  <span class="subtitle">Breaking into a changing market &mdash; 5 paths that work now.</span>
+  <span class="subtitle">Breaking into a changing market: 5 paths that work now.</span>
 </h2>
 
-<p>Entry-level hiring dropped <strong>73%</strong>. 37% of companies plan to augment entry-level roles with AI (Korn Ferry). SDR-to-AE promotion shifted from 34% to 16% (Bridge Group). The path in has changed &mdash; but it hasn't closed.</p>
+<p>Entry-level hiring dropped <strong>73%</strong>. 37% of companies plan to augment entry-level roles with AI (Korn Ferry). Promotion from sales development rep (SDR) to account executive (AE) shifted from 34% to 16% (Bridge Group). The path in has changed, but it hasn't closed.</p>
 
 <ol>
   <li><strong>AI-augmented junior.</strong> Position yourself as "junior + AI tools = mid-level output." Firms adopting GitHub Copilot hired <strong>6.6% more entry-level engineers</strong>. The AI-proficient junior is the new mid-level.</li>
   <li><strong>Structured programmes.</strong> Companies that still hire juniors do it through apprenticeships and embedded learning, not open applications. Find the programmes.</li>
-  <li><strong>Domain-first, then tech.</strong> Enter through industry expertise &mdash; healthcare, fintech, sustainability, cybersecurity (424K gap!). Domain knowledge is the moat AI can't replicate.</li>
+  <li><strong>Domain-first, then tech.</strong> Enter through industry expertise: healthcare, fintech, sustainability, cybersecurity (424K gap!). Domain knowledge is the moat AI can't replicate.</li>
   <li><strong>Portfolio-first.</strong> Build proof through freelance work, open source, or side projects. The "prove it first" market rewards demonstrable output over credentials.</li>
   <li><strong>Start something.</strong> It has never been simpler or cheaper. AI tools compress MVP team size from 5 to 1&ndash;2. <strong>27,000+ founders</strong> started companies in Europe in 2025 (+59% from 2023, Atomico). European VC projected at $44B.</li>
 </ol>
 
-<div class="highlight"><strong>LinkedIn data shows no evidence of systemic AI-driven displacement</strong> of entry-level workers. The junior shift is macro-driven (interest rates, post-pandemic correction), not AI-driven. That means it's cyclical, not structural &mdash; and the recovery will reward new skills.</div>
+<div class="highlight"><strong>LinkedIn data shows no evidence of systemic AI-driven displacement</strong> of entry-level workers. The junior shift is macro-driven (interest rates, post-pandemic correction), not AI-driven. That means it's cyclical, not structural, and the recovery will reward new skills.</div>
 
 <div class="author-note">
   <h3>A note on what this means</h3>
-  <p>The data doesn't say "panic." It says "adapt." The European job market is restructuring, not collapsing. 4.6 million people work in European tech. 27,000 founders started companies last year. AI is creating more jobs than it's changing &mdash; and the skills driving the new roles are learnable. The question isn't whether to act, but how quickly &mdash; and the skills you already have give you a head start.</p>
-  <div class="sig">&mdash; Philipp Maul, Nexalps</div>
+  <p>The data doesn't say "panic." It says "adapt." The European job market is restructuring, not collapsing. 4.6 million people work in European tech. 27,000 founders started companies last year. AI is creating more jobs than it's changing, and the skills driving the new roles are learnable. The question isn't whether to act, but how quickly, and the skills you already have give you a head start.</p>
+  <div class="sig">Philipp Maul, Nexalps</div>
 </div>
 
 </article>
 
 <section role="region" aria-label="Call to action">
   <div class="cta-section">
-    <h3>This data tells the market story. Your career needs context.</h3>
-    <p>Role, seniority, country, company stage &mdash; let's build your strategy.</p>
+    <h3>This data describes the market overall. Your career needs context.</h3>
+    <p>Role, seniority, country, company stage. Let's build your strategy.</p>
     <div class="btn-row">
       <a href="https://nexalps.com" class="btn btn-primary" target="_blank" rel="noopener">Get a workforce strategy session<span class="sr-only"> (opens in new tab)</span></a>
       <a href="index.html" class="btn btn-outline">Explore the 9 role deep dives</a>
@@ -345,7 +353,7 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 </main>
 
 <footer class="footer container" role="contentinfo">
-  State of the European Job Market v1.0 &middot; Early 2026 &middot; Source on GitHub<br>
+  State of the European Job Market v1.1 &middot; Early 2026 &middot; Source on GitHub<br>
   <a href="index.html">Overview</a> &middot; <a href="analysis.html">Analysis</a> &middot; <a href="skills.html">Skill Signals</a> &middot; <a href="countries.html">Country Signals</a> &middot; <a href="methodology.html">Methodology</a> &middot; <a href="sources.html">Sources</a><br>
   Built by <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a><br>
   Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a> &middot; Data &amp; Analysis: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0</a> Philipp Maul | Nexalps

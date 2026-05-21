@@ -6,33 +6,36 @@
       "Ravio Compensation Trends 2026 (1,500+ EU tech companies, Q3 2025)",
       "Eurostat isoc_eb_ai (enterprise AI adoption, 2021-2025)",
       "Eurostat isoc_sks_itspt (ICT specialists, 2015-2024)",
+      "Eurostat employment by ISCO 2-digit (2023-2024 YoY)",
       "OECD EPL (employment protection, Version 4)",
+      "Stack Overflow Developer Survey 2025 (49,191 respondents, 15,752 European)",
+      "LinkedIn Labor Market Report Jan 2026 (1.3B members)",
+      "ISC2 2025 Cybersecurity Workforce Study (16,029 global)",
+      "Directive (EU) 2023/970: Pay Transparency (transposition deadline June 2026)",
+      "Directive (EU) 2024/2831: Platform Work (transposition deadline December 2026)",
+      "Atomico State of European Tech 2025 (annual ecosystem report)",
+      "Atomico/Revelio Labs AI Workforce Data (State of European Tech 2025)",
+      "GitHub Copilot Working Paper (Baird et al., n=24,517 firms)",
+      "Figma Design Hiring Report Feb 2026 (2,500 respondents)",
       "Bridge Group 2025 SDR Metrics Report",
       "McKinsey State of Marketing Europe 2026 (500 EU leaders)",
       "ENISA NIS Investments 2025 (1,080 respondents)",
-      "ISC2 2025 Cybersecurity Workforce Study (16,029 global)",
-      "Figma Design Hiring Report Feb 2026 (2,500 respondents)",
       "Recruited.tech European PM Hiring Trends",
-      "Stack Overflow Developer Survey 2025 (49,191 respondents, 15,752 European)",
-      "Atomico State of European Tech 2025 (annual ecosystem report)",
-      "LinkedIn Labor Market Report Jan 2026 (1.3B members)",
+      "IAPP AI Governance Survey 2025 (EU AI Act compliance hiring intent)",
+      "Bluebird EU SaaS Salary Benchmarks 2025 (UK, NL, DE · Sales, BDR, Marketing)",
+      "Hays IT-Gehaltsreport 2025 (1,300 IT specialists, Germany, Q2 2025)",
+      "Robert Half 2026 Salary Guide (UK, DE, NL, FR · Marketing & Creative, Technology)",
+      "Revenue Operations Alliance 2024 Salary Report (European RevOps)",
+      "ECA International Salary Trends 2025/2026 (200 multinational companies)",
+      "Signium: AI in Talent Management, February 2026 (senior HR leaders survey)",
       "EMEA Labour Market Outlook Mar 2026 (LinkedIn Economic Graph)",
       "Indeed Hiring Lab (DE, FR, UK/IE, March 2026)",
       "Bitkom Startup Report 2025 (152 German startups)",
-      "GitHub Copilot Working Paper (Baird et al., n=24,517 firms)",
-      "Eurostat employment by ISCO 2-digit (2023-2024 YoY)",
-      "Bluebird EU SaaS Salary Benchmarks 2025 (UK, NL, DE — Sales, BDR, Marketing)",
-      "Hays IT-Gehaltsreport 2025 (1,300 IT specialists, Germany, Q2 2025)",
-      "Robert Half 2026 Salary Guide (UK, DE, NL, FR — Marketing & Creative, Technology)",
-      "Revenue Operations Alliance 2024 Salary Report (European RevOps)",
-      "Indeed Hiring Lab Job Postings Index (DE, FR, UK/IE, 2023-2025)",
-      "Atomico/Revelio Labs AI Workforce Data (State of European Tech 2025)",
-      "ECA International Salary Trends 2025/2026 (200 multinational companies)",
-      "Signium — AI in Talent Management, February 2026 (senior HR leaders survey)"
+      "Baird, Ko, Gahlawat: Skill Signals Working Paper (LinkedIn EG Working Paper No. 1)"
     ],
     "currency_note": "All Ravio salary data is in GBP. Eurostat/OECD data uses native units.",
     "data_period": "Primarily Q3 2025 (Ravio), 2024-2025 (Eurostat), 2019 (OECD EPL); SO Developer Survey June 2025; LinkedIn Jan 2026; Atomico Nov 2025; SO Developer Survey June 2025; LinkedIn Jan 2026; Atomico Nov 2025",
-    "salary_note": "SO salaries converted from USD to EUR at fixed rate 0.87 (EUR/USD 1.15, 29 March 2026). Not PPP-adjusted. Previous rate was 0.92 — EUR strengthened ~5.4% since data collection."
+    "salary_note": "SO salaries converted from USD to EUR at fixed rate 0.87 (EUR/USD 1.15, set 29 March 2026, reviewed 21 May 2026). Not PPP-adjusted. The 0.87 rate replaced an earlier 0.92. At the May review the market rate sat near 1.16, within 3% of the fixed 1.15, so the converted figures were not recomputed."
   },
   "roles": {
     "product": {
@@ -106,10 +109,10 @@
         "AI governance"
       ],
       "narrative": {
-        "context": "The PM shift is a seniority realignment, not a demand decline. Companies are consolidating junior PM roles while retaining experienced product leaders who can navigate ambiguity and make high-stakes prioritization calls. Entry-level PM hiring dropped 73% — the steepest decline of any function — while senior PM attrition fell to just 14%, suggesting companies are investing more in the people they have.",
-        "implications": "If you’re an experienced PM, your leverage is growing: fewer peers competing for the same roles, and AI fluency is becoming a genuine differentiator. If you’re trying to break into product, the traditional associate PM path is narrowing fast — consider adjacent entry points through data analysis, design, or engineering where you can demonstrate product thinking with a technical edge."
+        "context": "The PM shift is a seniority realignment, not a demand decline. Companies are consolidating junior PM roles while retaining experienced product leaders who can navigate ambiguity and make high-stakes prioritization calls. Entry-level PM hiring dropped 73% (the steepest decline of any function) while senior PM attrition fell to just 14%, suggesting companies are investing more in the people they have.",
+        "implications": "If you’re an experienced PM, your leverage is growing: fewer peers competing for the same roles, and AI fluency is becoming a genuine differentiator. If you’re trying to break into product, the traditional associate PM path is narrowing fast. Consider adjacent entry points through data analysis, design, or engineering where you can demonstrate product thinking with a technical edge."
       },
-      "key_insight": "PM role is becoming MORE valuable — AI makes execution faster, making 'what to build' the bottleneck. Junior PM roles are shifting (-73% entry-level), but experienced PMs gain leverage.",
+      "key_insight": "PM role is becoming MORE valuable as AI makes execution faster, making 'what to build' the bottleneck. Junior PM roles are shifting (-73% entry-level), but experienced PMs gain leverage.",
       "linkedin": {
         "hiring_vs_prepandemic": -0.36,
         "source": "LinkedIn Labor Market Report Jan 2026 (global)",
@@ -145,7 +148,7 @@
         "rate_2024": 0.12,
         "rate_2023": 0.17,
         "yoy_change": 0.0,
-        "note": "Lowest attrition across all functions — engineers seeking stability",
+        "note": "Lowest attrition across all functions: engineers seeking stability",
         "source": "Ravio"
       },
       "salary_yoy_p3": {
@@ -172,7 +175,7 @@
         "senior_pct": 0.28,
         "leadership_pct": 0.12,
         "source": "Ravio (Engineering: highest salary eligibility 30%, lowest attrition 12%, P1/P2 hiring down 73.4%) + SO 2025",
-        "note": "Derived from Ravio patterns. Junior pipeline collapsing (-73.4% entry-level). Engineering retains talent longest — stable mid/senior core."
+        "note": "Derived from Ravio patterns. Junior pipeline collapsing (-73.4% entry-level). Engineering retains talent longest: stable mid/senior core."
       },
       "skills_now": [
         "Python",
@@ -188,10 +191,10 @@
         "AI-assisted development"
       ],
       "narrative": {
-        "context": "Engineering has quietly become the most stable function in European tech. After a brutal 30% hiring drop from 2023 to 2024, the rate plateaued at 20.7% — barely moving. Meanwhile, attrition sits at 12%, the lowest of any function for two consecutive years. Engineers are staying put, likely due to a combination of post-layoff risk aversion and companies investing heavily in retention (30% of engineers received in-role salary increases, the highest eligibility of any function).",
-        "implications": "The stability masks a bifurcation: traditional software engineering roles are flat, while AI/ML engineering is surging (+88% YoY). GitHub Copilot adoption is at 35.6% among firms, and companies that adopted it increased hiring — not decreased it — by 6.6% at entry level. The signal is clear: AI tools are making engineers more productive, not redundant, but the engineers who thrive will be the ones building with AI, not just writing code alongside it."
+        "context": "Engineering has quietly become the most stable function in European tech. After a brutal 30% hiring drop from 2023 to 2024, the rate plateaued at 20.7%, barely moving. Meanwhile, attrition sits at 12%, the lowest of any function for two consecutive years. Engineers are staying put, likely due to a combination of post-layoff risk aversion and companies investing heavily in retention (30% of engineers received in-role salary increases, the highest eligibility of any function).",
+        "implications": "The stability masks a bifurcation: traditional software engineering roles are flat, while AI/ML engineering is surging (+88% YoY). GitHub Copilot adoption is at 35.6% among firms, and companies that adopted it increased entry-level hiring by 6.6% rather than cutting it. The signal is clear: AI tools are making engineers more productive, not redundant, but the engineers who thrive will be the ones building with AI, not just writing code alongside it."
       },
-      "key_insight": "Engineering hiring stabilized after sharp 2023-2024 decline. Lowest attrition (12%) — engineers are staying put. The AI/ML subspecialty is where growth is.",
+      "key_insight": "Engineering hiring stabilized after sharp 2023-2024 decline. Lowest attrition (12%); engineers are staying put. The AI/ML subspecialty is where growth is.",
       "linkedin": {
         "hiring_vs_prepandemic": -0.32,
         "source": "LinkedIn Labor Market Report Jan 2026 (global)",
@@ -273,13 +276,13 @@
         "ES": 0.035,
         "SE": 0.005,
         "source": "Robert Half 2026 Salary Guide (Marketing & Creative), validated against Glassdoor DE/NL and Reed UK 2025",
-        "note": "Design-specific. Spain high (3.5%) reflects nearshoring demand. Sweden stagnant (0.5%) — worst contraction in Europe."
+        "note": "Design-specific. Spain high (3.5%) reflects nearshoring demand. Sweden stagnant (0.5%), the worst contraction in Europe."
       },
       "narrative": {
-        "context": "Design is the hardest role to read in 2026. Ravio doesn’t break it out as a separate function, LinkedIn shows it down 34% vs pre-pandemic, yet Figma’s own survey (2,500 respondents) shows hiring managers overwhelmingly favoring experienced designers — 56% prefer seniors, just 25% want juniors. The likely explanation: teams are getting smaller but expectations are rising. One senior designer with AI tools can now do what took a team of three.",
-        "implications": "The 73% AI fluency requirement is not aspirational — it’s a filter. Designers who can prototype with AI-native tools, work directly with engineers on design systems, and operate at the strategic level (user research, information architecture) are in demand. Production-focused roles (pixel-pushing, asset creation, basic UI) are being absorbed by AI. If you’re a designer, investing in prompt-to-prototype workflows and computational design is no longer optional."
+        "context": "Design is the hardest role to read in 2026. Ravio doesn’t break it out as a separate function, LinkedIn shows it down 34% vs pre-pandemic, yet Figma’s own survey (2,500 respondents) shows hiring managers overwhelmingly favoring experienced designers: 56% prefer seniors, just 25% want juniors. The likely explanation: teams are getting smaller but expectations are rising. One senior designer with AI tools can now do what took a team of three.",
+        "implications": "The 73% AI fluency requirement is not aspirational. It is a filter. Designers who can prototype with AI-native tools, work directly with engineers on design systems, and operate at the strategic level (user research, information architecture) are in demand. Production-focused roles (pixel-pushing, asset creation, basic UI) are being absorbed by AI. If you’re a designer, investing in prompt-to-prototype workflows and computational design is no longer optional."
       },
-      "key_insight": "73% of design hiring managers now require AI fluency. The PM-to-designer ratio has flipped — fewer designers needed when AI handles production work.",
+      "key_insight": "73% of design hiring managers now require AI fluency. The PM-to-designer ratio has flipped: fewer designers needed when AI handles production work.",
       "linkedin": {
         "hiring_vs_prepandemic": -0.34,
         "source": "LinkedIn Labor Market Report Jan 2026 (global)"
@@ -365,8 +368,8 @@
         "note": "Commercial function. Germany commands highest SaaS sales base salaries in Europe (Bluebird). Spain surge (+4.0%) driven by nearshoring."
       },
       "narrative": {
-        "context": "Sales is the only function where hiring actually grew (+5.2% YoY) — but the growth is entirely in Account Executive and strategic sales roles, not SDRs. The Bridge Group data tells the story: SDR-to-AE promotions halved from 34% (2020) to 16% (2024), median annual SDR turnover sits at 40%, and on-target earnings have been flat at $80K for a decade while inflation ate 44% of purchasing power. Companies are discovering that AI can handle the top of the funnel — 1% of companies already report using ‘AI SDRs’.",
-        "implications": "The entry-level sales career path through cold calling is being restructured in real time. If you’re in SDR/BDR, the path forward is speed: Bridge Group data shows that SDRs promoted to AE within 11 months have a 55% failure rate, but those who stay 16+ months drop to 6%. The skills that protect are consultative selling, multi-threading (engaging multiple stakeholders), and signal-based prospecting — the human judgment that AI can augment but not replace."
+        "context": "Sales is the only function where hiring actually grew (+5.2% YoY), but the growth is entirely in Account Executive and strategic sales roles, not SDRs. The Bridge Group data shows what changed: SDR-to-AE promotions halved from 34% (2020) to 16% (2024), median annual SDR turnover sits at 40%, and on-target earnings have been flat at $80K for a decade while inflation ate 44% of purchasing power. Companies are discovering that AI can handle the top of the funnel: 1% of companies already report using ‘AI SDRs’.",
+        "implications": "The entry-level sales career path through cold calling is being restructured in real time. If you’re in SDR/BDR, the path forward is speed: Bridge Group data shows that SDRs promoted to AE within 11 months have a 55% failure rate, but those who stay 16+ months drop to 6%. The skills that protect are consultative selling, multi-threading (engaging multiple stakeholders), and signal-based prospecting: the human judgment that AI can augment but not replace."
       },
       "key_insight": "SDR/BDR is the most AI-transformed role. Companies restructuring SDR teams while growing AE teams. The entry path is shifting from cold calling to AI-augmented prospecting.",
       "linkedin": {
@@ -415,7 +418,7 @@
         "senior_pct": 0.06,
         "leadership_pct": 0.04,
         "source": "Bridge Group 2025 (SDR median tenure 1.9yr, high-velocity pipeline) + LinkedIn Economic Graph EMEA",
-        "note": "Heavily bottom-weighted — BDR is a proving ground role. 'Junior' = first 12mo, 'Mid' = ramped 12-24mo, 'Senior' = career outbound/enterprise, 'Leadership' = Team Lead/Manager."
+        "note": "Heavily bottom-weighted: BDR is a proving ground role. 'Junior' = first 12mo, 'Mid' = ramped 12-24mo, 'Senior' = career outbound/enterprise, 'Leadership' = Team Lead/Manager."
       },
       "salary_yoy_p3": {
         "UK": 0.02,
@@ -425,13 +428,13 @@
         "ES": 0.03,
         "SE": 0.008,
         "source": "Bridge Group 2025 + Bluebird EU SaaS Benchmarks 2025 (BDR Manager tiers: UK/NL/DE)",
-        "note": "BDR/SDR pipeline role. Lower growth than AE roles — entry-level wages less protected from stagnation."
+        "note": "BDR/SDR pipeline role. Lower growth than AE roles, leaving entry-level wages less protected from stagnation."
       },
       "narrative": {
-        "context": "Business Development sits inside Ravio’s ‘Commercial’ function — the only function where hiring grew in 2025. While transactional sales roles face AI disruption, strategic partnership and alliance roles are expanding as companies build ecosystem-led go-to-market strategies. The shift from direct sales to platform and API partnerships is creating demand for people who can structure complex, multi-party deals.",
-        "implications": "BizDev roles skew senior for a reason: they require a combination of commercial acumen, technical understanding, and relationship-building that’s hard to shortcut with AI. If you’re transitioning from sales, the path is through developing ecosystem thinking — understanding how platforms, APIs, and partnerships create value beyond direct revenue. This is one of the few commercial functions where experience genuinely compounds."
+        "context": "Business Development sits inside Ravio’s ‘Commercial’ function, the only function where hiring grew in 2025. While transactional sales roles face AI disruption, strategic partnership and alliance roles are expanding as companies build ecosystem-led go-to-market strategies. The shift from direct sales to platform and API partnerships is creating demand for people who can structure complex, multi-party deals.",
+        "implications": "BizDev roles skew senior for a reason: they require a combination of commercial acumen, technical understanding, and relationship-building that’s hard to shortcut with AI. If you’re transitioning from sales, the path is through developing ecosystem thinking: understanding how platforms, APIs, and partnerships create value beyond direct revenue. This is one of the few commercial functions where experience genuinely compounds."
       },
-      "key_insight": "BizDev is growing as companies build partnership-led GTM. Distinct from sales — strategic, not transactional.",
+      "key_insight": "BizDev is growing as companies build partnership-led GTM. Distinct from sales: strategic, not transactional.",
       "skill_protection_bundle": {
         "optimal_combination": [
           "Strategic partnerships",
@@ -491,8 +494,8 @@
         "mid_pct": 0.42,
         "senior_pct": 0.26,
         "leadership_pct": 0.12,
-        "source": "Ravio (Marketing function: 24% salary increase eligibility, 3.5% promotion rate, 16.7% attrition — implies stable mid-heavy structure)",
-        "note": "Derived from Ravio compensation patterns. Marketing tenure increased 27% YoY — employees staying put."
+        "source": "Ravio (Marketing function: 24% salary increase eligibility, 3.5% promotion rate, 16.7% attrition, implying a stable mid-heavy structure)",
+        "note": "Derived from Ravio compensation patterns. Marketing tenure increased 27% YoY: employees staying put."
       },
       "salary_yoy_p3": {
         "UK": 0.024,
@@ -505,10 +508,10 @@
         "note": "Growth roles outpace generalist marketing. Bluebird: Growth Marketing Manager mid £75K UK / €80K NL / €90K DE."
       },
       "narrative": {
-        "context": "Marketing presents a paradox: hiring dropped 34% from 2023 peaks and attrition fell to 16.7% (people are staying put), yet 72% of European CMOs plan to increase budgets. The McKinsey data reveals why — budget is shifting from headcount to tools. GenAI is the top investment priority for half of marketing leaders, and classic brand campaigns declined 27%. The function is being rebuilt around fewer, more senior people wielding AI-powered content and analytics at scale.",
-        "implications": "The marketing roles that survived the contraction are the ones AI can’t easily replicate: brand strategy (62% of leaders call human creativity irreplaceable), full-funnel orchestration, and marketing science. Only 3% of companies can measure marketing ROI above 50% — the analytics gap is enormous. If you’re in marketing, the career insurance is combining creative judgment with data fluency. Pure execution roles (social media scheduling, basic content production, campaign setup) are the first to be automated."
+        "context": "Marketing presents a paradox: hiring dropped 34% from 2023 peaks and attrition fell to 16.7% (people are staying put), yet 72% of European CMOs plan to increase budgets. The McKinsey data reveals why: budget is shifting from headcount to tools. GenAI is the top investment priority for half of marketing leaders, and classic brand campaigns declined 27%. The function is being rebuilt around fewer, more senior people wielding AI-powered content and analytics at scale.",
+        "implications": "The marketing roles that survived the contraction are the ones AI can’t easily replicate: brand strategy (62% of leaders call human creativity irreplaceable), full-funnel orchestration, and marketing science. Only 3% of companies can measure marketing ROI above 50%; the analytics gap is enormous. If you’re in marketing, the career insurance is combining creative judgment with data fluency. Pure execution roles (social media scheduling, basic content production, campaign setup) are the first to be automated."
       },
-      "key_insight": "Hiring is down 34% from 2023 but 72% of CMOs plan budget increases — fewer people, bigger budgets, AI filling the gap.",
+      "key_insight": "Hiring is down 34% from 2023 but 72% of CMOs plan budget increases: fewer people, bigger budgets, AI filling the gap.",
       "linkedin": {
         "hiring_vs_prepandemic": -0.32,
         "source": "LinkedIn Labor Market Report Jan 2026 (global)",
@@ -545,7 +548,7 @@
         "rate_2024": 0.158,
         "rate_2023": 0.158,
         "yoy_change": 0.348,
-        "note": "Highest attrition across ALL functions — surged 34.8%. Tenure just 1y5m.",
+        "note": "Highest attrition across ALL functions: surged 34.8%. Tenure just 1y5m.",
         "source": "Ravio"
       },
       "seniority": {
@@ -553,7 +556,7 @@
         "mid_pct": 0.38,
         "senior_pct": 0.28,
         "leadership_pct": 0.12,
-        "source": "Ravio (Operations: lowest salary eligibility 14%, highest attrition 21.3%, tenure 1y5m — bifurcating function)",
+        "source": "Ravio (Operations: lowest salary eligibility 14%, highest attrition 21.3%, tenure 1y5m, a bifurcating function)",
         "note": "Derived from Ravio patterns. Low tenure + high attrition suggests junior/mid churn. Strategic ops roles retained at senior level."
       },
       "salary_yoy_p3": {
@@ -579,8 +582,8 @@
         "regulatory compliance (NIS2/DORA/AI Act)"
       ],
       "narrative": {
-        "context": "Operations is the clearest signal of AI-driven workforce restructuring in European tech. Attrition surged 34.8% to 21.3% — the highest of any function — while tenure dropped to just 1 year and 5 months, less than half the engineering average. Salary increases fell 28% to the lowest across all functions (4.4%), and only 14% of operations staff received an in-role raise. Yet hiring remains at 27% — suggesting high replacement churn, not deliberate growth.",
-        "implications": "Operations is splitting into two tracks: routine work (data entry, process administration, basic vendor management) is being automated, while strategic operations roles (‘Product Ops’, ‘Engineering Ops’, AI workflow automation) are growing. If you’re in operations, the path forward is specialization — regulatory compliance (NIS2, DORA, AI Act), strategic process design, or AI workflow orchestration. Your operational knowledge is the foundation; adding one specialization transforms your career trajectory."
+        "context": "Operations is the clearest signal of AI-driven workforce restructuring in European tech. Attrition surged 34.8% to 21.3% (the highest of any function) while tenure dropped to just 1 year and 5 months, less than half the engineering average. Salary increases fell 28% to the lowest across all functions (4.4%), and only 14% of operations staff received an in-role raise. Yet hiring remains at 27%, suggesting high replacement churn, not deliberate growth.",
+        "implications": "Operations is splitting into two tracks: routine work (data entry, process administration, basic vendor management) is being automated, while strategic operations roles (‘Product Ops’, ‘Engineering Ops’, AI workflow automation) are growing. If you’re in operations, the path forward is specialization: regulatory compliance (NIS2, DORA, AI Act), strategic process design, or AI workflow orchestration. Your operational knowledge is the foundation; adding one specialization transforms your career trajectory."
       },
       "key_insight": "Operations is bifurcating: routine work automated, strategic work retained. Highest attrition (21.3%), lowest tenure (1y5m). A function in flux.",
       "linkedin": {
@@ -645,7 +648,7 @@
         "senior_pct": 0.28,
         "leadership_pct": 0.14,
         "source": "Ravio + LinkedIn (AI/ML Engineer 45% of titles, Senior AI/ML 15%, AI/ML Researcher 1.4%; engineering base seniority adjusted for AI premium skew)",
-        "note": "AI roles skew senior — 12% IC salary premium reflects experience demand. Junior pipeline thin due to specialization requirements."
+        "note": "AI roles skew senior: 12% IC salary premium reflects experience demand. Junior pipeline thin due to specialization requirements."
       },
       "salary_yoy_p3": {
         "UK": 0.056,
@@ -658,10 +661,10 @@
         "note": "AI premium validated by Hays: Data & Analytics €68,100 vs Development €62,300 (+9.3% in DE). Ravio's 12% IC premium is cross-European."
       },
       "narrative": {
-        "context": "Data & AI is where the hiring energy is. While overall European tech hiring contracted, AI/ML specialist roles grew 88% YoY. The number of distinct AI/ML job titles increased 50% in 12 months — from AI Engineer and ML Researcher to AI Governance Specialist, Prompt Engineer, and Forward Deployed Engineer. The salary premium is real but more modest than headlines suggest: 12% above non-AI roles for individual contributors, dropping to just 3% at management level.",
-        "implications": "The 12% IC premium and the 3% management premium tell an important story: companies are paying for hands-on AI building skills, not AI management experience. AI/ML Engineer represents 45% of all AI job titles in Ravio’s database, with Senior AI/ML Engineer at another 15%. If you’re targeting this space, the premium rewards depth (model fine-tuning, agent orchestration, MLOps) over breadth. Foundation model companies grew employment 92% YoY — but even traditional companies are embedding AI roles across every function."
+        "context": "Data & AI is where the hiring energy is. While overall European tech hiring contracted, AI/ML specialist roles grew 88% YoY. The number of distinct AI/ML job titles increased 50% in 12 months, from AI Engineer and ML Researcher to AI Governance Specialist, Prompt Engineer, and Forward Deployed Engineer. The salary premium is real but more modest than headlines suggest: 12% above non-AI roles for individual contributors, dropping to just 3% at management level.",
+        "implications": "The 12% IC premium and the 3% management premium point to a clear split: companies are paying for hands-on AI building skills, not AI management experience. AI/ML Engineer represents 45% of all AI job titles in Ravio’s database, with Senior AI/ML Engineer at another 15%. If you’re targeting this space, the premium rewards depth (model fine-tuning, agent orchestration, MLOps) over breadth. Foundation model companies grew employment 92% YoY, but even traditional companies are embedding AI roles across every function."
       },
-      "key_insight": "Fastest-growing specialization (+88% hiring). 12% salary premium for ICs. 50% increase in distinct AI/ML job titles — the field is still defining itself.",
+      "key_insight": "Fastest-growing specialization (+88% hiring). 12% salary premium for ICs. 50% increase in distinct AI/ML job titles; the field is still defining itself.",
       "linkedin": {
         "hiring_vs_prepandemic": -0.19,
         "source": "LinkedIn Labor Market Report Jan 2026 (global)",
@@ -693,7 +696,7 @@
       "demand": {
         "direction": "tightening",
         "european_gap": 424000,
-        "gap_source": "ISC2 (separate data release — headline number, not verified from our whitepaper)",
+        "gap_source": "ISC2 (separate data release; headline number, not verified from our whitepaper)",
         "gap_confidence": "medium",
         "source": "ISC2 2024/2025 (EU workforce 1.30M, −0.7% YoY in 2024, stabilizing 2025) + UK Gov Cyber Security Skills Report 2025 + Indeed Hiring Lab",
         "hiring_rate_2023": 0.3,
@@ -737,7 +740,7 @@
         "mid_pct": 0.38,
         "senior_pct": 0.35,
         "leadership_pct": 0.15,
-        "source": "ISC2 2025 (56% entered through IT experience, only 3% via internship, 10% via direct education — pipeline skews experienced)",
+        "source": "ISC2 2025 (56% entered through IT experience, only 3% via internship, 10% via direct education, so the pipeline skews experienced)",
         "note": "Derived from ISC2 career pathway data. Thin junior pipeline: only 13% enter via education/internship. 78% plan to stay in cybersecurity for career."
       },
       "salary_yoy_p3": {
@@ -751,10 +754,10 @@
         "note": "Cybersecurity commands highest salaries across all IT functions in Germany (Hays). Spain 4.8% reflects acute shortage + NIS2 compliance demand."
       },
       "narrative": {
-        "context": "Cybersecurity has a structural supply problem that regulations are making worse. The 424K European gap isn’t just a hiring shortfall — it’s a pipeline problem. ISC2 data shows 56% of cybersecurity professionals entered through IT experience, not education. Only 3% came through internships. The junior pipeline barely exists, and the field skews heavily mid-to-senior (73% of our seniority estimate is mid-level or above). Meanwhile, NIS2 brings 160,000 entities into scope and DORA adds another 22,000 financial firms — all requiring dedicated cybersecurity capacity.",
-        "implications": "This is one of the few European tech roles where demand structurally exceeds supply and regulation guarantees it will continue. Despite this, 31% of professionals say pay is too low and 47% feel overwhelmed by workload — suggesting that many organizations still underinvest in security teams. For candidates, the field offers unusual stability (78% plan to stay in cybersecurity for their career) and clear upskilling paths: AI-powered threat detection is the #1 skill priority, and 69% of teams are already on a path to regular AI security tool use."
+        "context": "Cybersecurity has a structural supply problem that regulations are making worse. The 424K European gap is not just a hiring shortfall. It is a pipeline problem. ISC2 data shows 56% of cybersecurity professionals entered through IT experience, not education. Only 3% came through internships. The junior pipeline barely exists, and the field skews heavily mid-to-senior (73% of our seniority estimate is mid-level or above). Meanwhile, NIS2 brings 160,000 entities into scope and DORA adds another 22,000 financial firms, all requiring dedicated cybersecurity capacity.",
+        "implications": "This is one of the few European tech roles where demand structurally exceeds supply and regulation guarantees it will continue. Despite this, 31% of professionals say pay is too low and 47% feel overwhelmed by workload, which suggests that many organizations still underinvest in security teams. For candidates, the field offers unusual stability (78% plan to stay in cybersecurity for their career) and clear upskilling paths: AI-powered threat detection is the #1 skill priority, and 69% of teams are already on a path to regular AI security tool use."
       },
-      "key_insight": "424K European gap. NIS2/DORA creating regulatory demand faster than talent supply. No juniors available — 56% entered through IT experience.",
+      "key_insight": "424K European gap. NIS2/DORA creating regulatory demand faster than talent supply. No juniors available: 56% entered through IT experience.",
       "linkedin": {
         "hiring_vs_prepandemic": -0.29,
         "source": "LinkedIn Labor Market Report Jan 2026 (global)"
@@ -917,7 +920,7 @@
       "label": "Series C+ / IPO"
     },
     "source": "Ravio",
-    "note": "Early-stage hiring dropped from 49% to 27%. Late-stage increased 26% — maturity, not contraction."
+    "note": "Early-stage hiring dropped from 49% to 27%. Late-stage increased 26%: maturity, not contraction."
   },
   "regulatory_demand": {
     "nis2": {
@@ -1007,7 +1010,7 @@
       "so_median_salary_eur": 68634,
       "so_salary_p25_eur": 50466,
       "so_salary_p75_eur": 85792,
-      "narrative": "Austria mirrors Germany in many respects — similar AI adoption (30%), same ICT specialist share (5.3%), and competitive developer salaries at €69K. But tech employment contracted 3.8% YoY, a sharper correction than Germany's growth. The strict employment protection (EPL 2.44) slows both hiring and firing, creating a lag effect."
+      "narrative": "Austria mirrors Germany in many respects: similar AI adoption (30%), same ICT specialist share (5.3%), and competitive developer salaries at €69K. But tech employment contracted 3.8% YoY, a sharper correction than Germany's growth. The strict employment protection (EPL 2.44) slows both hiring and firing, creating a lag effect."
     },
     "BE": {
       "name": "Belgium",
@@ -1313,7 +1316,7 @@
       "so_median_salary_eur": 70653,
       "so_salary_p25_eur": 53495,
       "so_salary_p75_eur": 90839,
-      "narrative": "Germany is the only major Western European market with positive hiring momentum, though it remains 17% below pre-pandemic levels. AI adoption at 26% trails the Nordics and Benelux but is accelerating. Developer salaries are competitive at €70K median, and tech employment grew 4.6% YoY — one of the strongest signals in the EU. The construction sector is 128% above pre-pandemic, but tech professional services remain weak. Small businesses show the most resilience (-16% vs pre-pandemic) while enterprises lag (-40%)."
+      "narrative": "Germany is the only major Western European market with positive hiring momentum, though it remains 17% below pre-pandemic levels. AI adoption at 26% trails the Nordics and Benelux but is accelerating. Developer salaries are competitive at €70K median, and tech employment grew 4.6% YoY, one of the strongest signals in the EU. The construction sector is 128% above pre-pandemic, but tech professional services remain weak. Small businesses show the most resilience (-16% vs pre-pandemic) while enterprises lag (-40%)."
     },
     "DK": {
       "name": "Denmark",
@@ -1371,7 +1374,7 @@
       "so_median_salary_eur": 85782,
       "so_salary_p25_eur": 67651,
       "so_salary_p75_eur": 108242,
-      "narrative": "Denmark leads all of Europe in AI adoption at 42% — almost double the EU average. Developer salaries are the highest on the continent at €86K median. However, the tech employment trend is concerning at -6.0% YoY, and a strict employment protection score of 2.27 means restructuring is slower and more regulated than in the Nordics peers."
+      "narrative": "Denmark leads all of Europe in AI adoption at 42%, almost double the EU average. Developer salaries are the highest on the continent at €86K median. However, the tech employment trend is concerning at -6.0% YoY, and a strict employment protection score of 2.27 means restructuring is slower and more regulated than in the Nordics peers."
     },
     "EE": {
       "name": "Estonia",
@@ -1486,7 +1489,7 @@
       "so_median_salary_eur": 54504,
       "so_salary_p25_eur": 35326,
       "so_salary_p75_eur": 75700,
-      "narrative": "Spain is surging as a nearshoring hub with 9.8% tech employment growth — the strongest in Western Europe. AI adoption at 20% is near the EU average and climbing. Developer salaries at €55K are below the Western European average but above-average salary growth across all functions makes it increasingly attractive. The combination of lower costs, growing talent base, and EU timezone alignment is drawing companies."
+      "narrative": "Spain is surging as a nearshoring hub with 9.8% tech employment growth, the strongest in Western Europe. AI adoption at 20% is near the EU average and climbing. Developer salaries at €55K are below the Western European average but above-average salary growth across all functions makes it increasingly attractive. The combination of lower costs, growing talent base, and EU timezone alignment is drawing companies."
     },
     "FI": {
       "name": "Finland",
@@ -1608,7 +1611,7 @@
       "so_median_salary_eur": 55513,
       "so_salary_p25_eur": 41382,
       "so_salary_p75_eur": 75700,
-      "narrative": "France sits 30% below pre-pandemic hiring, with enterprise hiring down 48%. However, Indeed Hiring Lab reports the most dynamic seasonal rebound in 3 years at the start of 2026. AI adoption at 18% is below the EU average, and developer salaries at €56K median are competitive for continental Europe but lag Germany and the Nordics. Tech employment grew 3.0% YoY — steady but unspectacular."
+      "narrative": "France sits 30% below pre-pandemic hiring, with enterprise hiring down 48%. However, Indeed Hiring Lab reports the most dynamic seasonal rebound in 3 years at the start of 2026. AI adoption at 18% is below the EU average, and developer salaries at €56K median are competitive for continental Europe but lag Germany and the Nordics. Tech employment grew 3.0% YoY, steady but unspectacular."
     },
     "GB": {
       "name": "United Kingdom",
@@ -2207,7 +2210,7 @@
       "so_median_salary_eur": 70653,
       "so_salary_p25_eur": 51506,
       "so_salary_p75_eur": 92858,
-      "narrative": "The Netherlands leads European salary growth at 6.3% YoY (Ravio) and has the highest AI adoption rate among large markets at 33%. With 7.0% ICT specialist share, it's one of Europe's most tech-dense economies. However, tech employment contracted 2.4% YoY — the Dutch flexibility paradox means restructuring happens faster but also more visibly. Developer salaries match Germany at €71K median."
+      "narrative": "The Netherlands leads European salary growth at 6.3% YoY (Ravio) and has the highest AI adoption rate among large markets at 33%. With 7.0% ICT specialist share, it's one of Europe's most tech-dense economies. However, tech employment contracted 2.4% YoY. The Dutch flexibility paradox means restructuring happens faster but also more visibly. Developer salaries match Germany at €71K median."
     },
     "NO": {
       "name": "Norway",
@@ -2322,7 +2325,7 @@
       "so_median_salary_eur": 52492,
       "so_salary_p25_eur": 28491,
       "so_salary_p75_eur": 80746,
-      "narrative": "Poland is Europe's largest nearshoring destination with developer salaries at €45K — roughly half of Germany. Tech employment grew 6.4% YoY, and AI adoption at 8% is accelerating from a low base. The combination of a large engineering talent pool, EU membership, and competitive costs continues to attract outsourcing and shared service centres."
+      "narrative": "Poland is Europe's largest nearshoring destination with developer salaries at €45K, roughly half of Germany. Tech employment grew 6.4% YoY, and AI adoption at 8% is accelerating from a low base. The combination of a large engineering talent pool, EU membership, and competitive costs continues to attract outsourcing and shared service centres."
     },
     "PT": {
       "name": "Portugal",

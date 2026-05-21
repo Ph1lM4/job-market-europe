@@ -111,7 +111,7 @@ body { font-family: var(--font); background: var(--background); color: var(--for
 </main>
 
 <footer class="footer container" role="contentinfo">
-  State of the European Job Market v1.0 &middot; Early 2026 &middot; Source on GitHub<br>
+  State of the European Job Market v1.1 &middot; Early 2026 &middot; Source on GitHub<br>
   <a href="index.html">Overview</a> &middot; <a href="analysis.html">Analysis</a> &middot; <a href="skills.html">Skill Signals</a> &middot; <a href="countries.html">Country Signals</a> &middot; <a href="methodology.html">Methodology</a> &middot; <a href="sources.html">Sources</a><br>
   Built by <a href="https://www.linkedin.com/in/pmaul/" target="_blank" rel="noopener">Philipp Maul</a> &middot; <a href="https://nexalps.com" target="_blank" rel="noopener">Nexalps</a><br>
   Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a> &middot; Data &amp; Analysis: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC-BY 4.0</a> Philipp Maul | Nexalps
@@ -124,6 +124,18 @@ body { font-family: var(--font); background: var(--background); color: var(--for
   btn.addEventListener("click", () => { const o = panel.classList.toggle("open"); btn.classList.toggle("open", o); btn.setAttribute("aria-expanded", o); if(o){const first=panel.querySelector("a");if(first)first.focus()}});
   document.addEventListener("click", e => { if (!panel.contains(e.target) && !btn.contains(e.target) && panel.classList.contains("open")) closeBurger(); });
   document.addEventListener("keydown", e => { if(e.key==="Escape"&&panel.classList.contains("open"))closeBurger();if(panel.classList.contains("open")&&e.key==="Tab"){const links=panel.querySelectorAll("a");if(!links.length)return;const first=links[0],last=links[links.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
+  // Analytics: outbound clicks + scroll depth (matches the other pages)
+  setTimeout(function(){
+    if(typeof posthog==='undefined')return;
+    document.querySelectorAll('a[target="_blank"]').forEach(a=>{
+      a.addEventListener('click',()=>{posthog.capture('outbound_click',{url:a.href,text:a.textContent?.trim()?.substring(0,60)});});
+    });
+    const thresholds=[25,50,75,100];const fired=new Set();
+    window.addEventListener('scroll',()=>{
+      const pct=Math.round((window.scrollY/(document.body.scrollHeight-window.innerHeight))*100);
+      thresholds.forEach(t=>{if(pct>=t&&!fired.has(t)){fired.add(t);posthog.capture('scroll_depth',{percent:t});}});
+    },{passive:true});
+  },500);
 })();
 </script>
 </body>

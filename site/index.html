@@ -26,7 +26,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
 <script>
@@ -38,14 +38,17 @@ posthog.init('phc_bjax6jdRxYJAaExodvALjRru8AQzUSbYFNlWlXiJM8A',{api_host:'https:
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 
-:root{
+:root{/* Nexalps brand tokens v1 (2026-06-11) — SSOT: nexalps-website/DESIGN-TOKEN-UNIFICATION.md */--brand-teal:#0D9488;--brand-teal-text:#087569;--font-mono:'Geist Mono',ui-monospace,'SF Mono',Menlo,monospace;--font-serif:'Source Serif 4',Georgia,serif;/* data ink — governed, values unchanged; charts keep literals in JS */--data-orange:#f97316;--data-red:#ef4444;--data-yellow:#eab308;--data-green:#22c55e;--data-blue:#3b82f6;--data-cyan:#06b6d4;
   --background:#09090b;--foreground:#fafafa;--card:#0a0a0c;
   --card-border:rgba(255,255,255,0.08);--muted:#a1a1aa;--muted-foreground:#8a8a93;
-  --accent:#27272a;--border:rgba(255,255,255,0.12);--ring:#f97316;
-  --radius-sm:6px;--radius-md:8px;--radius-lg:12px;
+  --accent:#27272a;--border:rgba(255,255,255,0.12);--ring:var(--brand-teal);
+  --radius-sm:0px;--radius-md:0px;--radius-lg:0px;
   --font:'Geist',system-ui,-apple-system,sans-serif;
   --transition:150ms cubic-bezier(0.4,0,0.2,1);
 }
+/* Nexalps type: mono for data ink (tokens v1) */
+.stat-value,.num,svg .tick text{font-family:var(--font-mono);font-variant-numeric:tabular-nums;}
+
 
 html,body{overflow-x:hidden}
 body{font-family:var(--font);background:var(--background);color:var(--foreground);line-height:1.5;-webkit-font-smoothing:antialiased}
@@ -174,14 +177,14 @@ body{font-family:var(--font);background:var(--background);color:var(--foreground
 
 
 /* Skill protection bundle in accordion */
-.protection-bundle{margin:16px 0;padding:16px;background:rgba(249,115,22,0.03);border:1px solid rgba(249,115,22,0.1);border-radius:var(--radius-md)}
+.protection-bundle{margin:16px 0;padding:16px;background:rgba(13,148,136,0.06);border:1px solid rgba(13,148,136,0.20);border-radius:var(--radius-md)}
 .protection-bundle h3{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.05em;color:var(--muted-foreground);margin-bottom:8px}
 .protection-bundle p{font-size:13px;color:var(--muted);line-height:1.6;margin:0}
 .bundle-skills{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
 .bundle-skill{font-size:12px;padding:4px 10px;border-radius:9999px;font-weight:500;background:rgba(249,115,22,0.08);color:var(--ring);border:1px solid rgba(249,115,22,0.15)}
 
 /* CTA */
-.cta-section{margin:48px 0;padding:32px;background:rgba(249,115,22,0.04);border:1px solid rgba(249,115,22,0.12);border-radius:var(--radius-lg);text-align:center}
+.cta-section{margin:48px 0;padding:32px;background:rgba(13,148,136,0.08);border:1px solid rgba(13,148,136,0.22);border-radius:var(--radius-lg);text-align:center}
 .cta-section h3{font-size:20px;font-weight:700;margin-bottom:8px}
 .cta-section p{font-size:14px;color:var(--muted);margin-bottom:20px;line-height:1.6}
 .btn{display:inline-block;padding:10px 24px;border-radius:var(--radius-md);font-family:var(--font);font-size:14px;font-weight:600;text-decoration:none;transition:all var(--transition)}
